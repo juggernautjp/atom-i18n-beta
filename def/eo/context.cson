@@ -1,0 +1,198 @@
+Context:
+  "atom-workspace":
+    "application:inspect": "Inspekti Elementon"
+  "atom-text-editor":
+    "color-picker:open": "Color Picker"
+    "minimap:toggle": "Toggle Minimap"
+    # added for atom/bookmarks
+    "bookmarks:toggle-bookmark": "Toggle Bookmark"
+  "atom-text-editor, .overlayer":
+    "core:undo": "Malfari"
+    "core:redo": "Refari"
+    "core:cut": "Eltondi"
+    "core:copy": "Kopii"
+    "core:paste": "Alglui"
+    "core:delete": "Forigi"
+    "core:select-all": "Elekti Ĉion"
+    "pane:split-up-and-copy-active-item": "Split Up"
+    "pane:split-down-and-copy-active-item": "Split Down"
+    "pane:split-left-and-copy-active-item": "Split Left"
+    "pane:split-right-and-copy-active-item": "Split Right"
+    "pane:close": "Close Pane"
+  "atom-pane":
+    "pane:split-up-and-copy-active-item": "Split Up"
+    "pane:split-down-and-copy-active-item": "Split Down"
+    "pane:split-left-and-copy-active-item": "Split Left"
+    "pane:split-right-and-copy-active-item": "Split Right"
+    "pane:close": "Close Pane"
+  "atom-text-editor:not([mini])":
+    "encoding-selector:show": "Change Encoding"
+    "spell-check:correct-misspelling": "Correct Spelling"
+    "symbols-view:go-to-declaration": "Go to Declaration"
+  ".overlayer":
+    "grammar-selector:show": "Change Grammar"
+  ".image-view":
+    "image-view:reload": "Reload Image"
+  ".tab":
+    "tabs:close-tab": "Close Tab"
+    "tabs:close-other-tabs": "Close Other Tabs"
+    "tabs:close-tabs-to-right": "Close Tabs to the Right"
+    "tabs:close-tabs-to-left": "Close Tabs to the Left"
+    "tabs:close-saved-tabs": "Close Saved Tabs"
+    "tabs:close-all-tabs": "Close All Tabs"
+    "tabs:split-up": "Split Up"
+    "tabs:split-down": "Split Down"
+    "tabs:split-left": "Split Left"
+    "tabs:split-right": "Split Right"
+  ".tab.texteditor":
+    "tabs:open-in-new-window": "Open In New Window"
+  ".tab.pending-tab":
+    "tabs:keep-pending-tab": "Keep Pending Tab"
+  ".tab-bar":
+    "pane:reopen-closed-item": "Reopen Closed Tab"
+  ".tree-view .full-menu":
+    "tree-view:add-file": "Nova Dosiero"
+    "tree-view:add-folder": "Nova Dosierujo"
+    "tree-view:move": "Rename"
+    "tree-view:duplicate": "Duplicate"
+    "tree-view:remove": "Delete"
+    "tree-view:copy": "Copy"
+    "tree-view:cut": "Cut"
+    "tree-view:paste": "Paste"
+#    "tree-view:open-selected-entry-up": "Split Up"
+#    "tree-view:open-selected-entry-down": "Split Down"
+#    "tree-view:open-selected-entry-left": "Split Left"
+#    "tree-view:open-selected-entry-right": "Split Right"
+    "application:add-project-folder": "Add Project Folder"
+    "tree-view:copy-full-path": "Copy Full Path"
+    "tree-view:copy-project-path": "Copy Project Path"
+    "tree-view:open-in-new-window": "Open In New Window"
+  '.tree-view .full-menu [is="tree-view-file"]':
+    "tree-view:open-selected-entry-up": "Split Up"
+    "tree-view:open-selected-entry-down": "Split Down"
+    "tree-view:open-selected-entry-left": "Split Left"
+    "tree-view:open-selected-entry-right": "Split Right"
+  ".tree-view .full-menu .project-root > .header":
+    "tree-view:add-file": "New File"
+    "tree-view:add-folder": "New Folder"
+    "tree-view:move": "Rename"
+    "tree-view:duplicate": "Duplicate"
+    "tree-view:remove": "Delete"
+    "tree-view:copy": "Copy"
+    "tree-view:cut": "Cut"
+    "tree-view:paste": "Paste"
+#    "tree-view:open-selected-entry-up": "Split Up"
+#    "tree-view:open-selected-entry-down": "Split Down"
+#    "tree-view:open-selected-entry-left": "Split Left"
+#    "tree-view:open-selected-entry-right": "Split Right"
+    "application:add-project-folder": "Add Project Folder"
+    "tree-view:remove-project-folder": "Remove Project Folder"
+    # added for atom/tree-view
+    "tree-view:collapse-all": "Collapse All Project Folders"
+    "tree-view:copy-full-path": "Copy Full Path"
+    "tree-view:copy-project-path": "Copy Project Path"
+    "tree-view:open-in-new-window": "Open In New Window"
+  ".platform-darwin .tree-view .full-menu":
+    "tree-view:show-in-file-manager": "Reveal in Finder"
+  ".platform-win32 .tree-view .full-menu":
+    "tree-view:show-in-file-manager": "Show in Explorer"
+  ".platform-linux .tree-view .full-menu":
+    "tree-view:show-in-file-manager": "Show in File Manager"
+#  ".tree-view li.directory":
+#    "project-find:show-in-current-directory": "Search in Directory"
+  ".tree-view .multi-select":
+    "tree-view:remove": "Delete"
+    "tree-view:copy": "Copy"
+    "tree-view:cut": "Cut"
+    "tree-view:paste": "Paste"
+  "atom-pane[data-active-item-path] .item-views":
+    "tree-view:reveal-active-file": "Reveal in Tree View"
+  "atom-pane[data-active-item-path] .tab.active":
+    "tree-view:rename": "Rename"
+    "tree-view:reveal-active-file": "Reveal in Tree View"
+  ".platform-darwin atom-pane[data-active-item-path] .tab.active":
+    "tree-view:show-current-file-in-file-manager": "Reveal in Finder"
+  ".platform-win32 atom-pane[data-active-item-path] .tab.active":
+    "tree-view:show-current-file-in-file-manager": "Show In Explorer"
+  ".platform-linux atom-pane[data-active-item-path] .tab.active":
+    "tree-view:show-current-file-in-file-manager": "Show In File Manager"
+  ".platform-darwin atom-text-editor:not([mini])":
+    "tree-view:show-current-file-in-file-manager": "Reveal in Finder"
+  ".platform-win32 atom-text-editor:not([mini])":
+    "tree-view:show-current-file-in-file-manager": "Show In Explorer"
+  ".platform-linux atom-text-editor:not([mini])":
+    "tree-view:show-current-file-in-file-manager": "Show In File Manager"
+  # added for atom/find-and-replace
+  ".tree-view li.directory":
+    "project-find:show-in-current-directory": "Search in Folder"
+  ".list-item.match-row":
+    "find-and-replace:open-in-new-tab": "Open in New Tab"
+    "core:copy": "'Copy"
+    "find-and-replace:copy-path": "Copy Path"
+  ".list-item.path-row":
+    "find-and-replace:open-in-new-tab": "Open in New Tab"
+    "find-and-replace:copy-path": "Copy Path"
+  # added for atom/github/menu/git.cson
+  ".github-FilePatchListView-item":
+    "github:jump-to-file": "Jump to File"
+  ".github-FilePatchView--staged":
+    "github:jump-to-file": "Jump to File"
+    "core:confirm": "Unstage Selection"
+  ".github-FilePatchView--unstaged":
+    "github:jump-to-file": "Jump to File"
+    "core:confirm": "Stage Selection"
+    "github:discard-selected-lines": "Discard Selection"
+  "github-DotComMarkdownHtml .issue-link":
+    "github:open-link-in-new-tab": "Open in New Tab"
+    "github:open-link-in-this-tab": "Open in This Tab"
+    "github:open-link-in-browser": "Open in Browser"
+  ".github-CommitView":
+    "github:toggle-expanded-commit-message-editor": "Toggle Expanded Commit Message Editor"
+  ".item-views > atom-text-editor":
+    "github:view-unstaged-changes-for-current-file": "View Unstaged Changes"
+    "github:view-staged-changes-for-current-file": "View Staged Changes"
+  ".github-PushPull":
+    "github:fetch": "Fetch"
+    "github:pull": "Pull"
+    "github:push": "Push"
+    "github:force-push": "Force Push"
+  ".most-recent":
+    "github:amend-last-commit": "Amend"
+  ".github-RecentCommit":
+    "github:copy-commit-sha": "Copy Commit SHA"
+    "github:copy-commit-subject": "Copy Commit Subject"
+  # added for atom/github/lib/github-package.js
+  ".github-UnstagedChanges .github-FilePatchListView":
+    "core:confirm": "Stage"
+    "github:discard-changes-in-selected-files": "Discard Changes"
+  ".github-StagedChanges .github-FilePatchListView":
+    "core:confirm": "Unstage"
+  ".github-MergeConflictPaths .github-FilePatchListView":
+    "core:confirm": "Stage"
+    "github:resolve-file-as-ours": "Resolve File As Ours"
+    "github:resolve-file-as-theirs": "Resolve File As Theirs"
+  # added for packages/link
+  "atom-text-editor .syntax--markup.syntax--underline.syntax--link":
+    "link:open": "Open link"
+  # added for atom/markdown-preview
+  ".markdown-preview":
+    "markdown-preview:select-all": "Select All"
+    "core:save-as": "Save As HTML\u2026"
+  ".markdown-preview.has-selection":
+    "core:copy": "Copy"
+  ".markdown-preview:not(.has-selection)":
+    "core:copy": "Copy As HTML"
+  ".tree-view .file .name[data-name$=\\.markdown]":
+    "markdown-preview:preview-file": "Markdown Preview"
+  ".tree-view .file .name[data-name$=\\.md]":
+    "markdown-preview:preview-file": "Markdown Preview"
+  ".tree-view .file .name[data-name$=\\.mdown]":
+    "markdown-preview:preview-file": "Markdown Preview"
+  ".tree-view .file .name[data-name$=\\.mkd]":
+    "markdown-preview:preview-file": "Markdown Preview"
+  ".tree-view .file .name[data-name$=\\.mkdown]":
+    "markdown-preview:preview-file": "Markdown Preview"
+  ".tree-view .file .name[data-name$=\\.ron]":
+    "markdown-preview:preview-file": "Markdown Preview"
+  ".tree-view .file .name[data-name$=\\.txt]":
+    "markdown-preview:preview-file": "Markdown Preview"

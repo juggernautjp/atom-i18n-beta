@@ -1,0 +1,180 @@
+{
+  "name": "atom-i18n-beta",
+  "main": "./lib/main",
+  "version": "0.0.0",
+  "scripts": {
+    "prettier:write": "prettier --write .",
+    "lint": "eslint lib spec",
+    "validation": "mocha --require @babel/register spec/validation.js"
+  },
+  "description": "Localize Atom for your locale. One i18n package for any language. Community-driven translation.",
+  "keywords": [
+    "atom",
+    "i18n",
+    "l10n",
+    "internationalization",
+    "localization",
+    "language",
+    "translate",
+    "translation"
+  ],
+  "repository": "https://github.com/juggernautjp/atom-i18n-beta",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.16.0 <2.0.0"
+  },
+  "dependencies": {
+    "cson": "^7.20.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.3",
+    "@babel/preset-env": "^7.14.4",
+    "@babel/register": "^7.13.16",
+    "chai": "^4.3.4",
+    "core-js": "^3.13.1",
+    "eslint": "^7.27.0",
+    "eslint-config-prettier": "^8.3.0",
+    "husky": "^6.0.0",
+    "isomorphic-fetch": "^3.0.0",
+    "lint-staged": "^11.0.0",
+    "mocha": "^8.4.0",
+    "prettier": "^2.3.0",
+    "regenerator-runtime": "^0.13.8",
+    "yargs": "^17.0.1"
+  },
+  "lint-staged": {
+    "**/*": "prettier --write --ignore-unknown"
+  },
+  "configSchema": {
+    "locale": {
+      "type": "string",
+      "default": "template",
+      "title": "Language",
+      "description": "Language for internationalization (sorted by <em>locale code</em>).</br>Please <code>Reload Atom</code> after changing locale.",
+      "enum": [
+        {
+          "value": "ar",
+          "description": "اللغة العربية (ar)"
+        },
+        {
+          "value": "be",
+          "description": "Беларуская мова (be)"
+        },
+        {
+          "value": "cs",
+          "description": "Čeština (cs)"
+        },
+        {
+          "value": "de",
+          "description": "Deutsch (de)"
+        },
+        {
+          "value": "eo",
+          "description": "Esperanto (eo)"
+        },
+        {
+          "value": "es",
+          "description": "Español (es)"
+        },
+        {
+          "value": "fa",
+          "description": "زبان فارسی (fa)"
+        },
+        {
+          "value": "fi",
+          "description": "suomi (fi)"
+        },
+        {
+          "value": "fr",
+          "description": "Français (fr)"
+        },
+        {
+          "value": "he",
+          "description": "עברית (he)"
+        },
+        {
+          "value": "hi",
+          "description": "हिन्दी (hi)"
+        },
+        {
+          "value": "hu",
+          "description": "Magyar (hu)"
+        },
+        {
+          "value": "it",
+          "description": "Italiano (it)"
+        },
+        {
+          "value": "ja",
+          "description": "日本語 (ja)"
+        },
+        {
+          "value": "kn",
+          "description": "ಕನ್ನಡ (kn)"
+        },
+        {
+          "value": "ko",
+          "description": "한국어 (ko)"
+        },
+        {
+          "value": "ms",
+          "description": "Bahasa Melayu (ms)"
+        },
+        {
+          "value": "nl",
+          "description": "Nederlands (nl)"
+        },
+        {
+          "value": "pl",
+          "description": "Polski (pl)"
+        },
+        {
+          "value": "pt-br",
+          "description": "Português(Brazil) (pt-br)"
+        },
+        {
+          "value": "ro",
+          "description": "Română (ro)"
+        },
+        {
+          "value": "ru",
+          "description": "Ру́сский (ru)"
+        },
+        {
+          "value": "sk",
+          "description": "Slovenčina (sk)"
+        },
+        {
+          "value": "sq",
+          "description": "Shqipe (sq)"
+        },
+        {
+          "value": "th",
+          "description": "ภาษาไทย (th)"
+        },
+        {
+          "value": "uk",
+          "description": "Українська мова (uk)"
+        },
+        {
+          "value": "zh-cn",
+          "description": "简体中文 (zh-cn)"
+        },
+        {
+          "value": "zh-tw",
+          "description": "繁體中文 (zh-tw)"
+        },
+        {
+          "value": "template",
+          "description": "English (en)"
+        }
+      ]
+    },
+    "customMenuI18nPath": {
+      "type": "string",
+      "default": "",
+      "title": "Custom Translation for Menu",
+      "description": "Translate community package (like <code>Minimap</code>) in menu bar by editing this file.</br> You can open it by command <code>atom-i18n:open-custom-menu-i18n-file</code>"
+    }
+  }
+}

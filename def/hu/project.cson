@@ -1,0 +1,27 @@
+FindProject:
+  findLabel: "Find in Project"
+  optionLabel: "Finding with Options: "
+  placeholder:
+    find: "Find in project"
+    replace: "Replace in project"
+    path: "File/directory pattern:
+          For example \`src\` to search in the \"src\" directory;
+          \`*.js\` to search all JavaScript files;
+          \`!src\` to exclude the \"src\" directory; \`!*.json\` to exclude all JSON files"
+  button:
+    'find-all': "Find All"
+    'replace-all': "Replace All"
+  buttonTooltip:
+    findAll: "Find All"
+    replaceAll: "Replace All"
+    replaceAllDisabled: "Replace All [run a search to enable]"
+  option:
+    regex: "Regex"
+    caseSensitive: "Case Sensitive"
+    caseInsensitive: "Case Insensitive"
+    wholeWord: "Whole Word"
+  optionTooltip:
+    closePanel: "Close Panel <span class=\"keystroke\">Esc</span>"
+    useRegex: "Use Regex"
+    matchCase: "Match Case"
+    wholeWord: "Whole Word"

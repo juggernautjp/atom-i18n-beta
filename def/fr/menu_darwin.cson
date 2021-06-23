@@ -1,0 +1,495 @@
+Menu:
+  Atom:
+    value: "Atom"
+    submenu:
+      "About Atom":
+        value: "À propos de Atom"
+      "View License":
+        value: "Voir la licence"
+      "Check for Update":
+        value: "Vérifier les mises à jour"
+      "Preferences…":
+        value: "Préférences..."
+      "Config…":
+        value: "Paramètres..."
+      "Init Script…":
+        value: "Script d'ouverture..."
+      "Keymap…":
+        value: "Raccourcis clavier..."
+      "Snippets…":
+        value: "Snippets..."
+      "Stylesheet…":
+        value: "Feuille de style..."
+      "Install Shell Commands":
+        value: "Installer les commandes Shell"
+      "Hide Atom":
+        value: "Masquer Atom"
+      "Hide Others":
+        value: "Masquer les autres"
+      "Show All":
+        value: "Montrer tout"
+      Quit:
+        value: "Quitter"
+  File:
+    value: "Fichier"
+    submenu:
+      "New Window":
+        value: "Nouvelle fenêtre"
+      "New File":
+        value: "Nouveau fichier"
+      "Open…":
+        value: "Ouvrir..."
+      "Add Project Folder…":
+        value: "Ajouter un dossier au projet..."
+      "Reopen Project":
+        value: "Ouvrir un projet récent"
+        submenu:
+          "Clear Project History":
+            value: "Effacer l'historique des projets"
+      "Reopen Last Item":
+        value: "Rouvrir le dernier élément"
+      Save:
+        value: "Enregistrer"
+      "Save As…":
+        value: "Enregistrer sous..."
+      "Save All":
+        value: "Enregistrer tout"
+      "Close Tab":
+        value: "Fermer l'onglet"
+      "Close Pane":
+        value: "Fermer le panneau"
+      "Close Window":
+        value: "Fermer la fenêtre"
+      "Close All Tabs":
+        value: "Fermer tous les onglets"
+  Edit:
+    value: "Edition"
+    submenu:
+      Undo:
+        value: "Annuler"
+      Redo:
+        value: "Refaire"
+      Cut:
+        value: "Couper"
+      Copy:
+        value: "Copier"
+      "Copy Path":
+        value: "Copier le chemin"
+      Paste:
+        value: "Coller"
+      "Select All":
+        value: "Sélectionner tout"
+      "Toggle Comments":
+        value: "Commenter/Décommenter"
+      Lines:
+        value: "Lignes"
+        submenu:
+          Indent:
+            value: "Indenter"
+          Outdent:
+            value: "Désindenter"
+          "Auto Indent":
+            value: "Indentation automatique"
+          "Move Line Up":
+            value: "Remonter la ligne"
+          "Move Line Down":
+            value: "Descendre la ligne"
+          "Duplicate Lines":
+            value: "Dupliquer les lignes"
+          "Delete Line":
+            value: "Supprimer la ligne"
+          "Join Lines":
+            value: "Fusionner les lignes"
+      Columns:
+        value: "Colonnes"
+        submenu:
+          "Move Selection Left":
+            value: "Déplacer la sélection à gauche"
+          "Move Selection Right":
+            value: "Déplacer la sélection à droite"
+      Text:
+        value: "Texte"
+        submenu:
+          "Upper Case":
+            value: "Mettre en majuscule"
+          "Lower Case":
+            value: "Mettre en minuscule"
+          "Delete to End of Word":
+            value: "Retirer la fin du mot"
+          "Delete to Previous Word Boundary":
+            value: "Retirer le début du mot"
+          "Delete to Next Word Boundary":
+            value: "Supprimer jusqu'au prochain mot"
+          "Delete Line":
+            value: "Supprimer la ligne"
+          Transpose:
+            value: "Intervertir les caractères"
+      Folding:
+        value: "Pliage"
+        submenu:
+          Fold:
+            value: "Plier"
+          Unfold:
+            value: "Déplier"
+          "Fold All":
+            value: "Plier tout"
+          "Unfold All":
+            value: "Déplier tout"
+          "Fold Level 1":
+            value: "Plier au niveau 1"
+          "Fold Level 2":
+            value: "Plier au niveau 2"
+          "Fold Level 3":
+            value: "Plier au niveau 3"
+          "Fold Level 4":
+            value: "Plier au niveau 4"
+          "Fold Level 5":
+            value: "Plier au niveau 5"
+          "Fold Level 6":
+            value: "Plier au niveau 6"
+          "Fold Level 7":
+            value: "Plier au niveau 7"
+          "Fold Level 8":
+            value: "Plier au niveau 8"
+          "Fold Level 9":
+            value: "Plier au niveau 9"
+      "Reflow Selection":
+        value: "Redistribuer la sélection"
+      Bookmark:
+        value: "Signets"
+        submenu:
+          "View All":
+            value: "Afficher tout"
+          "Toggle Bookmark":
+            value: "Ajouter/Retirer un signet"
+          "Jump to Next Bookmark":
+            value: "Aller au prochain signet"
+          "Jump to Previous Bookmark":
+            value: "Aller au signet précédent"
+      "Select Encoding":
+        value: "Choisir l'encodage"
+      "Go to Line":
+        value: "Aller à une ligne"
+      "Select Grammar":
+        value: "Choisir le langage"
+  View:
+    value: "Affichage"
+    submenu:
+      "Toggle Full Screen":
+        value: "Activer/Désactiver le mode plein écran"
+      Panes:
+        value: "Panneaux"
+        submenu:
+          "Split Up":
+            value: "Dédoubler en haut"
+          "Split Down":
+            value: "Dédoubler en bas"
+          "Split Left":
+            value: "Dédoubler à gauche"
+          "Split Right":
+            value: "Dédoubler à droite"
+          "Focus Next Pane":
+            value: "Passer au panneau suivant"
+          "Focus Previous Pane":
+            value: "Revenir au panneau précédent"
+          "Focus Pane Above":
+            value: "Passer au panneau du dessus"
+          "Focus Pane Below":
+            value: "Passer au panneau du dessous"
+          "Focus Pane On Left":
+            value: "Passer au panneau de droite"
+          "Focus Pane On Right":
+            value: "Passer au panneau de gauche"
+          "Close Pane":
+            value: "Fermer le panneau"
+      Developer:
+        value: "Développeur"
+        submenu:
+          "Open In Dev Mode…":
+            value: "Ouvrir en mode développement..."
+          "Reload Window":
+            value: "Recharger la fenêtre"
+          "Run Package Specs":
+            value: "Lancer les tests unitaires du package"
+          "Run Benchmarks":
+            value: "Lancer les tests de performance"
+          "Toggle Developer Tools":
+            value: "Afficher/Masquer les outils de développement"
+      "Increase Font Size":
+        value: "Augmenter la taille de la police"
+      "Decrease Font Size":
+        value: "Diminuer la taille de la police"
+      "Reset Font Size":
+        value: "Réinitialiser la taille de la police"
+      "Toggle Soft Wrap":
+        value: "Activer/Désactiver le retour à la ligne souple"
+      "Toggle Command Palette":
+        value: "Afficher/Masquer la liste des commandes"
+      # added the following menus, for "Packages"->"GitHub"
+      "Toggle Git Tab":
+        value: "Toggle Git Tab"
+      "Toggle GitHub Tab":
+        value: "Toggle GitHub Tab"
+      "Open Reviews Tab":
+        value: "Open Reviews Tab"
+      #
+      "Toggle Tree View":
+        value: "Afficher/Masquer l'arborescence"
+  Selection:
+    value: "Sélection"
+    submenu:
+      "Add Selection Above":
+        value: "Étendre la sélection au-dessus"
+      "Add Selection Below":
+        value: "Étendre la sélection en dessous"
+      "Single Selection":
+        value: "Sélection unique"
+      "Split into Lines":
+        value: "Séparer en lignes"
+      "Select to Top":
+        value: "Étendre la sélection au début"
+      "Select to Bottom":
+        value: "Étendre la sélection à la fin"
+      "Select Line":
+        value: "Sélectionner toute la ligne"
+      "Select Word":
+        value: "Sélectionner le mot"
+      "Select to Beginning of Word":
+        value: "Étendre la sélection au début du mot"
+      "Select to Beginning of Line":
+        value: "Étendre la sélection au début de la ligne"
+      "Select to First Character of Line":
+        value: "Étendre la sélection au premier caractère de la ligne"
+      "Select to End of Word":
+        value: "Étendre la sélection à la fin du mot"
+      "Select to End of Line":
+        value: "Étendre la sélection à la fin de la ligne"
+      "Select Inside Brackets":
+        value: "Sélectionner l'intérieur des parenthèses"
+  Find:
+    value: "Chercher"
+    submenu:
+      "Find in Buffer":
+        value: "Chercher dans le fichier courant"
+      "Replace in Buffer":
+        value: "Remplacer dans le fichier courant"
+      "Select Next":
+        value: "Sélectionner l'occurrence suivante"
+      "Select All":
+        value: "Sélectionner toutes les occurrences"
+      "Toggle Find in Buffer":
+        value: "Afficher/Masquer la recherche dans le fichier courant"
+      "Find in Project":
+        value: "Chercher dans le projet"
+      "Toggle Find in Project":
+        value: "Afficher/Masquer la recherche dans le projet"
+      "Find All":
+        value: "Chercher toutes les occurrences"
+      "Find Next":
+        value: "Chercher la suivante"
+      "Find Previous":
+        value: "Chercher la précédente"
+      "Replace Next":
+        value: "Remplacer la suivante"
+      "Replace All":
+        value: "Remplacer toutes les occurrences"
+      "Clear History":
+        value: "Effacer l'historique"
+      "Find Buffer":
+        value: "Chercher un fichier ouvert"
+      "Find File":
+        value: "Chercher un fichier"
+      "Find Modified File":
+        value: "Chercher un fichier modifié"
+  Packages:
+    value: "Packages"
+    submenu:
+      "Bracket Matcher":
+        value: "Bracket Matcher"
+        submenu:
+          "Go To Matching Bracket":
+            value: "Go To Matching Bracket"
+          "Select Inside Brackets":
+            value: "Select Inside Brackets"
+          "Remove Brackets From Selection":
+            value: "Remove Brackets From Selection"
+          "Close Current Tag":
+            value: "Close Current Tag"
+          "Remove Matching Brackets":
+            value: "Remove Matching Brackets"
+          "Select Matching Brackets":
+            value: "Select Matching Brackets"
+      "Command Palette":
+        value: "Command Palette"
+        submenu:
+          "Toggle":
+            value: "Toggle"
+      "Dev Live Reload":
+        value: "Dev Live Reload"
+        submenu:
+          "Reload All Styles":
+            value: "Reload All Styles"
+      "Git Diff":
+        value: "Git Diff"
+        submenu:
+          "Move to Next Diff":
+            value: "Move to Next Diff"
+          "Move to Previous Diff":
+            value: "Move to Previous Diff"
+          "Toggle Diff List":
+            value: "Toggle Diff List"
+      "GitHub":
+        value: "GitHub"
+        submenu:
+          "Toggle Git Tab":
+            value: "Toggle Git Tab"
+          "Toggle GitHub Tab":
+            value: "Toggle GitHub Tab"
+          "Open Reviews Tab":
+            value: "Open Reviews Tab"
+      "Keybinding Resolver":
+        value: "Keybinding Resolver"
+        submenu:
+          "Toggle":
+            value: "Toggle"
+          "Go To Matching Bracket":
+            value: "Go To Matching Bracket"
+      "Markdown Preview":
+        value: "Markdown Preview"
+        submenu:
+          "Toggle Preview":
+            value: "Toggle Preview"
+          "Toggle Break on Single Newline":
+            value: "Toggle Break on Single Newline"
+          "Toggle GitHub Style":
+            value: "Toggle GitHub Style"
+      "Open On GitHub":
+        value: "Open On GitHub"
+        submenu:
+          "Blame":
+            value: "Blame"
+          "Branch Compare":
+            value: "Branch Compare"
+          "Copy URL":
+            value: "Copy URL"
+          "File":
+            value: "File"
+          "File on Master":
+            value: "File on Master"
+          "History":
+            value: "History"
+          "Issues":
+            value: "Issues"
+          "Pull Requests":
+            value: "Pull Requests"
+          "Repository":
+            value: "Repository"
+      "Package Generator":
+        value: "Package Generator"
+        submenu:
+          "Generate Atom Package":
+            value: "Generate Atom Package"
+          "Generate Atom Syntax Theme":
+            value: "Generate Atom Syntax Theme"
+      "Settings View":
+        value: "Settings View"
+        submenu:
+          "Open":
+            value: "Open"
+          "Show Keybindings":
+            value: "Show Keybindings"
+          "Install Packages/Themes":
+            value: "Install Packages/Themes"
+          "Update Packages/Themes":
+            value: "Update Packages/Themes"
+          "Manage Packages":
+            value: "Manage Packages"
+          "Manage Themes":
+            value: "Manage Themes"
+      "Snippets":
+        value: "Snippets"
+        submenu:
+          "Expand":
+            value: "Expand"
+          "Next Stop":
+            value: "Next Stop"
+          "Previous Stop":
+            value: "Previous Stop"
+          "Available":
+            value: "Available"
+      "Spell Check":
+        value: "Spell Check"
+        submenu:
+          "Toggle":
+            value: "Toggle"
+      "Styleguide":
+        value: "Styleguide"
+        submenu:
+          "Show":
+            value: "Show"
+      "Symbols":
+        value: "Symbols"
+        submenu:
+          "File Symbols":
+            value: "File Symbols"
+          "Project Symbols":
+            value: "File Symbols"
+      "Timecop":
+        value: "Timecop"
+        submenu:
+          "Show":
+            value: "Show"
+      "Tree View":
+        value: "Tree View"
+        submenu:
+          "Focus":
+            value: "Focus"
+          "Toggle":
+            value: "Toggle"
+          "Reveal Active File":
+            value: "Reveal Active File"
+          "Toggle Tree Side":
+            value: "Toggle Tree Side"
+      "Whitespace":
+        value: "Whitespace"
+        submenu:
+          "Remove Trailing Whitespace":
+            value: "Remove Trailing Whitespace"
+          "Save With Trailing Whitespace":
+            value: "Save With Trailing Whitespace"
+          "Save Without Trailing Whitespace":
+            value: "Save Without Trailing Whitespace"
+          "Convert Tabs To Spaces":
+            value: "Convert Tabs To Spaces"
+          "Convert Spaces To Tabs":
+            value: "Convert Spaces To Tabs"
+          "Convert All Tabs To Spaces":
+            value: "Convert All Tabs To Spaces"
+  Window:
+    value: "Fenêtre"
+    submenu:
+      Minimize:
+        value: "Minimiser"
+      Zoom:
+        value: "Zoom"
+      "Bring All to Front":
+        value: "Tout mettre au premier plan"
+  Help:
+    value: "Aide"
+    submenu:
+      "Terms of Use":
+        value: "Conditions d'utilisation"
+      Documentation:
+        value: "Documentation"
+      Roadmap:
+        value: "Feuille de route"
+      "Frequently Asked Questions":
+        value: "Questions fréquentes (FAQ)"
+      "Community Discussions":
+        value: "Forum communautaire"
+      "Report Issue":
+        value: "Signaler un problème"
+      "Search Issues":
+        value: "Parcourir les problèmes"
+      "Welcome Guide":
+        value: "Guide de bienvenue"

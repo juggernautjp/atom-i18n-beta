@@ -1,0 +1,495 @@
+Menu:
+  Atom:
+    value: "Atom"
+    submenu:
+      "About Atom":
+        value: "O Atomu"
+      "View License":
+        value: "Zobrazit licenci"
+      "Check for Update":
+        value: "Zkontrolovat aktualizace"
+      "Preferences…":
+        value: "Nastavení..."
+      "Config…":
+        value: "Konfigurace..."
+      "Init Script…":
+        value: "Spuštěcí script..."
+      "Keymap…":
+        value: "Klávesové zkratky..."
+      "Snippets…":
+        value: "Zkratky..."
+      "Stylesheet…":
+        value: "Styly..."
+      "Install Shell Commands":
+        value: "Nainstalovat příkazy příkazové řádky"
+      "Hide Atom":
+        value: "Skrýt Atom"
+      "Hide Others":
+        value: "Skrýt ostatní"
+      "Show All":
+        value: "Zobrazit vše"
+      Quit:
+        value: "Ukončit"
+  File:
+    value: "Soubor"
+    submenu:
+      "New Window":
+        value: "Nové okno"
+      "New File":
+        value: "Nový soubor"
+      "Open…":
+        value: "Otevřít..."
+      "Add Project Folder…":
+        value: "Přitat složku projektu..."
+      "Reopen Project":
+        value: "Znovu otevřít projekt"
+        submenu:
+          "Clear Project History":
+            value: "Smazat historii projektů"
+      "Reopen Last Item":
+        value: "Znovu otevřít poslední položku"
+      Save:
+        value: "Uložit"
+      "Save As…":
+        value: "Uložit jako..."
+      "Save All":
+        value: "Uložit vše"
+      "Close Tab":
+        value: "Zavřít záložku"
+      "Close Pane":
+        value: "Zavřít panel"
+      "Close Window":
+        value: "Zavřít okno"
+      "Close All Tabs":
+        value: "Zavřít všechny záložky"
+  Edit:
+    value: "Upravit"
+    submenu:
+      Undo:
+        value: "Zpět"
+      Redo:
+        value: "Dopředu"
+      Cut:
+        value: "Vyjmout"
+      Copy:
+        value: "Kopírovat"
+      "Copy Path":
+        value: "Kopírovat cestu"
+      Paste:
+        value: "Vložit"
+      "Select All":
+        value: "Vybrat vše"
+      "Toggle Comments":
+        value: "Přepnout komentáře"
+      Lines:
+        value: "Řádky"
+        submenu:
+          Indent:
+            value: "Odsadit"
+          Outdent:
+	          value: "Zmenšit odsazení"
+          "Auto Indent":
+            value: "Automaticky odsadit"
+          "Move Line Up":
+            value: "Posunout řádek nahoru"
+          "Move Line Down":
+            value: "Posunout řádek dolů"
+          "Duplicate Lines":
+            value: "Duplikovat řádky"
+          "Delete Line":
+            value: "Smazat řádek"
+          "Join Lines":
+            value: "Spojit řádky"
+      Columns:
+        value: "Sloupce"
+        submenu:
+          "Move Selection Left":
+            value: "Posunout výbeř vlevo"
+          "Move Selection Right":
+            value: "Posunout výběr vpravo"
+      Text:
+        value: "Text"
+        submenu:
+          "Upper Case":
+            value: "Velká písmena"
+          "Lower Case":
+            value: "Malá písmena"
+          "Delete to End of Word":
+            value: "Smazat ke konci slova"
+          "Delete to Previous Word Boundary":
+            value: "Smazat k předchozí hranici slova"
+          "Delete to Next Word Boundary":
+            value: "Smazat k následující hranici slova"
+          "Delete Line":
+            value: "Smazat řádek"
+          Transpose:
+            value: "Přemístit"
+      Folding:
+        value: "Skládání"
+        submenu:
+          Fold:
+            value: "Složit"
+          Unfold:
+            value: "Rozložit"
+          "Fold All":
+            value: "Složit vše"
+          "Unfold All":
+            value: "Rozložit vše"
+          "Fold Level 1":
+            value: "Složit 1. úroveň"
+          "Fold Level 2":
+            value: "Složit 2. úroveň"
+          "Fold Level 3":
+            value: "Složit 3. úroveň"
+          "Fold Level 4":
+            value: "Složit 4. úroveň"
+          "Fold Level 5":
+            value: "Složit 5. úroveň"
+          "Fold Level 6":
+            value: "Složit 6. úroveň"
+          "Fold Level 7":
+            value: "Složit 7. úroveň"
+          "Fold Level 8":
+            value: "Složit 8. úroveň"
+          "Fold Level 9":
+            value: "Složit 9. úroveň"
+      "Reflow Selection":
+        value: "Přeformátovat výběr"
+      Bookmark:
+        value: "Záložky"
+        submenu:
+          "View All":
+            value: "Zobrazit vše"
+          "Toggle Bookmark":
+            value: "Přepnout záložky"
+          "Jump to Next Bookmark":
+            value: "Skočit k další záložce"
+          "Jump to Previous Bookmark":
+            value: "Skočit k předchozí záložce"
+      "Select Encoding":
+        value: "Vybrat kódování"
+      "Go to Line":
+        value: "Skočit na řádek"
+      "Select Grammar":
+        value: "Vybrat režim zvýrazňování"
+  View:
+    value: "Zobrazit"
+    submenu:
+      "Toggle Full Screen":
+        value: "Přepnout řežim celé obrazovky"
+      Panes:
+        value: "Panely"
+        submenu:
+          "Split Up":
+            value: "Rozdělit nahoru"
+          "Split Down":
+            value: "Rozdělit nolů"
+          "Split Left":
+            value: "Rozdělit vlevo"
+          "Split Right":
+            value: "Rozdělit vpravo"
+          "Focus Next Pane":
+            value: "Zaměřit se na další panel"
+          "Focus Previous Pane":
+            value: "Zaměřit se na předchozí panel"
+          "Focus Pane Above":
+            value: "Zaměřit se na panel nahoře"
+          "Focus Pane Below":
+            value: "Zaměřit se na panel dole"
+          "Focus Pane On Left":
+            value: "Zaměřit se na panel vlevo"
+          "Focus Pane On Right":
+            value: "Zaměřit se na panel vpravo"
+          "Close Pane":
+            value: "Zavřít panel"
+      Developer:
+        value: "Vývojář"
+        submenu:
+          "Open In Dev Mode…":
+            value: "Otevřít v režimu pro vývojáře..."
+          "Reload Window":
+            value: "Znovu načíst okno"
+          "Run Package Specs":
+            value: "Spustit specifikace balíku"
+          "Run Benchmarks":
+            value: "Spustit srovnávací hodnoty"
+          "Toggle Developer Tools":
+            value: "Přepnout nástroje pro vývojáře"
+      "Increase Font Size":
+        value: "Zvěčit velikost písma"
+      "Decrease Font Size":
+        value: "Zmenšit velikost písma"
+      "Reset Font Size":
+        value: "Obnovit vlikost písma"
+      "Toggle Soft Wrap":
+        value: "Přepnout měkké zalomení"
+      "Toggle Command Palette":
+        value: "Spustit příkazovou konzoli"
+      # added the following menus, for "Packages"->"GitHub"
+      "Toggle Git Tab":
+        value: "Toggle Git Tab"
+      "Toggle GitHub Tab":
+        value: "Toggle GitHub Tab"
+      "Open Reviews Tab":
+        value: "Open Reviews Tab"
+      #
+      "Toggle Tree View":
+        value: "Přepnout strom souborů"
+  Selection:
+    value: "Výběr"
+    submenu:
+      "Add Selection Above":
+        value: "Přidat výběr nad"
+      "Add Selection Below":
+        value: "Přidat výběr pod"
+      "Single Selection":
+        value: "Jeden výběr"
+      "Split into Lines":
+        value: "Rozdělit na řádky"
+      "Select to Top":
+        value: "Vybrat až nahoru"
+      "Select to Bottom":
+        value: "Vybrat až dolů"
+      "Select Line":
+        value: "Vybrat řádek"
+      "Select Word":
+        value: "Vybrat slovo"
+      "Select to Beginning of Word":
+        value: "Vybrat začátek slova"
+      "Select to Beginning of Line":
+        value: "Vybrat začátek řádku"
+      "Select to First Character of Line":
+        value: "Vybrat první znak řádku"
+      "Select to End of Word":
+        value: "Vybrat konec slova"
+      "Select to End of Line":
+        value: "Vybrat konec řádku"
+      "Select Inside Brackets":
+        value: "Vybrat obsah závorek"
+  Find:
+    value: "Hledat"
+    submenu:
+      "Find in Buffer":
+        value: "Hledat ve schránce"
+      "Replace in Buffer":
+        value: "Nahradit ve schránce"
+      "Select Next":
+        value: "Vybrat další"
+      "Select All":
+        value: "Vybrat vše"
+      "Toggle Find in Buffer":
+        value: "Zapnout hledání ze schránky"
+      "Find in Project":
+        value: "Hledat v projektu"
+      "Toggle Find in Project":
+        value: "Přepnout hledání v projektu"
+      "Find All":
+        value: "Najít vše"
+      "Find Next":
+        value: "Najít další"
+      "Find Previous":
+        value: "Najít předchozí"
+      "Replace Next":
+        value: "Nahradit další"
+      "Replace All":
+        value: "Nahradit všechno"
+      "Clear History":
+        value: "Smazat historii"
+      "Find Buffer":
+        value: "Hledat ze schránky"
+      "Find File":
+        value: "Najít soubor"
+      "Find Modified File":
+        value: "Najít upravený soubor"
+  Packages:
+    value: "Pluginy"
+    submenu:
+      "Bracket Matcher":
+        value: "Bracket Matcher"
+        submenu:
+          "Go To Matching Bracket":
+            value: "Go To Matching Bracket"
+          "Select Inside Brackets":
+            value: "Select Inside Brackets"
+          "Remove Brackets From Selection":
+            value: "Remove Brackets From Selection"
+          "Close Current Tag":
+            value: "Close Current Tag"
+          "Remove Matching Brackets":
+            value: "Remove Matching Brackets"
+          "Select Matching Brackets":
+            value: "Select Matching Brackets"
+      "Command Palette":
+        value: "Command Palette"
+        submenu:
+          "Toggle":
+            value: "Toggle"
+      "Dev Live Reload":
+        value: "Dev Live Reload"
+        submenu:
+          "Reload All Styles":
+            value: "Reload All Styles"
+      "Git Diff":
+        value: "Git Diff"
+        submenu:
+          "Move to Next Diff":
+            value: "Move to Next Diff"
+          "Move to Previous Diff":
+            value: "Move to Previous Diff"
+          "Toggle Diff List":
+            value: "Toggle Diff List"
+      "GitHub":
+        value: "GitHub"
+        submenu:
+          "Toggle Git Tab":
+            value: "Toggle Git Tab"
+          "Toggle GitHub Tab":
+            value: "Toggle GitHub Tab"
+          "Open Reviews Tab":
+            value: "Open Reviews Tab"
+      "Keybinding Resolver":
+        value: "Keybinding Resolver"
+        submenu:
+          "Toggle":
+            value: "Toggle"
+          "Go To Matching Bracket":
+            value: "Go To Matching Bracket"
+      "Markdown Preview":
+        value: "Markdown Preview"
+        submenu:
+          "Toggle Preview":
+            value: "Toggle Preview"
+          "Toggle Break on Single Newline":
+            value: "Toggle Break on Single Newline"
+          "Toggle GitHub Style":
+            value: "Toggle GitHub Style"
+      "Open On GitHub":
+        value: "Open On GitHub"
+        submenu:
+          "Blame":
+            value: "Blame"
+          "Branch Compare":
+            value: "Branch Compare"
+          "Copy URL":
+            value: "Copy URL"
+          "File":
+            value: "File"
+          "File on Master":
+            value: "File on Master"
+          "History":
+            value: "History"
+          "Issues":
+            value: "Issues"
+          "Pull Requests":
+            value: "Pull Requests"
+          "Repository":
+            value: "Repository"
+      "Package Generator":
+        value: "Package Generator"
+        submenu:
+          "Generate Atom Package":
+            value: "Generate Atom Package"
+          "Generate Atom Syntax Theme":
+            value: "Generate Atom Syntax Theme"
+      "Settings View":
+        value: "Settings View"
+        submenu:
+          "Open":
+            value: "Open"
+          "Show Keybindings":
+            value: "Show Keybindings"
+          "Install Packages/Themes":
+            value: "Install Packages/Themes"
+          "Update Packages/Themes":
+            value: "Update Packages/Themes"
+          "Manage Packages":
+            value: "Manage Packages"
+          "Manage Themes":
+            value: "Manage Themes"
+      "Snippets":
+        value: "Snippets"
+        submenu:
+          "Expand":
+            value: "Expand"
+          "Next Stop":
+            value: "Next Stop"
+          "Previous Stop":
+            value: "Previous Stop"
+          "Available":
+            value: "Available"
+      "Spell Check":
+        value: "Spell Check"
+        submenu:
+          "Toggle":
+            value: "Toggle"
+      "Styleguide":
+        value: "Styleguide"
+        submenu:
+          "Show":
+            value: "Show"
+      "Symbols":
+        value: "Symbols"
+        submenu:
+          "File Symbols":
+            value: "File Symbols"
+          "Project Symbols":
+            value: "File Symbols"
+      "Timecop":
+        value: "Timecop"
+        submenu:
+          "Show":
+            value: "Show"
+      "Tree View":
+        value: "Tree View"
+        submenu:
+          "Focus":
+            value: "Focus"
+          "Toggle":
+            value: "Toggle"
+          "Reveal Active File":
+            value: "Reveal Active File"
+          "Toggle Tree Side":
+            value: "Toggle Tree Side"
+      "Whitespace":
+        value: "Whitespace"
+        submenu:
+          "Remove Trailing Whitespace":
+            value: "Remove Trailing Whitespace"
+          "Save With Trailing Whitespace":
+            value: "Save With Trailing Whitespace"
+          "Save Without Trailing Whitespace":
+            value: "Save Without Trailing Whitespace"
+          "Convert Tabs To Spaces":
+            value: "Convert Tabs To Spaces"
+          "Convert Spaces To Tabs":
+            value: "Convert Spaces To Tabs"
+          "Convert All Tabs To Spaces":
+            value: "Convert All Tabs To Spaces"
+  Window:
+    value: "Okno"
+    submenu:
+      Minimize:
+        value: "Skrýt"
+      Zoom:
+        value: "Přiblížení"
+      "Bring All to Front":
+        value: "Přenést vše do popředí"
+  Help:
+    value: "Pomoc"
+    submenu:
+      "Terms of Use":
+        value: "Podmínky používání"
+      Documentation:
+        value: "Dokumentace"
+      Roadmap:
+        value: "Podrobný plán"
+      "Frequently Asked Questions":
+        value: "Často kladené dotazy"
+      "Community Discussions":
+        value: "Diskuse komunity"
+      "Report Issue":
+        value: "Nahlásit problém"
+      "Search Issues":
+        value: "Hledat problémy"
+      "Welcome Guide":
+        value: "Uvítací průvodce"

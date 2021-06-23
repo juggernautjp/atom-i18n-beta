@@ -1,0 +1,32 @@
+Find:
+  findLabel: "現在のバッファーで検索"
+  optionLabel: "検索オプション: "
+  placeholder:
+    find: "現在のバッファーで検索"
+    replace: "現在のバッファーで置換"
+  button:
+    'find-next': "検索"
+    'find-all': "すべて検索"
+    'replace-next': "置換"
+    'replace-all': "すべて置換"
+  buttonTooltip:
+    findNext: "次を検索"
+    findAll: "すべて検索"
+    findNextDisabled: "次を検索 [テキスト文書の場合]"
+    findAllDisabled: "すべて検索 [テキスト文書の場合]"
+    replaceNext: "次を置換"
+    replaceAll: "すべて置換"
+    replaceNextDisabled: "次を置換 [結果がある場合]"
+    replaceAllDisabled: "すべて置換 [結果がある場合]"
+  option:
+    regex: "正規表現"
+    caseSensitive: "大文字/小文字を区別"
+    caseInsensitive: "大文字/小文字を区別しない"
+    withinCurrent: "現在の選択内"
+    wholeWord: "完全に一致する単語"
+  optionTooltip:
+    closePanel: "パネルを閉じる <span class=\"keystroke\">Esc</span>"
+    useRegex: "正規表現を使う"
+    matchCase: "大文字/小文字を区別"
+    onlyIn: "選択のみ"
+    wholeWord: "完全に一致する単語だけ"

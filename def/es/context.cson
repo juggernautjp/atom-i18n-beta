@@ -1,0 +1,198 @@
+Context:
+  "atom-workspace":
+    "application:inspect": "Inspeccionar Elemento"
+  "atom-text-editor":
+    "color-picker:open": "Selector de Color"
+    "minimap:toggle": "Abrir/Cerrar Minimap"
+    # added for atom/bookmarks
+    "bookmarks:toggle-bookmark": "Toggle Bookmark"
+  "atom-text-editor, .overlayer":
+    "core:undo": "Deshacer"
+    "core:redo": "Rehacer"
+    "core:cut": "Cortar"
+    "core:copy": "Copiar"
+    "core:paste": "Pegar"
+    "core:delete": "Borrar"
+    "core:select-all": "Seleccionar Todo"
+    "pane:split-up-and-copy-active-item": "Dividir Hacia Arriba"
+    "pane:split-down-and-copy-active-item": "Dividir Hacia Abajo"
+    "pane:split-left-and-copy-active-item": "Dividir Hacia la Izquierda"
+    "pane:split-right-and-copy-active-item": "Dividir Hacia la Derecha"
+    "pane:close": "Cerrar Panel"
+  "atom-pane":
+    "pane:split-up-and-copy-active-item": "Dividir Hacia Arriba"
+    "pane:split-down-and-copy-active-item": "Dividir Hacia Abajo"
+    "pane:split-left-and-copy-active-item": "Dividir Hacia la Izquierda"
+    "pane:split-right-and-copy-active-item": "Dividir Hacia la Derecha"
+    "pane:close": "Cerrar Panel"
+  "atom-text-editor:not([mini])":
+    "encoding-selector:show": "Cambiar Codificación"
+    "spell-check:correct-misspelling": "Corregir Ortografía"
+    "symbols-view:go-to-declaration": "Ir a Declaración"
+  ".overlayer":
+    "grammar-selector:show": "Cambiar Gramática"
+  ".image-view":
+    "image-view:reload": "Recargar Imagen"
+  ".tab":
+    "tabs:close-tab": "Cerrar Pestaña"
+    "tabs:close-other-tabs": "Cerrar las Otras Pestañas"
+    "tabs:close-tabs-to-right": "Cerrar Pestañas a la Derecha"
+    "tabs:close-tabs-to-left": "Cerrar Pestañas a la Izquierda"
+    "tabs:close-saved-tabs": "Cerrar Pestañas Guardadas"
+    "tabs:close-all-tabs": "Cerrar Todas las Pestañas"
+    "tabs:split-up": "Dividir Hacia Arriba"
+    "tabs:split-down": "Dividir Hacia Abajo"
+    "tabs:split-left": "Dividir Hacia la Derecha"
+    "tabs:split-right": "Dividir Hacia la Izquierda"
+  ".tab.texteditor":
+    "tabs:open-in-new-window": "Abrir en Una Nueva Ventana"
+  ".tab.pending-tab":
+    "tabs:keep-pending-tab": "Mantener Pestaña Pendiente"
+  ".tab-bar":
+    "pane:reopen-closed-item": "Reabrir Pestaña Cerrada"
+  ".tree-view .full-menu":
+    "tree-view:add-file": "Nuevo Archivo"
+    "tree-view:add-folder": "Nueva Carpeta"
+    "tree-view:move": "Renombrar"
+    "tree-view:duplicate": "Duplicar"
+    "tree-view:remove": "Borrar"
+    "tree-view:copy": "Copiar"
+    "tree-view:cut": "Cortar"
+    "tree-view:paste": "Pegar"
+#    "tree-view:open-selected-entry-up": "Dividir Hacia Arriba"
+#    "tree-view:open-selected-entry-down": "Dividir Hacia Abajo"
+#    "tree-view:open-selected-entry-left": "Dividir Hacia la Izquierda"
+#    "tree-view:open-selected-entry-right": "Dividir Hacia la Derecha"
+    "application:add-project-folder": "Agregar Carpeta al Proyecto"
+    "tree-view:copy-full-path": "Copiar Ruta Completa"
+    "tree-view:copy-project-path": "Copiar Ruta del Proyecto"
+    "tree-view:open-in-new-window": "Abrir en una Nueva Ventana"
+  '.tree-view .full-menu [is="tree-view-file"]':
+    "tree-view:open-selected-entry-up": "Dividir Hacia Arriba"
+    "tree-view:open-selected-entry-down": "Dividir Hacia Abajo"
+    "tree-view:open-selected-entry-left": "Dividir Hacia la Izquierda"
+    "tree-view:open-selected-entry-right": "Dividir Hacia la Derecha"
+  ".tree-view .full-menu .project-root > .header":
+    "tree-view:add-file": "Nuevo Archivo"
+    "tree-view:add-folder": "Nueva Carpeta"
+    "tree-view:move": "Renombrar"
+    "tree-view:duplicate": "Duplicar"
+    "tree-view:remove": "Borrar"
+    "tree-view:copy": "Copiar"
+    "tree-view:cut": "Cortar"
+    "tree-view:paste": "Pegar"
+#    "tree-view:open-selected-entry-up": "Dividir Hacia Arriba"
+#    "tree-view:open-selected-entry-down": "Dividir Hacia Abajo"
+#    "tree-view:open-selected-entry-left": "Dividir Hacia la Izquierda"
+#    "tree-view:open-selected-entry-right": "Dividir Hacia la Derecha"
+    "application:add-project-folder": "Agregar Carpeta al Proyecto"
+    "tree-view:remove-project-folder": "Quitar Carpeta del Proyecto"
+    # added for atom/tree-view
+    "tree-view:collapse-all": "Collapse All Project Folders"
+    "tree-view:copy-full-path": "Copiar Ruta Completa"
+    "tree-view:copy-project-path": "Copiar Ruta del Proyecto"
+    "tree-view:open-in-new-window": "Abrir en una Nueva Ventana"
+  ".platform-darwin .tree-view .full-menu":
+    "tree-view:show-in-file-manager": "Mostrar en el Finder"
+  ".platform-win32 .tree-view .full-menu":
+    "tree-view:show-in-file-manager": "Mostrar en el Explorador"
+  ".platform-linux .tree-view .full-menu":
+    "tree-view:show-in-file-manager": "Mostrar en el Administrador de Archivos"
+#  ".tree-view li.directory":
+#    "project-find:show-in-current-directory": "Buscar en el Directorio"
+  ".tree-view .multi-select":
+    "tree-view:remove": "Borrar"
+    "tree-view:copy": "Copiar"
+    "tree-view:cut": "Cortar"
+    "tree-view:paste": "Pegar"
+  "atom-pane[data-active-item-path] .item-views":
+    "tree-view:reveal-active-file": "Revelar en Tree View"
+  "atom-pane[data-active-item-path] .tab.active":
+    "tree-view:rename": "Renombrar"
+    "tree-view:reveal-active-file": "Revelar en Tree View"
+  ".platform-darwin atom-pane[data-active-item-path] .tab.active":
+    "tree-view:show-current-file-in-file-manager": "Mostrar en el Finder"
+  ".platform-win32 atom-pane[data-active-item-path] .tab.active":
+    "tree-view:show-current-file-in-file-manager": "Mostrar en el Explorador"
+  ".platform-linux atom-pane[data-active-item-path] .tab.active":
+    "tree-view:show-current-file-in-file-manager": "Mostrar en el Administrador de Archivos"
+  ".platform-darwin atom-text-editor:not([mini])":
+    "tree-view:show-current-file-in-file-manager": "Mostrar en el Finder"
+  ".platform-win32 atom-text-editor:not([mini])":
+    "tree-view:show-current-file-in-file-manager": "Mostrar en el Explorador"
+  ".platform-linux atom-text-editor:not([mini])":
+    "tree-view:show-current-file-in-file-manager": "Mostrar en el Administrador de Archivos"
+  # added for atom/find-and-replace
+  ".tree-view li.directory":
+    "project-find:show-in-current-directory": "Buscar en el Directorio"
+  ".list-item.match-row":
+    "find-and-replace:open-in-new-tab": "Open in New Tab"
+    "core:copy": "'Copy"
+    "find-and-replace:copy-path": "Copy Path"
+  ".list-item.path-row":
+    "find-and-replace:open-in-new-tab": "Open in New Tab"
+    "find-and-replace:copy-path": "Copy Path"
+  # added for atom/github/menu/git.cson
+  ".github-FilePatchListView-item":
+    "github:jump-to-file": "Jump to File"
+  ".github-FilePatchView--staged":
+    "github:jump-to-file": "Jump to File"
+    "core:confirm": "Unstage Selection"
+  ".github-FilePatchView--unstaged":
+    "github:jump-to-file": "Jump to File"
+    "core:confirm": "Stage Selection"
+    "github:discard-selected-lines": "Discard Selection"
+  "github-DotComMarkdownHtml .issue-link":
+    "github:open-link-in-new-tab": "Open in New Tab"
+    "github:open-link-in-this-tab": "Open in This Tab"
+    "github:open-link-in-browser": "Open in Browser"
+  ".github-CommitView":
+    "github:toggle-expanded-commit-message-editor": "Toggle Expanded Commit Message Editor"
+  ".item-views > atom-text-editor":
+    "github:view-unstaged-changes-for-current-file": "View Unstaged Changes"
+    "github:view-staged-changes-for-current-file": "View Staged Changes"
+  ".github-PushPull":
+    "github:fetch": "Fetch"
+    "github:pull": "Pull"
+    "github:push": "Push"
+    "github:force-push": "Force Push"
+  ".most-recent":
+    "github:amend-last-commit": "Amend"
+  ".github-RecentCommit":
+    "github:copy-commit-sha": "Copy Commit SHA"
+    "github:copy-commit-subject": "Copy Commit Subject"
+  # added for atom/github/lib/github-package.js
+  ".github-UnstagedChanges .github-FilePatchListView":
+    "core:confirm": "Stage"
+    "github:discard-changes-in-selected-files": "Discard Changes"
+  ".github-StagedChanges .github-FilePatchListView":
+    "core:confirm": "Unstage"
+  ".github-MergeConflictPaths .github-FilePatchListView":
+    "core:confirm": "Stage"
+    "github:resolve-file-as-ours": "Resolve File As Ours"
+    "github:resolve-file-as-theirs": "Resolve File As Theirs"
+  # added for packages/link
+  "atom-text-editor .syntax--markup.syntax--underline.syntax--link":
+    "link:open": "Open link"
+  # added for atom/markdown-preview
+  ".markdown-preview":
+    "markdown-preview:select-all": "Select All"
+    "core:save-as": "Save As HTML\u2026"
+  ".markdown-preview.has-selection":
+    "core:copy": "Copy"
+  ".markdown-preview:not(.has-selection)":
+    "core:copy": "Copy As HTML"
+  ".tree-view .file .name[data-name$=\\.markdown]":
+    "markdown-preview:preview-file": "Markdown Preview"
+  ".tree-view .file .name[data-name$=\\.md]":
+    "markdown-preview:preview-file": "Markdown Preview"
+  ".tree-view .file .name[data-name$=\\.mdown]":
+    "markdown-preview:preview-file": "Markdown Preview"
+  ".tree-view .file .name[data-name$=\\.mkd]":
+    "markdown-preview:preview-file": "Markdown Preview"
+  ".tree-view .file .name[data-name$=\\.mkdown]":
+    "markdown-preview:preview-file": "Markdown Preview"
+  ".tree-view .file .name[data-name$=\\.ron]":
+    "markdown-preview:preview-file": "Markdown Preview"
+  ".tree-view .file .name[data-name$=\\.txt]":
+    "markdown-preview:preview-file": "Markdown Preview"

@@ -1,0 +1,489 @@
+Settings:
+  "tab-title": "الإعدادات"
+  menu: [
+    {
+      _label: "Core"
+      value: "النواة"
+    }
+    {
+      _label: "Editor"
+      value: "المحرر"
+    }
+    {
+      _label: "URI Handling"
+      value: "URI Handling"
+    }
+    {
+      _label: "System"
+      value: "النظام"
+    }
+    {
+      _label: "Keybindings"
+      value: "روابط المفاتيح"
+    }
+    {
+      _label: "Packages"
+      value: "الحزم"
+    }
+    {
+      _label: "Themes"
+      value: "السمات"
+    }
+    {
+      _label: "Updates"
+      value: "التحديثات"
+    }
+    {
+      _label: "Install"
+      value: "التثبيت"
+    }
+  ]
+  "btn-open-config-folder": "إفتح مجلد التهيئة"
+  sectionHeadings: [
+    {_label: "Core Settings", value: "إعدادات النواة"}
+    {_label: "Editor Settings", value: "إعدادات المحرر"}
+    {_label: "URI Handling", value: "URI Handling"}
+    {_label: "System Settings", value: "إعدادات النظام"}
+    {_label: "Keybindings", value: "روابط المفاتيح"}
+    {_label: "Installed Packages", value: "الحزم المثبتة"}
+    {_label: "Choose a Theme", value: "إختر سمة"}
+    {_label: "Installed Themes", value: "السمات المثبتة"}
+    {_label: "Install Packages", value: "ثبت حزما"}
+    {_label: "Featured Packages", value: "الحزم المميزة"}
+    {_label: "Install Themes", value: "ثبت سمات"}
+    {_label: "Featured Themes", value: "السمات المميزة"}
+    {_label: "Available Updates", value: "التحديثات المتاحة"}
+  ]
+  subSectionHeadings: [
+    {_label: "Invisible", value: "خفي"}
+    {_label: "Community Packages", value: "حزم المجتمع"}
+    {_label: "Core Packages", value: "حزم النواة"}
+    {_label: "Development Packages", value: "حزم التطوير"}
+    {_label: "Git Packages", value: "حزم جيت"}
+    {_label: "Community Themes", value: "سمات المجتمع"}
+    {_label: "Core Themes", value: "سمات النواة"}
+    {_label: "Development Themes", value: "سمات التطوير"}
+    {_label: "Git Themes", value: "سمات جيت"}
+  ]
+  settings: {
+    notes: [
+      {
+        _id: 'core-settings-note'
+        html: 'هذه هي إعدادات نواة أتوم واللي تؤثر في سلوك
+               لا علاقة له بتحرير النص. قد يكون لكل حزمة
+               إعداداتها الإضافية الخاصة الموجودة خلال بطاقتها
+               في <a class="link packages-open">قائمة الحزم</a>.'
+      }
+      {
+        _id: 'editor-settings-note'
+        html: 'هذه الإعدادات متعلقة بتحرير النص. يمكن نخطي
+               بناءا على اللغة. تحقق من إعدادات
+               اللغة عبر نقر بطاقة حزمتها في
+               <a class="link packages-open">قائمة الحزم</a>.'
+      }
+    ]
+    controls: [
+      {
+        _id: 'core.allowPendingPaneItems'
+        title: "إسمح بعناصر الجانب الجارية"
+        desc: "إسمخ لعرض العناصر بدون إضافتهم إلى جانب ما
+               بصورة دائمة، كعندما تنقر الملفات نقرة واحدة في العرض الشجري."
+      }
+      {
+        _id: 'core.audioBeep'
+        title: "الصفير"
+        desc: "أثر صوت صفير النظام عندما يتعذر تنفيذ إجراءات
+               معينة أو لا تسفر عن نتائج."
+      }
+      {
+        _id: 'core.autoHideMenuBar'
+        title: "إخف شريط القائمة آليا"
+        desc: "إخف شريط القائمة آليا وبدله عبر الضغط على مفتاح التبديل. إنما يدعم هذا في النوافذ ولينيكس."
+      }
+      {
+        _id: 'core.automaticallyUpdate'
+        title: "حدث آليا"
+        desc: "حدث أتوم آليا عندما يتاح إصدار جديد."
+      }
+      {
+        _id: 'core.closeDeletedFileTabs'
+        title: "أغلق ألسنة الملفات المحذوفة"
+        desc: "أغلق المحررات المقابلة عندما يحذف ملف خارج أتوم."
+      }
+      {
+        _id: 'core.closeEmptyWindows'
+        title: "أغلق النوافذ الفارغة"
+        desc: "عندما تمنح نافذة ليس لها ألسنة أو جوانب مفتوحة - امر 'أغلق اللسان'، أغلق تلك النافذة."
+      }
+      {
+        _id: 'core.colorProfile'
+        title: "Color Profile"
+        desc: "Specify whether Atom should use the operating system's color
+               profile (recommended) or an alternative color profile.<br>
+               Changing this setting will require a relaunch of Atom to take effect."
+        select:
+          default: "Use color profile configured in the operating system"
+          srgb: "Use sRGB color profile"
+      }
+      {
+        _id: 'core.destroyEmptyPanes'
+        title: "دمر الجوانب الفارغة"
+        desc: "عندما يغلق آخر لسان في جانب ما، أغلق هذا الجانب بالتبعية."
+      }
+      {
+        _id: 'core.excludeVcsIgnoredPaths'
+        title: "استثن المسارات المتجاهلة من قبل أنظمة التحكم في الإصدارات"
+        desc: "بعض الحزم، كالموجد الزغبي وجد واستبدل، ستتجاهل الملفات والأدلة المتجاهلة من قبل نظام التحكم في إصدارات المشروع الحالي. على سبيل المثال، المشاريع التي تستخدم جيت تعرف هذه المسارات في ملف .gitignore. قد يكون لكل حزمة إعدادات تهيئة إضافية لتجاهل الملفات والمجلدات المتجاهلة من قبل أنظمة التحكم في الإصدارات."
+      }
+      {
+        _id: 'core.fileEncoding'
+        title: "ترميز الملف"
+        desc: "ترميز عدة الأحرف الافتراضي المستخدم عند قراءة وكتابة الملفات."
+      }
+      {
+        _id: 'core.fileSystemWatcher'
+        title: "مراقب نظام الملفات"
+        desc: "إختر التنفيذ الورائي المستخدم لمراقبة تغيرات نظام الملفات. ستضيع مماثلة التغيرات أي أحداث ناتجة عن التطبيقات عدا أتوم، ولكنها قد تساعد على منع الإنهيارات أو التجمدات."
+        select:
+          native: "واجهات برمجة التطبيقات الأصلية الخاصة بنظام التشغيل"
+          experimental: "undefined"
+          poll: "undefined"
+          atom: "مماثلة بواسطة أحداث أتوم"
+      }
+      {
+        _id: 'core.followSymlinks'
+        title: "إتبع الروابط الرمزية"
+        desc: "إتبع الروابط الرمزية عند البحث في الملفات أو عند فتح الملفات بواسطة الموجد الزغبي."
+      }
+      {
+        _id: 'core.ignoredNames'
+        title: "الأسماء المتجاهلة"
+        desc: "قائمة من <code>أنماط جلوب</code>. بعض الحزم ستتجاهل الملفات والأدلة المطابقة لهذه الأنماط، كالموجد الزغبي والعرض الشجري. قد يكون لكل حزمة إعدادات تهيئة إضافية لتجاهل الأسماء."
+      }
+      {
+        _id: 'core.openEmptyEditorOnStart'
+        title: "إفتح محرر فارغ عند البدء"
+        desc: "إفتح محرر فارغ آليا عند البدء."
+      }
+      {
+        _id: 'core.projectHome'
+        title: "موطن المشاريع"
+        desc: "الدليل الذي يفترض تواجد المشاريع فيه. سيتم تحزين الحزم المخلقة بواسطة مولد الحزم هنا افتراضيا."
+      }
+      {
+        _id: 'core.reopenProjectMenuCount'
+        title: "عدد قائمة أعد فتح المشروع"
+        desc: "عدد المشاريع الأخيرة المعروضة في قائمة أعد فتح المشروع."
+      }
+      {
+        _id: 'core.restorePreviousWindowsOnStart'
+        title: "استعد النوافذ السابقة عند البدء"
+        desc: "عند اختياره يستعيد الحالة الأخيرة لكل نوافذ أتوم عندما يبتدأ من الاختصار أو <code>atom</code> نفسه من سطر الأوامر؛ وإلا يحمل بيئة فضاء."
+        select:
+          no: "لا"
+          yes: "نعم"
+          always: "دائما"
+      }
+      {
+        _id: 'core.telemetryConsent'
+        title: "إرسال قياسات بعادية لفريق أتوم"
+        desc: "إسمح بإرسال إحصاءات الاستخدام والتقارير الاستثنائية لفريق أتوم لمساعدة تحسين المنتج."
+        select:
+          limited: "إسمح بإحصائات استخدام مجهولة الهوية ومحدودة، وتخابر الإنهيارات والاستثناءات"
+          no: "لا ترسل أي بيانات قياس بعادية"
+          undecided: "غير مقرر (سيسأل أتوم ثانية عندما يعاد إطلاقه)"
+      }
+      {
+        _id: 'core.titleBar'
+        title: "شريط العنوان"
+        desc: "اختباري: شريط عنوان <code>مخصص</code> يتلائم مع ألوان السمة. اختيار <code>مخصص-مدرج</code> يضيف بطانة أكثر بقليل. يمكن لشريط العنوان أيضا أن يكون <code>مخفيـ</code>ـا.<br>لاحظ: التبديل لشريط عنوان مخصص أو مخفي سيتفهم بعض الوظيفيةy.<br> سيتطلب هذا الإعداد إعادة إطلاق أتوم كي يحدث تأثيره."
+        select:
+          native: "أصلي"
+          hidden: "مخفي"
+      }
+      {
+        _id: 'core.useProxySettingsWhenCallingApm'
+        title: "استخدم إعدادات الوكالة عند استدعاء مدير حزم أتوم"
+        desc: "استخدم إعدادات الوكالة المكتشفة عند استدعاء أداة سطر الأوامر <code>apm</code>."
+      }
+      {
+        _id: 'core.useTreeSitterParsers'
+        title: "Use Tree Sitter Parsers"
+        desc: "Use Tree-sitter parsers for supported languages."
+      }
+      {
+        _id: 'core.versionPinnedPackages'
+        title: "الحزم المثبتة إصداراتها"
+        desc: "قائمة بأسماء الحزم المثبتة التي لا تحدث آليا."
+      }
+      {
+        _id: 'core.warnOnLargeFileLimit'
+        title: "حذر من حد الملفات الكبيرة"
+        desc: "حذر قبيل فتح الملفات الأكبر من هذا العدد من الميجابايتات."
+      }
+      {
+        _id: 'editor.atomicSoftTabs'
+        title: "جداول لينة من أتوم"
+        desc: "تخط عبر مسافات الجدول من الفراغات البادئة عند تحريك المؤشر."
+      }
+      {
+        _id: 'editor.autoIndent'
+        title: "ضع مسافات بادئة آليا"
+        desc: "ضع مسافات بادئة قبل المؤشر آليا عند إدراج سطر جديد."
+      }
+      {
+        _id: 'editor.autoIndentOnPaste'
+        title: "ضع مسافات بادئة آليا عند اللصق"
+        desc: "ضع مسافات بادئة تلقائيا قبل النص الملصق بناءا على السطر السابق."
+      }
+      {
+        _id: 'editor.confirmCheckoutHeadRevision'
+        title: "أكد استرجاع مراجعة HEAD"
+        desc: "إعرض حوار التأكيد عند استرجاع مراجعة HEAD وتجاهل التغيرات في الملف الحالي منذ آخر تسليم."
+      }
+      {
+        _id: 'editor.defaultFontSize'
+        title: "Default Font Size"
+        desc: "Default height in pixels of the editor text. Useful when resetting font size"
+      }
+      {
+        _id: 'editor.fontFamily'
+        title: "عائلة الخط"
+        desc: "إسم عائلة الخط المستخدمة لنص المحرر."
+      }
+      {
+        _id: 'editor.fontSize'
+        title: "حجم الخط"
+        desc: "ارتفاع نص المحرر بالبكسل."
+      }
+      {
+        _id: 'editor.invisibles.cr'
+        title: "الخفايا: عودة الحامل"
+        desc: "الحرف المستخدم لتصيير حروف عودة الحامل
+               (من أجل نهايات الأسطر على شاكلة مايكروسوفت) عندما
+               يمكن إعداد <code>عرض الخفايا</code>."
+      }
+      {
+        _id: 'editor.invisibles.eol'
+        title: "الخفايا: نهاية السطر"
+        desc: "الحرف المستخدم لتصيير حروف سطر جديد (\\n) عندما
+               يمكن إعداد <code>عرض الخفايا</code>."
+      }
+      {
+        _id: 'editor.invisibles.space'
+        title: "الخفايا: المسافة"
+        desc: "الحرف المستخدم لتصيير حروف مسافات البدء والتذييل
+               عندمل يمكن إعداد<code>عرض الخفايا</code>."
+      }
+      {
+        _id: 'editor.invisibles.tab'
+        title: "الخفايا: الجدول"
+        desc: "الحرف المستخدم لتصيير حروف الجدول الصلب (\\t) عندما
+               يمكن إعداد <code>عرض الخفايا</code>."
+      }
+      {
+        _id: 'editor.lineHeight'
+        title: "ارتفاع السطر"
+        desc: "ارتفاع سطور المحرر، كمضاعف حجم الخط."
+      }
+      {
+        _id: 'editor.maxScreenLineLength'
+        title: "أقصى طول لأسطر الشاشة"
+        desc: "يعرف أصى عرض لنافذة المحرر قبل فرض اللف السلس، مقاسا بعدد الحروف."
+      }
+      {
+        _id: 'editor.multiCursorOnClick'
+        title: "Multi Cursor On Click"
+        desc: "Add multiple cursors when pressing the Ctrl key (Command key on MacOS)
+               and clicking the editor."
+      }
+      {
+        _id: 'editor.nonWordCharacters'
+        title: "الحروف اللالفظية"
+        desc: "سلسلة من الحروف التي لا تكون جزءا من كلمة وتعرف حدي الكلمة."
+      }
+      {
+        _id: 'editor.preferredLineLength'
+        title: "طول السطر المفضل"
+        desc: "يعرف طول السطر الذي يستخدم عند لف النص
+               عند تمكين إعداد <code>اللف السلس عند طول السطر المفضل</code>،
+               مقاسا بعدد الأحرف."
+      }
+      {
+        _id: 'editor.scrollPastEnd'
+        title: "تمرير بعد النهاية"
+        desc: "يسمح بتمرير المحرر بعد نهاية آخر سطر."
+      }
+      {
+        _id: 'editor.scrollSensitivity'
+        title: "حساسية التمرير"
+        desc: "يحدد سرعة تمرير المحرر عند استخدم فأرة أو
+               لوحة التتبع."
+      }
+      {
+        _id: 'editor.showCursorOnSelection'
+        title: "إعرض مؤشرا عند التحديد"
+        desc: "يعرض مؤشرا حيث يوجد تحديد."
+      }
+      {
+        _id: 'editor.showIndentGuide'
+        title: "إعرض دليل البادئة"
+        desc: "يعرض محددات البادئة في المحرر."
+      }
+      {
+        _id: 'editor.showInvisibles'
+        title: "إعرض الخفايا"
+        desc: "يصير مواضع للحروف الخفية، كالجداول
+               والمسافات والأسطر الجديدة."
+      }
+      {
+        _id: 'editor.showLineNumbers'
+        title: "إعرض أرقام الأسطر"
+        desc: "إعرض أرقام الأسطر في مجرى المحرر."
+      }
+      {
+        _id: 'editor.softTabs'
+        title: "جداول لينة"
+        desc: "إذا كان إعداد التهيئة <code>نوع الجدول</code> معين إلى \"آلي\"
+               وفشل الاكتشاف الالي لنوع الجدول من المحمل،
+               فسيحدد اعداد التهيئة هذا ما إذا سيتم إدراج جدول لين أو
+               جدول صلب إذا ما ضغط زر الجدول."
+      }
+      {
+        _id: 'editor.softWrap'
+        title: "اللف السلس"
+        desc: "يلف الأسطر التي تتعدى عرض النافذة. عند
+               تعيين <code>اللف السلس عند طول السطر المفضل</code>، سيلف
+               بعد عدد الأحرف المعرفة بواسطة إعداد
+               <code>طول السطر المفضل</code>."
+      }
+      {
+        _id: 'editor.softWrapAtPreferredLineLength'
+        title: "اللف السلس عند طول السطر المفضل"
+        desc: "بدلا من لف الأسطر لعرض النافذة، لف الأسطر بعد
+               عدد الأسطر المعرف بواسطة إعداد <code>طول النص
+               المفضل</code>. لن يحدث هذا تأثيره حتى يمكن إعداد
+               التهيئة اللف السلس إما عالميا أو للغة
+               الحالية. <strong>لاحظ:</strong> إذا أردت إخفاء دليل
+               اللف (الخط الرأسي) يمكنك تعطيل
+               حزمة <code>wrap-guide</code>."
+      }
+      {
+        _id: 'editor.softWrapHangingIndent'
+        title: "البادئة المعلقة للف السلس"
+        desc: "عند تمكين اللف السلس، يحدد طول البادئة
+               الإضافية المطبقة على الأسطر الملفوفة، مقاسة بعدد الأحرف."
+      }
+      {
+        _id: 'editor.tabLength'
+        title: "طول الجدول"
+        desc: "عدد المسافات المستخدمة لتمثيل جدول."
+      }
+      {
+        _id: 'editor.tabType'
+        title: "نوع الجدول"
+        desc: "يحدد الحرف المدرج عند ضغط مفتاح الجدول. القيم
+               الممكنة: \"آلي\", \"لين\" and \"صلب\". عندما يعين إلى \"لين\" أو
+               \"صلب\"، تستخدم الجداول اللينة (المسافات) أو الجداول الصلبة (أجرف الجدول).
+               عندما تعين إلى \"آلي\"، يكتشف المحرر آليا نوع الجدول
+               بناءا على محتويات المحمل (يستخدم أول مسافة
+               بادئة في غير أسطر التسليم)، أو يستخدم قيمة إعداد تهيئة
+               الجداول اللينة عند فشل الاكتشاف التلقائي."
+      }
+      {
+        _id: 'editor.undoGroupingInterval'
+        title: "مدة جمع التراجع"
+        desc: "المدة الزمنية مقاسة بالملليثواني والتي خلالها تجمع
+               عمليات تحرير النص معا في تأريخ التراجع."
+      }
+      {
+        _id: 'editor.zoomFontWhenCtrlScrolling'
+        title: "كبر الخط عند التمرير مع زر التحكم"
+        desc: "غير حجم خط المحرر عنج ضغط مفتاح التحكم
+               وتمرير الفأرة لأعلى/أسفل."
+      }
+      {
+        _id: 'core.uriHandlerRegistration'
+        title: "Default Registration"
+        desc: "When should Atom register itself as the default handler for atom:// URIs"
+        select:
+          prompt: "Prompt to register Atom as the default atom:// URI handler"
+          always: "Always become the default atom:// URI handler automatically"
+          never: "Never become the default atom:// URI handler"
+      }
+      {
+        _id: 'system.windows.file-handler'
+        title: "سجل كمتعامل مع الملفات"
+        desc: "إعرض أتوم في قائمة تطبيقات \"إفتح بواسطة\" لسهولة الربط بأنواع الملفات."
+      }
+      {
+        _id: 'system.windows.shell-menu-files'
+        title: "إعرض في قوائم سياق الملفات"
+        desc: "أضف \"إفتح بواسطة أتوم\" لقائمة سياق مستكشف الملفات للملفات."
+      }
+      {
+        _id: 'system.windows.shell-menu-folders'
+        title: "إعرض في قوائم سياق المجلداتShow in folder context menus"
+        desc: "أضف \"إفتح بواسطة أتوم\" في قائمة سياق مستكشف الملفات للمجلدات."
+      }
+    ]
+  }
+  invisible:
+    desc: "A hash of characters Atom will use to render whitespace characters.
+           Keys are whitespace character types, values are rendered characters
+           (use value false to turn off individual whitespace character types)."
+  url:
+    title: "URI Handler Registration"
+    notes: "These settings determine how Atom handles atom:// URIs."
+    already: "Atom is already the default handler for atom:// URIs."
+    register: "Register Atom as the default handler for atom:// URIs."
+    unsupported: "Registration as the default handler for atom:// URIs is only supported on Windows and macOS."
+    btn: "Register as default atom:// protocol handler"
+  system:
+    notes: "تحدد هذه الاعدادات كيفية تكامل أتوم مع نظام تشغيلك."
+  keymaps:
+    notes:
+      text1: "يمكنك تخط روابط المفاتيح هذه بنسخ "
+      text2: "ولصقهم في "
+      text3: "ملف خارطة المفاتيح الخاص بك"
+      text4: ""   # optional
+      _template: "${text1} <icon /> ${text2} <a>${text3}</a> ${text4}"
+    "search-bar-placeholder": "روابط مفاتيح البحث"
+    "table-header-keystroke": "الضغطة"
+    "table-header-command": "الأمر"
+    "table-header-source": "المصدر"
+    "table-header-selector": "المحدد"
+  packages:
+    searchBarText: "رشح الحزم بواسطة الاسم"
+  themes:
+    notes:
+      text1: "يمكنك أيضا تنميط أتوم بتحرير "
+      text2: "ورقة الأنماط الخاصة بك"
+      text3: ""   # optional
+      _template: "${text1} <a>${text2}</a> ${text3}"
+    title1: "سمة واجهة المستخدم"
+    description1: "ينمط هذا الألسنة وشريط الحالة والعرض الشجري والمسقطات"
+    title2: "سمة التراكيب"
+    description2: "ينمط هذا النص بداخل المحرر"
+    searchBarText: "رشح الحزم بواسطة الاسم"
+  updates:
+    "check-updates": "تحقق من التحديثات"
+    "update-all": "حدث الكل"
+    "checking-updates": "جار التحقق من التحديثات..."
+    "all-updated-message": "جميع حزمك المثبتة محدثة!"
+  install:
+    notes:
+      text1: "تنشر الحزم في "
+      text2: " وتثبت في "
+      text3: ""   # optional
+      _template: "${text1}<a>atom.io</a>${text2} /path/to/pkg ${text3}"
+    "searchbar-placeholder": "البحث في الحزم"
+    "btn-packages": "الحزم"
+    "btn-themes": "السمات"
+  "control-btns":
+    install: "ثبت"
+    update: "حدث إلى"
+    setting: "الإعدادات"
+    uninstall: "إلغ التثبيت"
+    disable: "عطل"
+    enable: "فعل"

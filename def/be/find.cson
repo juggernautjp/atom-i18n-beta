@@ -1,0 +1,32 @@
+Find:
+  findLabel: "Find in Current Buffer"
+  optionLabel: "Finding with Options: "
+  placeholder:
+    find: "Find in current buffer"
+    replace: "Replace in current buffer"
+  button:
+    'find-next': "Find"
+    'find-all': "Find All"
+    'replace-next': "Replace"
+    'replace-all': "Replace All"
+  buttonTooltip:
+    findNext: "Find Next"
+    findAll: "Find All"
+    findNextDisabled: "Find Next [when in a text document]"
+    findAllDisabled: "Find All [when in a text document]"
+    replaceNext: "Replace Next"
+    replaceAll: "Replace All"
+    replaceNextDisabled: "Replace Next [when there are results]"
+    replaceAllDisabled: "Replace All [when there are results]"
+  option:
+    regex: "Regex"
+    caseSensitive: "Case Sensitive"
+    caseInsensitive: "Case Insensitive"
+    withinCurrent: "Within Current Selection"
+    wholeWord: "Whole Word"
+  optionTooltip:
+    closePanel: "Close Panel <span class=\"keystroke\">Esc</span>"
+    useRegex: "Use Regex"
+    matchCase: "Match Case"
+    onlyIn: "Only In Selection"
+    wholeWord: "Whole Word"

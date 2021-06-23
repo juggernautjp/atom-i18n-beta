@@ -1,0 +1,475 @@
+Menu:
+  "&File":
+    value: "파일(&F)"
+    submenu:
+      "New &Window":
+        value: "새로운 창 열기(&W)"
+      "&New File":
+        value: "새로운 파일(&N)"
+      "&Open File…":
+        value: "파일 열기(&O)..."
+      "Open Folder…":
+        value: "폴더 열기..."
+      "Add Project Folder…":
+        value: "프로젝트 폴더 추가..."
+      "Reopen Project":
+        value: "프로젝트 다시 열기"
+        submenu:
+          "Clear Project History":
+            value: "프로젝트 기록 지우기"
+      "Reopen Last &Item":
+        value: "마지막 아이템 다시 열기(&I)"
+      "&Save":
+        value: "저장(&S)"
+      "Save &As…":
+        value: "다른 이름으로 저장(&A)..."
+      "Save A&ll":
+        value: "모두 저장(&L)"
+      "&Close Tab":
+        value: "탭 닫기(&C)"
+      "Close &Pane":
+        value: "분할 창 닫기(&P)"
+      "Clos&e Window":
+        value: "창 닫기(&E)"
+      "Quit":
+        value: "종료"
+      "Close All Tabs":
+        value: "모든 탭 닫기"
+  "&Edit":
+    value: "편집(&E)"
+    submenu:
+      "&Undo":
+        value: "실행 취소(&U)"
+      "&Redo":
+        value: "다시 실행(&R)"
+      "&Cut":
+        value: "오려두기(&C)"
+      "C&opy":
+        value: "복사(&O)"
+      "Copy Pat&h":
+        value: "경로 복사(&H)"
+      "&Paste":
+        value: "붙이기(&P)"
+      "Select &All":
+        value: "모두 선택(&A)"
+      "&Toggle Comments":
+        value: "주석 토글(&T)"
+      Lines:
+        value: "행"
+        submenu:
+          "&Indent":
+            value: "들여쓰기(&I)"
+          "&Outdent":
+            value: "내어쓰기(&O)"
+          "&Auto Indent":
+            value: "자동 들여쓰기(&A)"
+          "Move Line &Up":
+            value: "행 위로 이동(&U)"
+          "Move Line &Down":
+            value: "행 아래로 이동(&D)"
+          "Du&plicate Lines":
+            value: "행 복제(&P)"
+          "D&elete Line":
+            value: "행 삭제(&E)"
+          "&Join Lines":
+            value: "행 조인(&J)"
+      Columns:
+        value: "열"
+        submenu:
+          "Move Selection &Left":
+            value: "선택된 열 왼쪽으로 이동(&L)"
+          "Move Selection &Right":
+            value: "선택된 열 오른쪽으로 이동(&R)"
+      Text:
+        value: "본문"
+        submenu:
+          "&Upper Case":
+            value: "대문자로 변환(&U)"
+          "&Lower Case":
+            value: "소문자로 변환(&L)"
+          "Delete to End of &Word":
+            value: "단어의 끝까지 삭제(&W)"
+          "Delete to Previous Word Boundary":
+            value: "이전 단어 경계까지 삭제"
+          "Delete to Next Word Boundary":
+            value: "다음 단어 경계까지 삭제"
+          "&Delete Line":
+            value: "행 삭제(&D)"
+          "&Transpose":
+            value: "문자 맞바꾸기(&T)"
+      Folding:
+        value: "코드 폴딩"
+        submenu:
+          "&Fold":
+            value: "접기(&F)"
+          "&Unfold":
+            value: "풀기(&U)"
+          "Fol&d All":
+            value: "모두 접기(&D)"
+          "Unfold &All":
+            value: "모두 풀기(&A)"
+          "Fold Level 1":
+            value: "폴딩 단계 1"
+          "Fold Level 2":
+            value: "폴딩 단계 2"
+          "Fold Level 3":
+            value: "폴딩 단계 3"
+          "Fold Level 4":
+            value: "폴딩 단계 4"
+          "Fold Level 5":
+            value: "폴딩 단계 5"
+          "Fold Level 6":
+            value: "폴딩 단계 6"
+          "Fold Level 7":
+            value: "폴딩 단계 7"
+          "Fold Level 8":
+            value: "폴딩 단계 8"
+          "Fold Level 9":
+            value: "폴딩 단계 9"
+      "&Preferences":
+        value: "환경설정(&P)"
+      "Config…":
+        value: "구성..."
+      "Init Script…":
+        value: "초기화 스크립트..."
+      "Keymap…":
+        value: "단축키 맵핑..."
+      "Snippets…":
+        value: "스닙..."
+      "Stylesheet…":
+        value: "스타일시트..."
+      "Reflow Selection":
+        value: "선택 재정렬"
+      Bookmark:
+        value: "북마크"
+        submenu:
+          "View All":
+            value: "모두 보기"
+          "Toggle Bookmark":
+            value: "북마크 토글"
+          "Jump to Next Bookmark":
+            value: "다음 북마크로 이동"
+          "Jump to Previous Bookmark":
+            value: "이전 북마크로 이동"
+      "Select Encoding":
+        value: "인코딩 설정"
+      "Go to Line":
+        value: "줄 번호로 이동"
+      "Select Grammar":
+        value: "문법 선택"
+  "&View":
+    value: "보기(&V)"
+    submenu:
+      "Toggle &Full Screen":
+        value: "전체화면 토글(&F)"
+      "Toggle Menu Bar":
+        value: "메뉴바 토글"
+      Panes:
+        value: "분할 창"
+        submenu:
+          "Split Up":
+            value: "위로 분할"
+          "Split Down":
+            value: "아래로 분할"
+          "Split Left":
+            value: "왼쪽으로 분할"
+          "Split Right":
+            value: "오른쪽으로 분할"
+          "Focus Next Pane":
+            value: "다음 분할 창으로 포커스"
+          "Focus Previous Pane":
+            value: "이전 분할 창으로 포커스"
+          "Focus Pane Above":
+            value: "위쪽 분할 창으로 포커스"
+          "Focus Pane Below":
+            value: "아래쪽 분할 창으로 포커스"
+          "Focus Pane On Left":
+            value: "왼쪽 분할 창으로 포커스"
+          "Focus Pane On Right":
+            value: "오른쪽 분할 창으로 포커스"
+          "Close Pane":
+            value: "분할 창 닫기"
+      Developer:
+        value: "개발자"
+        submenu:
+          "Open In &Dev Mode…":
+            value: "개발 모드로 열기(&D)..."
+          "&Reload Window":
+            value: "창 다시 로드(&R)"
+          "Run Package &Specs":
+            value: "패키지 스팩 실행(&S)"
+          "Run &Benchmarks":
+            value: "Run Benchmarks(&B)"
+          "Toggle Developer &Tools":
+            value: "개발자 도구 토글(&T)"
+      "&Increase Font Size":
+        value: "폰트 크기 키우기(&I)"
+      "&Decrease Font Size":
+        value: "폰트 크기 줄이기(&D)"
+      "Re&set Font Size":
+        value: "폰트 크기 초기화(&S)"
+      "Toggle Soft &Wrap":
+        value: "소프트 랩핑 토글(&W)"
+      "Toggle Command Palette":
+        value: "명령 팔레트 토글"
+      # added the following menus, for "Packages"->"GitHub"
+      "Toggle Git Tab":
+        value: "Toggle Git Tab"
+      "Toggle GitHub Tab":
+        value: "Toggle GitHub Tab"
+      "Open Reviews Tab":
+        value: "Open Reviews Tab"
+      #
+      "Toggle Tree View":
+        value: "트리 뷰 토글"
+  "&Selection":
+    value: "선택(&S)"
+    submenu:
+      "Add Selection &Above":
+        value: "위에 커서 추가(&A)"
+      "Add Selection &Below":
+        value: "아래에 커서 추가(&B)"
+      "S&plit into Lines":
+        value: "행으로 분할(&P)"
+      "Single Selection":
+        value: "단일 선택"
+      "Select to &Top":
+        value: "맨 위까지 선택(&T)"
+      "Select to Botto&m":
+        value: "맨 아래까지 선택(&M)"
+      "Select &Line":
+        value: "행 선택(&L)"
+      "Select &Word":
+        value: "단어 선택(&W)"
+      "Select to Beginning of W&ord":
+        value: "단어의 처음까지 선택(&O)"
+      "Select to Beginning of L&ine":
+        value: "행의 처음까지 선택(&I)"
+      "Select to First &Character of Line":
+        value: "행의 첫 문자까지 선택(&C)"
+      "Select to End of Wor&d":
+        value: "단어의 마지막까지 선택(&D)"
+      "Select to End of Lin&e":
+        value: "행의 마지막까지 선택(&E)"
+      "Select Inside Brackets":
+        value: "괄호 안쪽 선택"
+  "F&ind":
+    value: "찾기(&I)"
+    submenu:
+      "Find in Buffer":
+        value: "버퍼에서 찾기"
+      "Replace in Buffer":
+        value: "버퍼에서 바꾸기"
+      "Select Next":
+        value: "다음 선택"
+      "Select All":
+        value: "모두 선택"
+      "Toggle Find in Buffer":
+        value: "버퍼에서 찾기"
+      "Find in Project":
+        value: "프로젝트에서 찾기"
+      "Toggle Find in Project":
+        value: "프로젝트에서 찾기 토글"
+      "Find All":
+        value: "Find All"
+      "Find Next":
+        value: "다음 찾기"
+      "Find Previous":
+        value: "이전 찾기"
+      "Replace Next":
+        value: "다음 바꾸기"
+      "Replace All":
+        value: "모두 바꾸기"
+      "Clear History":
+        value: "기록 지우기"
+      "Find Buffer":
+        value: "버퍼 찾기"
+      "Find File":
+        value: "파일 찾기"
+      "Find Modified File":
+        value: "변경된 파일 찾기"
+  "&Packages":
+    value: "패키지(&P)"
+    submenu:
+      "Bracket Matcher":
+        value: "Bracket Matcher"
+        submenu:
+          "Go To Matching Bracket":
+            value: "Go To Matching Bracket"
+          "Select Inside Brackets":
+            value: "Select Inside Brackets"
+          "Remove Brackets From Selection":
+            value: "Remove Brackets From Selection"
+          "Close Current Tag":
+            value: "Close Current Tag"
+          "Remove Matching Brackets":
+            value: "Remove Matching Brackets"
+          "Select Matching Brackets":
+            value: "Select Matching Brackets"
+      "Command Palette":
+        value: "Command Palette"
+        submenu:
+          "Toggle":
+            value: "Toggle"
+      "Dev Live Reload":
+        value: "Dev Live Reload"
+        submenu:
+          "Reload All Styles":
+            value: "Reload All Styles"
+      "Git Diff":
+        value: "Git Diff"
+        submenu:
+          "Move to Next Diff":
+            value: "Move to Next Diff"
+          "Move to Previous Diff":
+            value: "Move to Previous Diff"
+          "Toggle Diff List":
+            value: "Toggle Diff List"
+      "GitHub":
+        value: "GitHub"
+        submenu:
+          "Toggle Git Tab":
+            value: "Toggle Git Tab"
+          "Toggle GitHub Tab":
+            value: "Toggle GitHub Tab"
+          "Open Reviews Tab":
+            value: "Open Reviews Tab"
+      "Keybinding Resolver":
+        value: "Keybinding Resolver"
+        submenu:
+          "Toggle":
+            value: "Toggle"
+          "Go To Matching Bracket":
+            value: "Go To Matching Bracket"
+      "Markdown Preview":
+        value: "Markdown Preview"
+        submenu:
+          "Toggle Preview":
+            value: "Toggle Preview"
+          "Toggle Break on Single Newline":
+            value: "Toggle Break on Single Newline"
+          "Toggle GitHub Style":
+            value: "Toggle GitHub Style"
+      "Open On GitHub":
+        value: "Open On GitHub"
+        submenu:
+          "Blame":
+            value: "Blame"
+          "Branch Compare":
+            value: "Branch Compare"
+          "Copy URL":
+            value: "Copy URL"
+          "File":
+            value: "File"
+          "File on Master":
+            value: "File on Master"
+          "History":
+            value: "History"
+          "Issues":
+            value: "Issues"
+          "Pull Requests":
+            value: "Pull Requests"
+          "Repository":
+            value: "Repository"
+      "Package Generator":
+        value: "Package Generator"
+        submenu:
+          "Generate Atom Package":
+            value: "Generate Atom Package"
+          "Generate Atom Syntax Theme":
+            value: "Generate Atom Syntax Theme"
+      "Settings View":
+        value: "Settings View"
+        submenu:
+          "Open":
+            value: "Open"
+          "Show Keybindings":
+            value: "Show Keybindings"
+          "Install Packages/Themes":
+            value: "Install Packages/Themes"
+          "Update Packages/Themes":
+            value: "Update Packages/Themes"
+          "Manage Packages":
+            value: "Manage Packages"
+          "Manage Themes":
+            value: "Manage Themes"
+      "Snippets":
+        value: "Snippets"
+        submenu:
+          "Expand":
+            value: "Expand"
+          "Next Stop":
+            value: "Next Stop"
+          "Previous Stop":
+            value: "Previous Stop"
+          "Available":
+            value: "Available"
+      "Spell Check":
+        value: "Spell Check"
+        submenu:
+          "Toggle":
+            value: "Toggle"
+      "Styleguide":
+        value: "Styleguide"
+        submenu:
+          "Show":
+            value: "Show"
+      "Symbols":
+        value: "Symbols"
+        submenu:
+          "File Symbols":
+            value: "File Symbols"
+          "Project Symbols":
+            value: "File Symbols"
+      "Timecop":
+        value: "Timecop"
+        submenu:
+          "Show":
+            value: "Show"
+      "Tree View":
+        value: "Tree View"
+        submenu:
+          "Focus":
+            value: "Focus"
+          "Toggle":
+            value: "Toggle"
+          "Reveal Active File":
+            value: "Reveal Active File"
+          "Toggle Tree Side":
+            value: "Toggle Tree Side"
+      "Whitespace":
+        value: "Whitespace"
+        submenu:
+          "Remove Trailing Whitespace":
+            value: "Remove Trailing Whitespace"
+          "Save With Trailing Whitespace":
+            value: "Save With Trailing Whitespace"
+          "Save Without Trailing Whitespace":
+            value: "Save Without Trailing Whitespace"
+          "Convert Tabs To Spaces":
+            value: "Convert Tabs To Spaces"
+          "Convert Spaces To Tabs":
+            value: "Convert Spaces To Tabs"
+          "Convert All Tabs To Spaces":
+            value: "Convert All Tabs To Spaces"
+  "&Help":
+    value: "도움말(&H)"
+    submenu:
+      "View &Terms of Use":
+        value: "이용약관 보기(&T)"
+      "View &License":
+        value: "라이센스 보기(&L)"
+      "&Documentation":
+        value: "참조 문서(&D)"
+      "Frequently Asked Questions":
+        value: "자주 묻는 질문"
+      "Community Discussions":
+        value: "커뮤니티 토론장"
+      "Report Issue":
+        value: "문제 보고하기"
+      "Search Issues":
+        value: "문제 찾아보기"
+      "About Atom":
+        value: "Atom에 관하여"
+      "Welcome Guide":
+        value: "환영합니다!"

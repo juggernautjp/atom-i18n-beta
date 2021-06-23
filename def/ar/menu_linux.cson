@@ -1,0 +1,475 @@
+Menu:
+  "&File":
+    value: "الملف(&F)"
+    submenu:
+      "New &Window":
+        value: "نافذة جديدة(&W)"
+      "&New File":
+        value: "ملف جديد(&N)"
+      "&Open File…":
+        value: "إفتح ملفا(&O)..."
+      "Open Folder…":
+        value: "إفتح مجلدا..."
+      "Add Project Folder…":
+        value: "إفتح مجلد مشروع..."
+      "Reopen Project":
+        value: "أعد فتح المشروع"
+        submenu:
+          "Clear Project History":
+            value: "إمسح تأريخ المشاريع"
+      "Reopen Last &Item":
+        value: "أعد فتح العنصر الأخير(&I)"
+      "&Save":
+        value: "إحفظ(&S)"
+      "Save &As…":
+        value: "إحفظ كـ(&A)..."
+      "Save A&ll":
+        value: "إحفظ الكل(&L)"
+      "&Close Tab":
+        value: "أغلق اللسان(&C)"
+      "Close &Pane":
+        value: "أغلق الجانب(&P)"
+      "Clos&e Window":
+        value: "أغلق النافذة(&E)"
+      "Quit":
+        value: "إترك"
+      "Close All Tabs":
+        value: "أغلق الألسنة جميعا"
+  "&Edit":
+    value: "تحرير(&E)"
+    submenu:
+      "&Undo":
+        value: "تراجع(&U)"
+      "&Redo":
+        value: "أعد(&R)"
+      "&Cut":
+        value: "قص(&C)"
+      "C&opy":
+        value: "إنسخ(&O)"
+      "Copy Pat&h":
+        value: "إنسخ المسار(&H)"
+      "&Paste":
+        value: "إلصق(&P)"
+      "Select &All":
+        value: "حدد الكل(&A)"
+      "&Toggle Comments":
+        value: "بدل التعليقات(&T)"
+      Lines:
+        value: "الأسطر"
+        submenu:
+          "&Indent":
+            value: "البادئة(&I)"
+          "&Outdent":
+            value: "الخاتمة(&O)"
+          "&Auto Indent":
+            value: "إبدأ آليا(&A)"
+          "Move Line &Up":
+            value: "حرك السطر لأعلى(&U)"
+          "Move Line &Down":
+            value: "حرك السطر لأسفل(&D)"
+          "Du&plicate Lines":
+            value: "ضاعف الأسطر(&P)"
+          "D&elete Line":
+            value: "إحذف السطر(&E)"
+          "&Join Lines":
+            value: "ضم الأسطر(&J)"
+      Columns:
+        value: "الأعمدة"
+        submenu:
+          "Move Selection &Left":
+            value: "حرك المحدد يسارا(&L)"
+          "Move Selection &Right":
+            value: "حرك المحدد يمينا(&R)"
+      Text:
+        value: "النص"
+        submenu:
+          "&Upper Case":
+            value: "إرفع الحالة(&U)"
+          "&Lower Case":
+            value: "أخفض الحالة(&L)"
+          "Delete to End of &Word":
+            value: "إحذف حتى نهاية الكلمة(&W)"
+          "Delete to Previous Word Boundary":
+            value: "إحذف حتى حد الكلمة السابق"
+          "Delete to Next Word Boundary":
+            value: "إحذف حتى حد الكلمة التالي"
+          "&Delete Line":
+            value: "إحذف السطر(&D)"
+          "&Transpose":
+            value: "إقلب(&T)"
+      Folding:
+        value: "الطي"
+        submenu:
+          "&Fold":
+            value: "إطو(&F)"
+          "&Unfold":
+            value: "إبسط(&U)"
+          "Fol&d All":
+            value: "إطو الكل(&D)"
+          "Unfold &All":
+            value: "إبسط الكل(&A)"
+          "Fold Level 1":
+            value: "إطو المستوى 1"
+          "Fold Level 2":
+            value: "إطو المستوى 2"
+          "Fold Level 3":
+            value: "إطو المستوى 3"
+          "Fold Level 4":
+            value: "إطو المستوى 4"
+          "Fold Level 5":
+            value: "إطو المستوى 5"
+          "Fold Level 6":
+            value: "إطو المستوى 6"
+          "Fold Level 7":
+            value: "إطو المستوى 7"
+          "Fold Level 8":
+            value: "إطو المستوى 8"
+          "Fold Level 9":
+            value: "إطو المستوى 9"
+      "&Preferences":
+        value: "التفضيلات(&P)"
+      "Config…":
+        value: "التهيئة..."
+      "Init Script…":
+        value: "نص البدأ..."
+      "Keymap…":
+        value: "خارطة المفاتيح..."
+      "Snippets…":
+        value: "القصاصات..."
+      "Stylesheet…":
+        value: "ورقة الأنماط..."
+      "Reflow Selection":
+        value: "أعد دفق المحدد"
+      Bookmark:
+        value: "العلامات"
+        submenu:
+          "View All":
+            value: "عرض الكل"
+          "Toggle Bookmark":
+            value: "بدل التعليم"
+          "Jump to Next Bookmark":
+            value: "انتقل للعلامة التالية"
+          "Jump to Previous Bookmark":
+            value: "انتقل للعلامة السابقة"
+      "Select Encoding":
+        value: "حدد الترميز"
+      "Go to Line":
+        value: "إذهب للسطر"
+      "Select Grammar":
+        value: "حدد النحو"
+  "&View":
+    value: "العرض(&V)"
+    submenu:
+      "Toggle &Full Screen":
+        value: "بدل كامل الشاشة(&F)"
+      "Toggle Menu Bar":
+        value: "بدل شريط العنوان"
+      Panes:
+        value: "الجوانب"
+        submenu:
+          "Split Up":
+            value: "إقسم لأعلى"
+          "Split Down":
+            value: "إقسم لأسفل"
+          "Split Left":
+            value: "إقسم يسارا"
+          "Split Right":
+            value: "إقسم يمينا"
+          "Focus Next Pane":
+            value: "ركز على الجانب التالي"
+          "Focus Previous Pane":
+            value: "ركز على الجانب السابق"
+          "Focus Pane Above":
+            value: "ركز على الجانب الأعلى"
+          "Focus Pane Below":
+            value: "ركز على الجانب الأدنى"
+          "Focus Pane On Left":
+            value: "ركز على الجانب الأيسر"
+          "Focus Pane On Right":
+            value: "ركز على الجانب الأيمن"
+          "Close Pane":
+            value: "أغلق الجانب"
+      Developer:
+        value: "المطور"
+        submenu:
+          "Open In &Dev Mode…":
+            value: "إفتح في وضع المطور(&D)..."
+          "&Reload Window":
+            value: "أعد تحميل النافذة(&R)"
+          "Run Package &Specs":
+            value: "شغل مواصفات الحزمة(&S)"
+          "Run &Benchmarks":
+            value: "شغل المعايرات(&B)"
+          "Toggle Developer &Tools":
+            value: "بدل أدوات المطور(&T)"
+      "&Increase Font Size":
+        value: "زد حجم النص(&I)"
+      "&Decrease Font Size":
+        value: "أنقص حجم النص(&D)"
+      "Re&set Font Size":
+        value: "أعد تعيين حجم النص(&S)"
+      "Toggle Soft &Wrap":
+        value: "بدل اللف السلس(&W)"
+      "Toggle Command Palette":
+        value: "بدل لوحة الأوامر"
+      # added the following menus, for "Packages"->"GitHub"
+      "Toggle Git Tab":
+        value: "Toggle Git Tab"
+      "Toggle GitHub Tab":
+        value: "Toggle GitHub Tab"
+      "Open Reviews Tab":
+        value: "Open Reviews Tab"
+      #
+      "Toggle Tree View":
+        value: "بدل العرض الشجري"
+  "&Selection":
+    value: "التحديد(&S)"
+    submenu:
+      "Add Selection &Above":
+        value: "أضف المحدد أعلاه(&A)"
+      "Add Selection &Below":
+        value: "أضف المحدد أدناه(&B)"
+      "S&plit into Lines":
+        value: "إقسم إلى أسطر(&P)"
+      "Single Selection":
+        value: "تحديد فردي"
+      "Select to &Top":
+        value: "حدد حتى القمة(&T)"
+      "Select to Botto&m":
+        value: "حدد حتى القاع(&M)"
+      "Select &Line":
+        value: "حدد السطر(&L)"
+      "Select &Word":
+        value: "حدد الكلمة(&W)"
+      "Select to Beginning of W&ord":
+        value: "حدد حتى بداية الكلمة(&O)"
+      "Select to Beginning of L&ine":
+        value: "حدد حتى بداية السطر(&I)"
+      "Select to First &Character of Line":
+        value: "حدد حتى أةل حرف في السطر(&C)"
+      "Select to End of Wor&d":
+        value: "حدد حتى نهاية الكلمة(&D)"
+      "Select to End of Lin&e":
+        value: "حدد حتى نهاية السطر(&E)"
+      "Select Inside Brackets":
+        value: "حدد ما بين القوسين"
+  "F&ind":
+    value: "الإيجاد(&I)"
+    submenu:
+      "Find in Buffer":
+        value: "جد في المحمل"
+      "Replace in Buffer":
+        value: "استبدل في المحمل"
+      "Select Next":
+        value: "حدد التالي"
+      "Select All":
+        value: "حدد الكل"
+      "Toggle Find in Buffer":
+        value: "بدل الإيجاد في المحمل"
+      "Find in Project":
+        value: "جد في المشروع"
+      "Toggle Find in Project":
+        value: "بدل الإيجاد في المشروع"
+      "Find All":
+        value: "جد الكل"
+      "Find Next":
+        value: "جد التالي"
+      "Find Previous":
+        value: "جد السابق"
+      "Replace Next":
+        value: "استبدل التالي"
+      "Replace All":
+        value: "إستبدل الكل"
+      "Clear History":
+        value: "إمسح التأريخ"
+      "Find Buffer":
+        value: "جد محمل"
+      "Find File":
+        value: "جد ملف"
+      "Find Modified File":
+        value: "جد ملف معدل"
+  "&Packages":
+    value: "الحزم(&P)"
+    submenu:
+      "Bracket Matcher":
+        value: "Bracket Matcher"
+        submenu:
+          "Go To Matching Bracket":
+            value: "Go To Matching Bracket"
+          "Select Inside Brackets":
+            value: "Select Inside Brackets"
+          "Remove Brackets From Selection":
+            value: "Remove Brackets From Selection"
+          "Close Current Tag":
+            value: "Close Current Tag"
+          "Remove Matching Brackets":
+            value: "Remove Matching Brackets"
+          "Select Matching Brackets":
+            value: "Select Matching Brackets"
+      "Command Palette":
+        value: "Command Palette"
+        submenu:
+          "Toggle":
+            value: "Toggle"
+      "Dev Live Reload":
+        value: "Dev Live Reload"
+        submenu:
+          "Reload All Styles":
+            value: "Reload All Styles"
+      "Git Diff":
+        value: "Git Diff"
+        submenu:
+          "Move to Next Diff":
+            value: "Move to Next Diff"
+          "Move to Previous Diff":
+            value: "Move to Previous Diff"
+          "Toggle Diff List":
+            value: "Toggle Diff List"
+      "GitHub":
+        value: "GitHub"
+        submenu:
+          "Toggle Git Tab":
+            value: "Toggle Git Tab"
+          "Toggle GitHub Tab":
+            value: "Toggle GitHub Tab"
+          "Open Reviews Tab":
+            value: "Open Reviews Tab"
+      "Keybinding Resolver":
+        value: "Keybinding Resolver"
+        submenu:
+          "Toggle":
+            value: "Toggle"
+          "Go To Matching Bracket":
+            value: "Go To Matching Bracket"
+      "Markdown Preview":
+        value: "Markdown Preview"
+        submenu:
+          "Toggle Preview":
+            value: "Toggle Preview"
+          "Toggle Break on Single Newline":
+            value: "Toggle Break on Single Newline"
+          "Toggle GitHub Style":
+            value: "Toggle GitHub Style"
+      "Open On GitHub":
+        value: "Open On GitHub"
+        submenu:
+          "Blame":
+            value: "Blame"
+          "Branch Compare":
+            value: "Branch Compare"
+          "Copy URL":
+            value: "Copy URL"
+          "File":
+            value: "File"
+          "File on Master":
+            value: "File on Master"
+          "History":
+            value: "History"
+          "Issues":
+            value: "Issues"
+          "Pull Requests":
+            value: "Pull Requests"
+          "Repository":
+            value: "Repository"
+      "Package Generator":
+        value: "Package Generator"
+        submenu:
+          "Generate Atom Package":
+            value: "Generate Atom Package"
+          "Generate Atom Syntax Theme":
+            value: "Generate Atom Syntax Theme"
+      "Settings View":
+        value: "Settings View"
+        submenu:
+          "Open":
+            value: "Open"
+          "Show Keybindings":
+            value: "Show Keybindings"
+          "Install Packages/Themes":
+            value: "Install Packages/Themes"
+          "Update Packages/Themes":
+            value: "Update Packages/Themes"
+          "Manage Packages":
+            value: "Manage Packages"
+          "Manage Themes":
+            value: "Manage Themes"
+      "Snippets":
+        value: "Snippets"
+        submenu:
+          "Expand":
+            value: "Expand"
+          "Next Stop":
+            value: "Next Stop"
+          "Previous Stop":
+            value: "Previous Stop"
+          "Available":
+            value: "Available"
+      "Spell Check":
+        value: "Spell Check"
+        submenu:
+          "Toggle":
+            value: "Toggle"
+      "Styleguide":
+        value: "Styleguide"
+        submenu:
+          "Show":
+            value: "Show"
+      "Symbols":
+        value: "Symbols"
+        submenu:
+          "File Symbols":
+            value: "File Symbols"
+          "Project Symbols":
+            value: "File Symbols"
+      "Timecop":
+        value: "Timecop"
+        submenu:
+          "Show":
+            value: "Show"
+      "Tree View":
+        value: "Tree View"
+        submenu:
+          "Focus":
+            value: "Focus"
+          "Toggle":
+            value: "Toggle"
+          "Reveal Active File":
+            value: "Reveal Active File"
+          "Toggle Tree Side":
+            value: "Toggle Tree Side"
+      "Whitespace":
+        value: "Whitespace"
+        submenu:
+          "Remove Trailing Whitespace":
+            value: "Remove Trailing Whitespace"
+          "Save With Trailing Whitespace":
+            value: "Save With Trailing Whitespace"
+          "Save Without Trailing Whitespace":
+            value: "Save Without Trailing Whitespace"
+          "Convert Tabs To Spaces":
+            value: "Convert Tabs To Spaces"
+          "Convert Spaces To Tabs":
+            value: "Convert Spaces To Tabs"
+          "Convert All Tabs To Spaces":
+            value: "Convert All Tabs To Spaces"
+  "&Help":
+    value: "المساعدة(&H)"
+    submenu:
+      "View &Terms of Use":
+        value: "إعرض شروط الاستخدام(&T)"
+      "View &License":
+        value: "إعرض الرخصة(&L)"
+      "&Documentation":
+        value: "التوثيق(&D)"
+      "Frequently Asked Questions":
+        value: "الأسئلة المتكررة"
+      "Community Discussions":
+        value: "نقاشات المجتمع"
+      "Report Issue":
+        value: "أبلغ عن مشكلة"
+      "Search Issues":
+        value: "إبحث في المشاكل"
+      "About Atom":
+        value: "عن أتوم"
+      "Welcome Guide":
+        value: "دليل الترحيب"

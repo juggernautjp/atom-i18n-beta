@@ -1,0 +1,491 @@
+Menu:
+  "&File":
+    value: "Файл(&F)"
+    submenu:
+      "New &Window":
+        value: "Новое окно(&W)"
+      "&New File":
+        value: "Новый файл(&N)"
+      "&Open File…":
+        value: "Открыть файл(&O)..."
+      "Open Folder…":
+        value: "Открыть папку..."
+      "Add Project Folder…":
+        value: "Добавить папку с проектом..."
+      "Reopen Project":
+        value: "Открыть проект заново"
+        submenu:
+          "Clear Project History":
+            value: "Очистить историю проектов"
+      "Reopen Last &Item":
+        value: "Открыть последний файл(&I)"
+      "Se&ttings":
+        value: "Настройки(&T)..."
+      "Config…":
+        value: "Созд. конфиг..."
+      "Init Script…":
+        value: "Созд. скрипт..."
+      "Keymap…":
+        value: "Созд. гор. клавишу..."
+      "Snippets…":
+        value: "Созд. отрывка..."
+      "Stylesheet…":
+        value: "Созд. табл. стилей..."
+      "&Save":
+        value: "Сохранить(&S)"
+      "Save &As…":
+        value: "Сохранить как(&A)..."
+      "Save A&ll":
+        value: "Сохранить всё(&L)"
+      "&Close Tab":
+        value: "Закрыть вкладку(&C)"
+      "Close &Pane":
+        value: "Закрыть панель(&P)"
+      "Clos&e Window":
+        value: "Закрыть окно(&E)"
+      "E&xit":
+        value: "Выход(&X)"
+      "Close All Tabs":
+        value: "Закрыть все вкладки"
+  "&Edit":
+    value: "Редактирование(&E)"
+    submenu:
+      "&Undo":
+        value: "Отменить(&U)"
+      "&Redo":
+        value: "Вернуть(&R)"
+      "Cu&t":
+        value: "Вырезать(&T)"
+      "&Copy":
+        value: "Копировать(&C)"
+      "Copy Pat&h":
+        value: "Копировать путь(&H)"
+      "&Paste":
+        value: "Вставить(&P)"
+      "Paste Without Reformatting":
+        value: "Вставить без форматирования"
+      "Select &All":
+        value: "Выделить всё(&A)"
+      "&Toggle Comments":
+        value: "Создать коментарий(&T)"
+      Lines:
+        value: "Линии"
+        submenu:
+          "&Indent":
+            value: "Сделать отступ(&I)"
+          "&Outdent":
+            value: "Убрать отступ(&O)"
+          "&Auto Indent":
+            value: "Авто-отступ(&A)"
+          "Move Line &Up":
+            value: "Передвинуть линию вверх(&U)"
+          "Move Line &Down":
+            value: "Передвинуть линию вниз(&D)"
+          "Du&plicate Lines":
+            value: "Дублировать линию(&P)"
+          "D&elete Line":
+            value: "Удалить линию(&E)"
+          "&Join Lines":
+            value: "Соединить линии(&J)"
+      Columns:
+        value: "Столбцы"
+        submenu:
+          "Move Selection &Left":
+            value: "Переместить выделенное влево(&L)"
+          "Move Selection &Right":
+            value: "Переместить выделенное вправо(&R)"
+      Text:
+        value: "Текст"
+        submenu:
+          "&Upper Case":
+            value: "Верхний регистр(&U)"
+          "&Lower Case":
+            value: "Нижний регистр(&L)"
+          "Delete to End of &Word":
+            value: "Удалить в конце слова(&W)"
+          "Delete to Previous Word Boundary":
+            value: "Удалить предыдущее слово"
+          "Delete to Next Word Boundary":
+            value: "Удалить следующее слово"
+          "&Delete Line":
+            value: "Удалить линию(&D)"
+          "&Transpose":
+            value: "Переместить(&T)"
+      Folding:
+        value: "Скрытие"
+        submenu:
+          "&Fold":
+            value: "Скрыть(&F)"
+          "&Unfold":
+            value: "Раскрыть(&U)"
+          "Fol&d All":
+            value: "Скрыть всё(&D)"
+          "Unfold &All":
+            value: "Раскрыть всё(&A)"
+          "Unfold &All":
+            value: "Раскрыть всё(&A)"
+          "Fold Level 1":
+            value: "Скрыть 1 уровень"
+          "Fold Level 2":
+            value: "Скрыть 2 уровень"
+          "Fold Level 3":
+            value: "Скрыть 3 уровень"
+          "Fold Level 4":
+            value: "Скрыть 4 уровень"
+          "Fold Level 5":
+            value: "Скрыть 5 уровень"
+          "Fold Level 6":
+            value: "Скрыть 6 уровень"
+          "Fold Level 7":
+            value: "Скрыть 7 уровень"
+          "Fold Level 8":
+            value: "Скрыть 8 уровень"
+          "Fold Level 9":
+            value: "Скрыть 9 уровень"
+      "Reflow Selection":
+        value: "Перевернуть выбранное"
+      Bookmark:
+        value: "Закладка"
+        submenu:
+          "View All":
+            value: "Показать все"
+          "Toggle Bookmark":
+            value: "Сделать закладку"
+          "Jump to Next Bookmark":
+            value: "Перейти на следующую закладку"
+          "Jump to Previous Bookmark":
+            value: "Перейти на предыдущую закладку"
+          "Select to Next Bookmark":
+            value: "Выбрать до следующей закладки"
+          "Select to Previous Bookmark":
+            value: "Выбрать до предыдущей закладки"
+      "Select Encoding":
+        value: "Выбрать кодировку"
+      "Go to Line":
+        value: "Перейти на линию"
+      "Select Grammar":
+        value: "Выбрать синтаксис"
+  "&View":
+    value: "Вид(&V)"
+    submenu:
+      "Toggle &Full Screen":
+        value: "На весь экран(&F)"
+      "Toggle Menu Bar":
+        value: "Показать меню"
+      Panes:
+        value: "Панели"
+        submenu:
+          "Split Up":
+            value: "Разделить сверху"
+          "Split Down":
+            value: "Разделить снизу"
+          "Split Left":
+            value: "Разделить слева"
+          "Split Right":
+            value: "Разделить справа"
+          "Focus Next Pane":
+            value: "Сфокусироваться на следующей панели"
+          "Focus Previous Pane":
+            value: "Сфокусироваться на предыдущей панели"
+          "Focus Pane Above":
+            value: "Сфокусироваться на панели выше"
+          "Focus Pane Below":
+            value: "Сфокусироваться на панели ниже"
+          "Focus Pane On Left":
+            value: "Сфокусироваться на панели слева"
+          "Focus Pane On Right":
+            value: "Сфокусироваться на панели справа"
+          "Close Pane":
+            value: "Закрыть панель"
+      Developer:
+        value: "Разработчик"
+        submenu:
+          "Open In &Dev Mode…":
+            value: "Открыть в режиме разработчика(&D)..."
+          "&Reload Window":
+            value: "Перезагрузить окно(&R)"
+          "Run Package &Specs":
+            value: "Запустить настройки пакета(&S)"
+          "Run &Benchmarks":
+            value: "Запустить тесты(&B)"
+          "Toggle Developer &Tools":
+            value: "Показать dev консоль(&T)"
+      "&Increase Font Size":
+        value: "Увеличить шрифт(&I)"
+      "&Decrease Font Size":
+        value: "Уменьшить шрифт(&D)"
+      "Re&set Font Size":
+        value: "Вернуть размер шрифта(&S)"
+      "Toggle Soft &Wrap":
+        value: "Мягкий стиль(&W)"
+      "Toggle Command Palette":
+        value: "Командная палитра"
+      # added the following menus, for "Packages"->"GitHub"
+      "Toggle Git Tab":
+        value: "Toggle Git Tab"
+      "Toggle GitHub Tab":
+        value: "Toggle GitHub Tab"
+      "Open Reviews Tab":
+        value: "Open Reviews Tab"
+      #
+      "Toggle Tree View":
+        value: "Показать дерево файлов"
+  "&Selection":
+    value: "Выделение(&S)"
+    submenu:
+      "Add Selection &Above":
+        value: "Добавить к выделению ниже(&A)"
+      "Add Selection &Below":
+        value: "Добавить к выделению выше(&B)"
+      "S&plit into Lines":
+        value: "Обьединить линии выделения(&P)"
+      "Single Selection":
+        value: "Обычное выделение"
+      "Select to &Top":
+        value: "Выделить верх(&T)"
+      "Select to Botto&m":
+        value: "Выделить низ(&M)"
+      "Select &Line":
+        value: "Выделить линию(&L)"
+      "Select &Word":
+        value: "Выделить слово(&W)"
+      "Select to Beginning of W&ord":
+        value: "Выделить начало слова(&O)"
+      "Select to Beginning of L&ine":
+        value: "Выделить начало линии(&I)"
+      "Select to First &Character of Line":
+        value: "Выделить первую букву в линии(&C)"
+      "Select to End of Wor&d":
+        value: "Выделить конец слова(&D)"
+      "Select to End of Lin&e":
+        value: "Выделить конец линии(&E)"
+      "Select Inside Brackets":
+        value: "Выделить внутри скобок"
+  "F&ind":
+    value: "Поиск(&I)"
+    submenu:
+      "Find in Buffer":
+        value: "Найти"
+      "Replace in Buffer":
+        value: "Заменить"
+      "Select Next":
+        value: "Найти далее"
+      "Select All":
+        value: "Выделить всё"
+      "Toggle Find in Buffer":
+        value: "Показать поиск в буфере"
+      "Find in Project":
+        value: "Найти в проекте"
+      "Toggle Find in Project":
+        value: "Показать поиск в проекте"
+      "Find All":
+        value: "Найти всё"
+      "Find Next":
+        value: "Найти следующее"
+      "Find Previous":
+        value: "Найти предыдущее"
+      "Replace Next":
+        value: "Заменить следующее"
+      "Replace All":
+        value: "Заменить всё"
+      "Clear History":
+        value: "Очистить историю"
+      "Find Buffer":
+        value: "Найти буфер"
+      "Find File":
+        value: "Найти файл"
+      "Find Modified File":
+        value: "Найти изменённый файл"
+  "&Packages":
+    value: "Расширения(&P)"
+    submenu:
+      "Bracket Matcher":
+        value: "Bracket Matcher"
+        submenu:
+          "Go To Matching Bracket":
+            value: "Go To Matching Bracket"
+          "Select Inside Brackets":
+            value: "Select Inside Brackets"
+          "Remove Brackets From Selection":
+            value: "Remove Brackets From Selection"
+          "Close Current Tag":
+            value: "Close Current Tag"
+          "Remove Matching Brackets":
+            value: "Remove Matching Brackets"
+          "Select Matching Brackets":
+            value: "Select Matching Brackets"
+      "Command Palette":
+        value: "Command Palette"
+        submenu:
+          "Toggle":
+            value: "Toggle"
+      "Dev Live Reload":
+        value: "Dev Live Reload"
+        submenu:
+          "Reload All Styles":
+            value: "Reload All Styles"
+      "Git Diff":
+        value: "Git Diff"
+        submenu:
+          "Move to Next Diff":
+            value: "Move to Next Diff"
+          "Move to Previous Diff":
+            value: "Move to Previous Diff"
+          "Toggle Diff List":
+            value: "Toggle Diff List"
+      "GitHub":
+        value: "GitHub"
+        submenu:
+          "Toggle Git Tab":
+            value: "Toggle Git Tab"
+          "Toggle GitHub Tab":
+            value: "Toggle GitHub Tab"
+          "Open Reviews Tab":
+            value: "Open Reviews Tab"
+      "Keybinding Resolver":
+        value: "Keybinding Resolver"
+        submenu:
+          "Toggle":
+            value: "Toggle"
+          "Go To Matching Bracket":
+            value: "Go To Matching Bracket"
+      "Markdown Preview":
+        value: "Markdown Preview"
+        submenu:
+          "Toggle Preview":
+            value: "Toggle Preview"
+          "Toggle Break on Single Newline":
+            value: "Toggle Break on Single Newline"
+          "Toggle GitHub Style":
+            value: "Toggle GitHub Style"
+      "Open On GitHub":
+        value: "Open On GitHub"
+        submenu:
+          "Blame":
+            value: "Blame"
+          "Branch Compare":
+            value: "Branch Compare"
+          "Copy URL":
+            value: "Copy URL"
+          "File":
+            value: "File"
+          "File on Master":
+            value: "File on Master"
+          "History":
+            value: "History"
+          "Issues":
+            value: "Issues"
+          "Pull Requests":
+            value: "Pull Requests"
+          "Repository":
+            value: "Repository"
+      "Package Generator":
+        value: "Package Generator"
+        submenu:
+          "Generate Atom Package":
+            value: "Generate Atom Package"
+          "Generate Atom Syntax Theme":
+            value: "Generate Atom Syntax Theme"
+      "Settings View":
+        value: "Settings View"
+        submenu:
+          "Open":
+            value: "Open"
+          "Show Keybindings":
+            value: "Show Keybindings"
+          "Install Packages/Themes":
+            value: "Install Packages/Themes"
+          "Update Packages/Themes":
+            value: "Update Packages/Themes"
+          "Manage Packages":
+            value: "Manage Packages"
+          "Manage Themes":
+            value: "Manage Themes"
+      "Snippets":
+        value: "Snippets"
+        submenu:
+          "Expand":
+            value: "Expand"
+          "Next Stop":
+            value: "Next Stop"
+          "Previous Stop":
+            value: "Previous Stop"
+          "Available":
+            value: "Available"
+      "Spell Check":
+        value: "Spell Check"
+        submenu:
+          "Toggle":
+            value: "Toggle"
+      "Styleguide":
+        value: "Styleguide"
+        submenu:
+          "Show":
+            value: "Show"
+      "Symbols":
+        value: "Symbols"
+        submenu:
+          "File Symbols":
+            value: "File Symbols"
+          "Project Symbols":
+            value: "File Symbols"
+      "Timecop":
+        value: "Timecop"
+        submenu:
+          "Show":
+            value: "Show"
+      "Tree View":
+        value: "Tree View"
+        submenu:
+          "Focus":
+            value: "Focus"
+          "Toggle":
+            value: "Toggle"
+          "Reveal Active File":
+            value: "Reveal Active File"
+          "Toggle Tree Side":
+            value: "Toggle Tree Side"
+      "Whitespace":
+        value: "Whitespace"
+        submenu:
+          "Remove Trailing Whitespace":
+            value: "Remove Trailing Whitespace"
+          "Save With Trailing Whitespace":
+            value: "Save With Trailing Whitespace"
+          "Save Without Trailing Whitespace":
+            value: "Save Without Trailing Whitespace"
+          "Convert Tabs To Spaces":
+            value: "Convert Tabs To Spaces"
+          "Convert Spaces To Tabs":
+            value: "Convert Spaces To Tabs"
+          "Convert All Tabs To Spaces":
+            value: "Convert All Tabs To Spaces"
+  "&Help":
+    value: "Справка(&H)"
+    submenu:
+      "View &Terms of Use":
+        value: "Правила использования(&T)"
+      "View &License":
+        value: "Лицензия(&L)"
+      "Restart and Install Update":
+        value: "Обновить и перезапустить"
+      "Check for Update":
+        value: "Проверить обновления"
+      "Checking for Update":
+        value: "Проверка обновления"
+      "Downloading Update":
+        value: "Скачивание обновления"
+      "&Documentation":
+        value: "Документация(&D)"
+      "Frequently Asked Questions":
+        value: "FAQ"
+      "Community Discussions":
+        value: "Обсуждения в сообществе"
+      "Report Issue":
+        value: "Сообщить о проблеме"
+      "Search Issues":
+        value: "Найти проблему"
+      "About Atom":
+        value: "Об Atom"
+      "Welcome Guide":
+        value: "Добро пожаловать!"

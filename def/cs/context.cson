@@ -1,0 +1,198 @@
+Context:
+  "atom-workspace":
+    "application:inspect": "Prozkoumat prvek"
+  "atom-text-editor":
+    "color-picker:open": "Výběr barvy"
+    "minimap:toggle": "Přepnout minimapu"
+    # added for atom/bookmarks
+    "bookmarks:toggle-bookmark": "Toggle Bookmark"
+  "atom-text-editor, .overlayer":
+    "core:undo": "Zpět"
+    "core:redo": "Vrátit"
+    "core:cut": "Vyjmout"
+    "core:copy": "Kopírovat"
+    "core:paste": "Vložit"
+    "core:delete": "Smazat"
+    "core:select-all": "Vybrat vše"
+    "pane:split-up-and-copy-active-item": "Rozdělit nahoru"
+    "pane:split-down-and-copy-active-item": "Rozdělit dolů"
+    "pane:split-left-and-copy-active-item": "Rozdělit vlevo"
+    "pane:split-right-and-copy-active-item": "Rozdělit vpravo"
+    "pane:close": "Zavřít Panel"
+  "atom-pane":
+    "pane:split-up-and-copy-active-item": "Rozdělit nahoru"
+    "pane:split-down-and-copy-active-item": "Rozdělit dolů"
+    "pane:split-left-and-copy-active-item": "Rozdělit vlevo"
+    "pane:split-right-and-copy-active-item": "Rozdělit vpravo"
+    "pane:close": "Zavřít Panel"
+  "atom-text-editor:not([mini])":
+    "encoding-selector:show": "Změnit kódování"
+    "spell-check:correct-misspelling": "Opravit gramatiku"
+    "symbols-view:go-to-declaration": "Jít do deklarace"
+  ".overlayer":
+    "grammar-selector:show": "Změnit gramatiku"
+  ".image-view":
+    "image-view:reload": "Znovu načíst obrázek"
+  ".tab":
+    "tabs:close-tab": "Zavřít záložku"
+    "tabs:close-other-tabs": "Zavřít ostatní záložky"
+    "tabs:close-tabs-to-right": "Zavřít záložky vpravo"
+    "tabs:close-tabs-to-left": "Zavřít záložky vlevo"
+    "tabs:close-saved-tabs": "Zavřít uložené záložky"
+    "tabs:close-all-tabs": "Zavřít všechny záložky"
+    "tabs:split-up": "Rozdělit nahoru"
+    "tabs:split-down": "Rozdělit dolů"
+    "tabs:split-left": "Rozdělit vlevo"
+    "tabs:split-right": "Rozdělit vpravo"
+  ".tab.texteditor":
+    "tabs:open-in-new-window": "Otevřít v novém okně"
+  ".tab.pending-tab":
+    "tabs:keep-pending-tab": "Nechat nedokončené záložky"
+  ".tab-bar":
+    "pane:reopen-closed-item": "Znovu otevřít zavřené záložky"
+  ".tree-view .full-menu":
+    "tree-view:add-file": "Nový soubor"
+    "tree-view:add-folder": "Nová složka"
+    "tree-view:move": "Přejmenovat"
+    "tree-view:duplicate": "Duplikovat"
+    "tree-view:remove": "Smazat"
+    "tree-view:copy": "Kopírovat"
+    "tree-view:cut": "Vyjmout"
+    "tree-view:paste": "Vložit"
+#    "tree-view:open-selected-entry-up": "Rozdělit nahoru"
+#    "tree-view:open-selected-entry-down": "Rozdělit dolů"
+#    "tree-view:open-selected-entry-left": "Rozdělit vlevo"
+#    "tree-view:open-selected-entry-right": "Rozdělit Vpravo"
+    "application:add-project-folder": "Přidat složku projektu"
+    "tree-view:copy-full-path": "Kopírovat úplnou cestu"
+    "tree-view:copy-project-path": "Kopírovat cestu v projektu"
+    "tree-view:open-in-new-window": "Otevřít v novém okně"
+  '.tree-view .full-menu [is="tree-view-file"]':
+    "tree-view:open-selected-entry-up": "Rozdělit Nahoru"
+    "tree-view:open-selected-entry-down": "Rozdělit Dolů"
+    "tree-view:open-selected-entry-left": "Rozdělit Vlevo"
+    "tree-view:open-selected-entry-right": "Rozdělit Vpravo"
+  ".tree-view .full-menu .project-root > .header":
+    "tree-view:add-file": "Nový soubor"
+    "tree-view:add-folder": "Nová složka"
+    "tree-view:move": "Přejmenovat"
+    "tree-view:duplicate": "Duplikovat"
+    "tree-view:remove": "Smazat"
+    "tree-view:copy": "Kopírovat"
+    "tree-view:cut": "Vyjmout"
+    "tree-view:paste": "Vložit"
+#    "tree-view:open-selected-entry-up": "Rozdělit nahoru"
+#    "tree-view:open-selected-entry-down": "Rozdělit dolů"
+#    "tree-view:open-selected-entry-left": "Rozdělit vlevo"
+#    "tree-view:open-selected-entry-right": "Rozdělit vpravo"
+    "application:add-project-folder": "Přidat složku projektu"
+    "tree-view:remove-project-folder": "Smazat složku projektu"
+    # added for atom/tree-view
+    "tree-view:collapse-all": "Collapse All Project Folders"
+    "tree-view:copy-full-path": "Kopírovat úplnou cestu"
+    "tree-view:copy-project-path": "Kopírovat cestu v projektu"
+    "tree-view:open-in-new-window": "Otevřít v novém okně"
+  ".platform-darwin .tree-view .full-menu":
+    "tree-view:show-in-file-manager": "Otevřít ve Finderu"
+  ".platform-win32 .tree-view .full-menu":
+    "tree-view:show-in-file-manager": "Otevřít v Průzkumníkovi souborů"
+  ".platform-linux .tree-view .full-menu":
+    "tree-view:show-in-file-manager": "Otevřít v Průzkumníkovi souborů"
+#  ".tree-view li.directory":
+#    "project-find:show-in-current-directory": "Hledat v adresáři"
+  ".tree-view .multi-select":
+    "tree-view:remove": "Smazat"
+    "tree-view:copy": "Kopírovat"
+    "tree-view:cut": "Vyjmout"
+    "tree-view:paste": "Vložit"
+  "atom-pane[data-active-item-path] .item-views":
+    "tree-view:reveal-active-file": "Ukázat ve stromu souborů"
+  "atom-pane[data-active-item-path] .tab.active":
+    "tree-view:rename": "Přejmenovat"
+    "tree-view:reveal-active-file": "Ukázat ve stromu souborů"
+  ".platform-darwin atom-pane[data-active-item-path] .tab.active":
+    "tree-view:show-current-file-in-file-manager": "Otevřít ve Finderu"
+  ".platform-win32 atom-pane[data-active-item-path] .tab.active":
+    "tree-view:show-current-file-in-file-manager": "Otevřít v Průzkumníkovi souborů"
+  ".platform-linux atom-pane[data-active-item-path] .tab.active":
+    "tree-view:show-current-file-in-file-manager": "Otevřít ve správci souborů"
+  ".platform-darwin atom-text-editor:not([mini])":
+    "tree-view:show-current-file-in-file-manager": "Otevřít ve Finderu"
+  ".platform-win32 atom-text-editor:not([mini])":
+    "tree-view:show-current-file-in-file-manager": "Otevřít v Průzkumníkovi souborů"
+  ".platform-linux atom-text-editor:not([mini])":
+    "tree-view:show-current-file-in-file-manager": "Otevřít ve správci souborů"
+  # added for atom/find-and-replace
+  ".tree-view li.directory":
+    "project-find:show-in-current-directory": "Hledat v adresáři"
+  ".list-item.match-row":
+    "find-and-replace:open-in-new-tab": "Open in New Tab"
+    "core:copy": "'Copy"
+    "find-and-replace:copy-path": "Copy Path"
+  ".list-item.path-row":
+    "find-and-replace:open-in-new-tab": "Open in New Tab"
+    "find-and-replace:copy-path": "Copy Path"
+  # added for atom/github/menu/git.cson
+  ".github-FilePatchListView-item":
+    "github:jump-to-file": "Jump to File"
+  ".github-FilePatchView--staged":
+    "github:jump-to-file": "Jump to File"
+    "core:confirm": "Unstage Selection"
+  ".github-FilePatchView--unstaged":
+    "github:jump-to-file": "Jump to File"
+    "core:confirm": "Stage Selection"
+    "github:discard-selected-lines": "Discard Selection"
+  "github-DotComMarkdownHtml .issue-link":
+    "github:open-link-in-new-tab": "Open in New Tab"
+    "github:open-link-in-this-tab": "Open in This Tab"
+    "github:open-link-in-browser": "Open in Browser"
+  ".github-CommitView":
+    "github:toggle-expanded-commit-message-editor": "Toggle Expanded Commit Message Editor"
+  ".item-views > atom-text-editor":
+    "github:view-unstaged-changes-for-current-file": "View Unstaged Changes"
+    "github:view-staged-changes-for-current-file": "View Staged Changes"
+  ".github-PushPull":
+    "github:fetch": "Fetch"
+    "github:pull": "Pull"
+    "github:push": "Push"
+    "github:force-push": "Force Push"
+  ".most-recent":
+    "github:amend-last-commit": "Amend"
+  ".github-RecentCommit":
+    "github:copy-commit-sha": "Copy Commit SHA"
+    "github:copy-commit-subject": "Copy Commit Subject"
+  # added for atom/github/lib/github-package.js
+  ".github-UnstagedChanges .github-FilePatchListView":
+    "core:confirm": "Stage"
+    "github:discard-changes-in-selected-files": "Discard Changes"
+  ".github-StagedChanges .github-FilePatchListView":
+    "core:confirm": "Unstage"
+  ".github-MergeConflictPaths .github-FilePatchListView":
+    "core:confirm": "Stage"
+    "github:resolve-file-as-ours": "Resolve File As Ours"
+    "github:resolve-file-as-theirs": "Resolve File As Theirs"
+  # added for packages/link
+  "atom-text-editor .syntax--markup.syntax--underline.syntax--link":
+    "link:open": "Open link"
+  # added for atom/markdown-preview
+  ".markdown-preview":
+    "markdown-preview:select-all": "Select All"
+    "core:save-as": "Save As HTML\u2026"
+  ".markdown-preview.has-selection":
+    "core:copy": "Copy"
+  ".markdown-preview:not(.has-selection)":
+    "core:copy": "Copy As HTML"
+  ".tree-view .file .name[data-name$=\\.markdown]":
+    "markdown-preview:preview-file": "Markdown Preview"
+  ".tree-view .file .name[data-name$=\\.md]":
+    "markdown-preview:preview-file": "Markdown Preview"
+  ".tree-view .file .name[data-name$=\\.mdown]":
+    "markdown-preview:preview-file": "Markdown Preview"
+  ".tree-view .file .name[data-name$=\\.mkd]":
+    "markdown-preview:preview-file": "Markdown Preview"
+  ".tree-view .file .name[data-name$=\\.mkdown]":
+    "markdown-preview:preview-file": "Markdown Preview"
+  ".tree-view .file .name[data-name$=\\.ron]":
+    "markdown-preview:preview-file": "Markdown Preview"
+  ".tree-view .file .name[data-name$=\\.txt]":
+    "markdown-preview:preview-file": "Markdown Preview"

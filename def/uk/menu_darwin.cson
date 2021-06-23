@@ -1,0 +1,495 @@
+Menu:
+  Atom:
+    value: "Atom"
+    submenu:
+      "About Atom":
+        value: "Про Atom"
+      "View License":
+        value: "Ліцензія"
+      "Check for Update":
+        value: "Перевірити оновлення"
+      "Preferences…":
+        value: "Параметри..."
+      "Config…":
+        value: "Створити конфігурацію..."
+      "Init Script…":
+        value: "Створити init-скипт..."
+      "Keymap…":
+        value: "Створити гарячу клавішу..."
+      "Snippets…":
+        value: "Створити уривок коду (Snippet)..."
+      "Stylesheet…":
+        value: "Створити таблицю стилів..."
+      "Install Shell Commands":
+        value: "Встановити команди оболонки"
+      "Hide Atom":
+        value: "Сховати Atom"
+      "Hide Others":
+        value: "Сховати інші"
+      "Show All":
+        value: "Показати все"
+      Quit:
+        value: "Вийти"
+  File:
+    value: "Файл"
+    submenu:
+      "New Window":
+        value: "Нове вікно"
+      "New File":
+        value: "Новий файл"
+      "Open…":
+        value: "Відкрити..."
+      "Add Project Folder…":
+        value: "Додати теку до проекту..."
+      "Reopen Project":
+        value: "Нещодавно відкриванні"
+        submenu:
+          "Clear Project History":
+            value: "Очистити історію проектів"
+      "Reopen Last Item":
+        value: "Відкрити останній файл"
+      Save:
+        value: "Зберегти"
+      "Save As…":
+        value: "Зберегти як..."
+      "Save All":
+        value: "Зберегти все"
+      "Close Tab":
+        value: "Закрити вкладку"
+      "Close Pane":
+        value: "Закрити панель"
+      "Close Window":
+        value: "Закрити вікно"
+      "Close All Tabs":
+        value: "Закрити всі вкладки"
+  Edit:
+    value: "Редагування"
+    submenu:
+      Undo:
+        value: "Відмінити"
+      Redo:
+        value: "Повторити"
+      Cut:
+        value: "Вирізати"
+      Copy:
+        value: "Копіювати"
+      "Copy Path":
+        value: "Копіювати шлях"
+      Paste:
+        value: "Вставити"
+      "Select All":
+        value: "Виділити все"
+      "Toggle Comments":
+        value: "Перемкнути коментар"
+      Lines:
+        value: "Рядки"
+        submenu:
+          Indent:
+            value: "Зробити відступ"
+          Outdent:
+            value: "Прибрати відступ"
+          "Auto Indent":
+            value: "Авто-відступ"
+          "Move Line Up":
+            value: "Пересунути рядок вгору"
+          "Move Line Down":
+            value: "Пересунути рядок вниз"
+          "Duplicate Lines":
+            value: "Дублювати рядок"
+          "Delete Line":
+            value: "Видалити рядок"
+          "Join Lines":
+            value: "З'єднати рядки"
+      Columns:
+        value: "Стовпці"
+        submenu:
+          "Move Selection Left":
+            value: "Пересунути виділене ліворуч"
+          "Move Selection Right":
+            value: "Пересунути виділене праворуч"
+      Text:
+        value: "Текст"
+        submenu:
+          "Upper Case":
+            value: "У верхній регістр"
+          "Lower Case":
+            value: "У ніжний регістр"
+          "Delete to End of Word":
+            value: "Видалити до кінця слова"
+          "Delete to Previous Word Boundary":
+            value: "Видалити до межі попереднього слова"
+          "Delete to Next Word Boundary":
+            value: "Видалити до межі наступного слова"
+          "Delete Line":
+            value: "Видалити рядок"
+          Transpose:
+            value: "Обернути"
+      Folding:
+        value: "Структура"
+        submenu:
+          Fold:
+            value: "Згорнути"
+          Unfold:
+            value: "Розгорнути"
+          "Fold All":
+            value: "Згорнути все"
+          "Unfold All":
+            value: "Розгорнути все"
+          "Fold Level 1":
+            value: "Згорнути 1 рівень"
+          "Fold Level 2":
+            value: "Згорнути 2 рівень"
+          "Fold Level 3":
+            value: "Згорнути 3 рівень"
+          "Fold Level 4":
+            value: "Згорнути 4 рівень"
+          "Fold Level 5":
+            value: "Згорнути 5 рівень"
+          "Fold Level 6":
+            value: "Згорнути 6 рівень"
+          "Fold Level 7":
+            value: "Згорнути 7 рівень"
+          "Fold Level 8":
+            value: "Згорнути 8 рівень"
+          "Fold Level 9":
+            value: "Згорнути 9 рівень"
+      "Reflow Selection":
+        value: "Прибрати форматування"
+      Bookmark:
+        value: "Закладка"
+        submenu:
+          "View All":
+            value: "Показати всі"
+          "Toggle Bookmark":
+            value: "Перемкнути закладку"
+          "Jump to Next Bookmark":
+            value: "Перейти до наступної закладки"
+          "Jump to Previous Bookmark":
+            value: "Перейти до попередньої закладки"
+      "Select Encoding":
+        value: "Вибрати кодування"
+      "Go to Line":
+        value: "Перейти до рядка"
+      "Select Grammar":
+        value: "Вибрати синтаксис"
+  View:
+    value: "Вигляд"
+    submenu:
+      "Toggle Full Screen":
+        value: "На весь екран"
+      Panes:
+        value: "Панелі"
+        submenu:
+          "Split Up":
+            value: "Розділити зверху"
+          "Split Down":
+            value: "Розділити знизу"
+          "Split Left":
+            value: "Розділити ліворуч"
+          "Split Right":
+            value: "Розділити праворуч"
+          "Focus Next Pane":
+            value: "Сфокусуватися на наступній панелі"
+          "Focus Previous Pane":
+            value: "Сфокусуватися на попередній панелі"
+          "Focus Pane Above":
+            value: "Сфокусуватися на панелі вище"
+          "Focus Pane Below":
+            value: "Сфокусуватися на панелі нижче"
+          "Focus Pane On Left":
+            value: "Сфокусуватися на панелі ліворуч"
+          "Focus Pane On Right":
+            value: "Сфокусуватися на панелі праворуч"
+          "Close Pane":
+            value: "Закрити панель"
+      Developer:
+        value: "Розробник"
+        submenu:
+          "Open In Dev Mode…":
+            value: "Відкрити у режимі розробника..."
+          "Reload Window":
+            value: "Перезавантажити вікно"
+          "Run Package Specs":
+            value: "Запустити налаштування пакета"
+          "Run Benchmarks":
+            value: "Запустити тести"
+          "Toggle Developer Tools":
+            value: "Показати інструменти розробника"
+      "Increase Font Size":
+        value: "Збільшити шрифт"
+      "Decrease Font Size":
+        value: "Зменшити шрифт"
+      "Reset Font Size":
+        value: "Скинути розмір шрифту"
+      "Toggle Soft Wrap":
+        value: "М'який перенос"
+      "Toggle Command Palette":
+        value: "Командна палітра"
+      # added the following menus, for "Packages"->"GitHub"
+      "Toggle Git Tab":
+        value: "Toggle Git Tab"
+      "Toggle GitHub Tab":
+        value: "Toggle GitHub Tab"
+      "Open Reviews Tab":
+        value: "Open Reviews Tab"
+      #
+      "Toggle Tree View":
+        value: "Показувати дерево файлів"
+  Selection:
+    value: "Виділення"
+    submenu:
+      "Add Selection Above":
+        value: "Додати до виділення вище"
+      "Add Selection Below":
+        value: "Додати до виділення нижче"
+      "Single Selection":
+        value: "Одиничне виділення"
+      "Split into Lines":
+        value: "Розділити по рядках"
+      "Select to Top":
+        value: "Виділити угору"
+      "Select to Bottom":
+        value: "Виділити униз"
+      "Select Line":
+        value: "Виділити рядок"
+      "Select Word":
+        value: "Виділити слово"
+      "Select to Beginning of Word":
+        value: "Виділити до початку слова"
+      "Select to Beginning of Line":
+        value: "Виділити до початку рядка"
+      "Select to First Character of Line":
+        value: "Виділити до першого символ у рядку"
+      "Select to End of Word":
+        value: "Виділити до кінця слова"
+      "Select to End of Line":
+        value: "Виділити до кінця рядка"
+      "Select Inside Brackets":
+        value: "Виділити всередині дужок"
+  Find:
+    value: "Пошук"
+    submenu:
+      "Find in Buffer":
+        value: "Знайти - у буфер"
+      "Replace in Buffer":
+        value: "Замінити - у буфер"
+      "Select Next":
+        value: "Знайти і виділити далі"
+      "Select All":
+        value: "Знайти і виділити все"
+      "Toggle Find in Buffer":
+        value: "Показати буфер пошуку"
+      "Find in Project":
+        value: "Знайти текст у файлах проекту"
+      "Toggle Find in Project":
+        value: "Показати пошук у проекті"
+      "Find All":
+        value: "Знайти все"
+      "Find Next":
+        value: "Знайти наступне"
+      "Find Previous":
+        value: "Знайти попереднє"
+      "Replace Next":
+        value: "Замінити наступне"
+      "Replace All":
+        value: "Замінити все"
+      "Clear History":
+        value: "Очистити історію (буферу) пошуку"
+      "Find Buffer":
+        value: "Знайти файл у відкритих вкладках"
+      "Find File":
+        value: "Знайти файл у проекті"
+      "Find Modified File":
+        value: "Знайти змінений файл"
+  Packages:
+    value: "Пакунки"
+    submenu:
+      "Bracket Matcher":
+        value: "Bracket Matcher"
+        submenu:
+          "Go To Matching Bracket":
+            value: "Go To Matching Bracket"
+          "Select Inside Brackets":
+            value: "Select Inside Brackets"
+          "Remove Brackets From Selection":
+            value: "Remove Brackets From Selection"
+          "Close Current Tag":
+            value: "Close Current Tag"
+          "Remove Matching Brackets":
+            value: "Remove Matching Brackets"
+          "Select Matching Brackets":
+            value: "Select Matching Brackets"
+      "Command Palette":
+        value: "Command Palette"
+        submenu:
+          "Toggle":
+            value: "Toggle"
+      "Dev Live Reload":
+        value: "Dev Live Reload"
+        submenu:
+          "Reload All Styles":
+            value: "Reload All Styles"
+      "Git Diff":
+        value: "Git Diff"
+        submenu:
+          "Move to Next Diff":
+            value: "Move to Next Diff"
+          "Move to Previous Diff":
+            value: "Move to Previous Diff"
+          "Toggle Diff List":
+            value: "Toggle Diff List"
+      "GitHub":
+        value: "GitHub"
+        submenu:
+          "Toggle Git Tab":
+            value: "Toggle Git Tab"
+          "Toggle GitHub Tab":
+            value: "Toggle GitHub Tab"
+          "Open Reviews Tab":
+            value: "Open Reviews Tab"
+      "Keybinding Resolver":
+        value: "Keybinding Resolver"
+        submenu:
+          "Toggle":
+            value: "Toggle"
+          "Go To Matching Bracket":
+            value: "Go To Matching Bracket"
+      "Markdown Preview":
+        value: "Markdown Preview"
+        submenu:
+          "Toggle Preview":
+            value: "Toggle Preview"
+          "Toggle Break on Single Newline":
+            value: "Toggle Break on Single Newline"
+          "Toggle GitHub Style":
+            value: "Toggle GitHub Style"
+      "Open On GitHub":
+        value: "Open On GitHub"
+        submenu:
+          "Blame":
+            value: "Blame"
+          "Branch Compare":
+            value: "Branch Compare"
+          "Copy URL":
+            value: "Copy URL"
+          "File":
+            value: "File"
+          "File on Master":
+            value: "File on Master"
+          "History":
+            value: "History"
+          "Issues":
+            value: "Issues"
+          "Pull Requests":
+            value: "Pull Requests"
+          "Repository":
+            value: "Repository"
+      "Package Generator":
+        value: "Package Generator"
+        submenu:
+          "Generate Atom Package":
+            value: "Generate Atom Package"
+          "Generate Atom Syntax Theme":
+            value: "Generate Atom Syntax Theme"
+      "Settings View":
+        value: "Settings View"
+        submenu:
+          "Open":
+            value: "Open"
+          "Show Keybindings":
+            value: "Show Keybindings"
+          "Install Packages/Themes":
+            value: "Install Packages/Themes"
+          "Update Packages/Themes":
+            value: "Update Packages/Themes"
+          "Manage Packages":
+            value: "Manage Packages"
+          "Manage Themes":
+            value: "Manage Themes"
+      "Snippets":
+        value: "Snippets"
+        submenu:
+          "Expand":
+            value: "Expand"
+          "Next Stop":
+            value: "Next Stop"
+          "Previous Stop":
+            value: "Previous Stop"
+          "Available":
+            value: "Available"
+      "Spell Check":
+        value: "Spell Check"
+        submenu:
+          "Toggle":
+            value: "Toggle"
+      "Styleguide":
+        value: "Styleguide"
+        submenu:
+          "Show":
+            value: "Show"
+      "Symbols":
+        value: "Symbols"
+        submenu:
+          "File Symbols":
+            value: "File Symbols"
+          "Project Symbols":
+            value: "File Symbols"
+      "Timecop":
+        value: "Timecop"
+        submenu:
+          "Show":
+            value: "Show"
+      "Tree View":
+        value: "Tree View"
+        submenu:
+          "Focus":
+            value: "Focus"
+          "Toggle":
+            value: "Toggle"
+          "Reveal Active File":
+            value: "Reveal Active File"
+          "Toggle Tree Side":
+            value: "Toggle Tree Side"
+      "Whitespace":
+        value: "Whitespace"
+        submenu:
+          "Remove Trailing Whitespace":
+            value: "Remove Trailing Whitespace"
+          "Save With Trailing Whitespace":
+            value: "Save With Trailing Whitespace"
+          "Save Without Trailing Whitespace":
+            value: "Save Without Trailing Whitespace"
+          "Convert Tabs To Spaces":
+            value: "Convert Tabs To Spaces"
+          "Convert Spaces To Tabs":
+            value: "Convert Spaces To Tabs"
+          "Convert All Tabs To Spaces":
+            value: "Convert All Tabs To Spaces"
+  Window:
+    value: "Вікно"
+    submenu:
+      Minimize:
+        value: "Згорнути"
+      Zoom:
+        value: "Розгорнути"
+      "Bring All to Front":
+        value: "Усі вікна на передній план"
+  Help:
+    value: "Довідка"
+    submenu:
+      "Terms of Use":
+        value: "Умови використання"
+      Documentation:
+        value: "Документація"
+      Roadmap:
+        value: "Мапа"
+      "Frequently Asked Questions":
+        value: "Часті питання"
+      "Community Discussions":
+        value: "Обговорення у спільноті"
+      "Report Issue":
+        value: "Повідомити про проблему"
+      "Search Issues":
+        value: "Знайти відомості про проблему"
+      "Welcome Guide":
+        value: "Початкове керівництво!"

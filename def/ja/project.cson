@@ -1,0 +1,26 @@
+FindProject:
+  findLabel: "プロジェクトで検索"
+  optionLabel: "次のオプションで検索: "
+  placeholder:
+    find: "プロジェクトで検索"
+    replace: "プロジェクトで置換"
+    path: "ファイル/ディレクトリパターン: たとえば、\"src\" ディレクトリで検索する場合は \`src\`。
+          \`*.js\` は、すべての JavaScript ファイルを検索します。 \`!src\` は、\"src\" ディレクトリを除外します。
+          \`!*.json\` はすべての JSON ファイルを除外します。"
+  button:
+    'find-all': "すべて検索"
+    'replace-all': "すべて置換"
+  buttonTooltip:
+    findAll: "すべて検索"
+    replaceAll: "すべて置換"
+    replaceAllDisabled: "すべて置換 [検索を実行して有効にする]"
+  option:
+    regex: "正規表現"
+    caseSensitive: "大文字/小文字を区別"
+    caseInsensitive: "大文字/小文字を区別しない"
+    wholeWord: "完全に一致する単語"
+  optionTooltip:
+    closePanel: "パネルを閉じる <span class=\"keystroke\">Esc</span>"
+    useRegex: "正規表現を使う"
+    matchCase: "大文字/小文字を区別"
+    wholeWord: "完全に一致する単語だけ"

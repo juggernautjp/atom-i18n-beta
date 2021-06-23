@@ -1,0 +1,198 @@
+Context:
+  "atom-workspace":
+    "application:inspect": "Selidik Elemen"
+  "atom-text-editor":
+    "color-picker:open": "Pemilih Warna"
+    "minimap:toggle": "Buka/Tutup Peta Mini"
+    # added for atom/bookmarks
+    "bookmarks:toggle-bookmark": "Toggle Bookmark"
+  "atom-text-editor, .overlayer":
+    "core:undo": "Undur Kerja"
+    "core:redo": "Maju Kerja"
+    "core:cut": "Potong"
+    "core:copy": "Salin"
+    "core:paste": "Tampal"
+    "core:delete": "Padam"
+    "core:select-all": "Pilih Semua"
+    "pane:split-up-and-copy-active-item": "Pisah ke Atas"
+    "pane:split-down-and-copy-active-item": "Pisah ke Bawah"
+    "pane:split-left-and-copy-active-item": "Pisah ke Kiri"
+    "pane:split-right-and-copy-active-item": "Pisah ke Kanan"
+    "pane:close": "Tutuk Anak Tetingkap"
+  "atom-pane":
+    "pane:split-up-and-copy-active-item": "Pisah ke Atas"
+    "pane:split-down-and-copy-active-item": "Pisah ke Bawah"
+    "pane:split-left-and-copy-active-item": "Pisah ke Kiri"
+    "pane:split-right-and-copy-active-item": "Pisah ke Kanan"
+    "pane:close": "Tutup Anak Tetingkap"
+  "atom-text-editor:not([mini])":
+    "encoding-selector:show": "Tukar Pengekodan Aksara"
+    "spell-check:correct-misspelling": "Pembetulan Ejaan"
+    "symbols-view:go-to-declaration": "Pergi ke Pengisytiharan"
+  ".overlayer":
+    "grammar-selector:show": "Tukar Tatabahasa Aturcara"
+  ".image-view":
+    "image-view:reload": "Muat Semula Gambar"
+  ".tab":
+    "tabs:close-tab": "Tutup Tab"
+    "tabs:close-other-tabs": "Tutup Tab-Tab yang Lain"
+    "tabs:close-tabs-to-right": "Tutup Semua Tab Belah Kanan"
+    "tabs:close-tabs-to-left": "Tutup Semua Tab Belah Kiri"
+    "tabs:close-saved-tabs": "Tutup Semua Tab yang Sudah Disimpan"
+    "tabs:close-all-tabs": "Tutup Semua Tab"
+    "tabs:split-up": "Pisah ke Atas"
+    "tabs:split-down": "Pisah ke Bawah"
+    "tabs:split-left": "Pisah ke Kiri"
+    "tabs:split-right": "Pisah ke Kanan"
+  ".tab.texteditor":
+    "tabs:open-in-new-window": "Buka dalam Tetingkap Baharu"
+  ".tab.pending-tab":
+    "tabs:keep-pending-tab": "Biarkan Tab yang Tergantung"
+  ".tab-bar":
+    "pane:reopen-closed-item": "Buka Tab yang Ditutup"
+  ".tree-view .full-menu":
+    "tree-view:add-file": "Fail Baharu"
+    "tree-view:add-folder": "Folder Baharu"
+    "tree-view:move": "Tukar Nama"
+    "tree-view:duplicate": "Kembarkan"
+    "tree-view:remove": "Padam"
+    "tree-view:copy": "Salin"
+    "tree-view:cut": "Potong"
+    "tree-view:paste": "Tampal"
+#    "tree-view:open-selected-entry-up": "Pisah ke Atas"
+#    "tree-view:open-selected-entry-down": "Pisah ke Bawah"
+#    "tree-view:open-selected-entry-left": "Pisah ke Kiri"
+#    "tree-view:open-selected-entry-right": "Pisah ke Kanan"
+    "application:add-project-folder": "Tambah Folder Projek"
+    "tree-view:copy-full-path": "Salin Laluan Penuh"
+    "tree-view:copy-project-path": "Salin Laluan Projek"
+    "tree-view:open-in-new-window": "Buka dalam Tetingkap Baharu"
+  '.tree-view .full-menu [is="tree-view-file"]':
+    "tree-view:open-selected-entry-up": "Pisah ke Atas"
+    "tree-view:open-selected-entry-down": "Pisah ke Bawah"
+    "tree-view:open-selected-entry-left": "Pisah ke Kiri"
+    "tree-view:open-selected-entry-right": "Pisah ke Kanan"
+  ".tree-view .full-menu .project-root > .header":
+    "tree-view:add-file": "Fail Baharu"
+    "tree-view:add-folder": "Folder Baharu"
+    "tree-view:move": "Tukar Nama"
+    "tree-view:duplicate": "Kembarkan"
+    "tree-view:remove": "Padam"
+    "tree-view:copy": "Salin"
+    "tree-view:cut": "Potong"
+    "tree-view:paste": "Tampal"
+#    "tree-view:open-selected-entry-up": "Pisah ke Atas"
+#    "tree-view:open-selected-entry-down": "Pisah ke Bawah"
+#    "tree-view:open-selected-entry-left": "Pisah ke Kiri"
+#    "tree-view:open-selected-entry-right": "Pisah ke Kanan"
+    "application:add-project-folder": "Tambah Folder Projek"
+    "tree-view:remove-project-folder": "Padam Folder Projek"
+    # added for atom/tree-view
+    "tree-view:collapse-all": "Collapse All Project Folders"
+    "tree-view:copy-full-path": "Salin Laluan Penuh"
+    "tree-view:copy-project-path": "Salin Laluan Projek"
+    "tree-view:open-in-new-window": "Buka dalam Tetingkap Baharu"
+  ".platform-darwin .tree-view .full-menu":
+    "tree-view:show-in-file-manager": "Tunjuk dalam Pencari"
+  ".platform-win32 .tree-view .full-menu":
+    "tree-view:show-in-file-manager": "Tunjuk dalam Explorer"
+  ".platform-linux .tree-view .full-menu":
+    "tree-view:show-in-file-manager": "Tunjuk dalam Pengurus Fail"
+#  ".tree-view li.directory":
+#    "project-find:show-in-current-directory": "Cari dalam Direktori"
+  ".tree-view .multi-select":
+    "tree-view:remove": "Padam"
+    "tree-view:copy": "Salin"
+    "tree-view:cut": "Potong"
+    "tree-view:paste": "Tampal"
+  "atom-pane[data-active-item-path] .item-views":
+    "tree-view:reveal-active-file": "Dedahkan Rajah Pokok"
+  "atom-pane[data-active-item-path] .tab.active":
+    "tree-view:rename": "Tukar Nama"
+    "tree-view:reveal-active-file": "Dedahkan Rajah Pokok"
+  ".platform-darwin atom-pane[data-active-item-path] .tab.active":
+    "tree-view:show-current-file-in-file-manager": "Tunjuk dalam Pencari"
+  ".platform-win32 atom-pane[data-active-item-path] .tab.active":
+    "tree-view:show-current-file-in-file-manager": "Tunjuk dalam Explorer"
+  ".platform-linux atom-pane[data-active-item-path] .tab.active":
+    "tree-view:show-current-file-in-file-manager": "Tunjuk dalam Pengurus Fail"
+  ".platform-darwin atom-text-editor:not([mini])":
+    "tree-view:show-current-file-in-file-manager": "Tunjuk dalam Pencari"
+  ".platform-win32 atom-text-editor:not([mini])":
+    "tree-view:show-current-file-in-file-manager": "Tunjuk dalam Explorer"
+  ".platform-linux atom-text-editor:not([mini])":
+    "tree-view:show-current-file-in-file-manager": "Tunjuk dalam Pengurus Fail"
+  # added for atom/find-and-replace
+  ".tree-view li.directory":
+    "project-find:show-in-current-directory": "Cari dalam Direktori"
+  ".list-item.match-row":
+    "find-and-replace:open-in-new-tab": "Open in New Tab"
+    "core:copy": "'Copy"
+    "find-and-replace:copy-path": "Copy Path"
+  ".list-item.path-row":
+    "find-and-replace:open-in-new-tab": "Open in New Tab"
+    "find-and-replace:copy-path": "Copy Path"
+  # added for atom/github/menu/git.cson
+  ".github-FilePatchListView-item":
+    "github:jump-to-file": "Jump to File"
+  ".github-FilePatchView--staged":
+    "github:jump-to-file": "Jump to File"
+    "core:confirm": "Unstage Selection"
+  ".github-FilePatchView--unstaged":
+    "github:jump-to-file": "Jump to File"
+    "core:confirm": "Stage Selection"
+    "github:discard-selected-lines": "Discard Selection"
+  "github-DotComMarkdownHtml .issue-link":
+    "github:open-link-in-new-tab": "Open in New Tab"
+    "github:open-link-in-this-tab": "Open in This Tab"
+    "github:open-link-in-browser": "Open in Browser"
+  ".github-CommitView":
+    "github:toggle-expanded-commit-message-editor": "Toggle Expanded Commit Message Editor"
+  ".item-views > atom-text-editor":
+    "github:view-unstaged-changes-for-current-file": "View Unstaged Changes"
+    "github:view-staged-changes-for-current-file": "View Staged Changes"
+  ".github-PushPull":
+    "github:fetch": "Fetch"
+    "github:pull": "Pull"
+    "github:push": "Push"
+    "github:force-push": "Force Push"
+  ".most-recent":
+    "github:amend-last-commit": "Amend"
+  ".github-RecentCommit":
+    "github:copy-commit-sha": "Copy Commit SHA"
+    "github:copy-commit-subject": "Copy Commit Subject"
+  # added for atom/github/lib/github-package.js
+  ".github-UnstagedChanges .github-FilePatchListView":
+    "core:confirm": "Stage"
+    "github:discard-changes-in-selected-files": "Discard Changes"
+  ".github-StagedChanges .github-FilePatchListView":
+    "core:confirm": "Unstage"
+  ".github-MergeConflictPaths .github-FilePatchListView":
+    "core:confirm": "Stage"
+    "github:resolve-file-as-ours": "Resolve File As Ours"
+    "github:resolve-file-as-theirs": "Resolve File As Theirs"
+  # added for packages/link
+  "atom-text-editor .syntax--markup.syntax--underline.syntax--link":
+    "link:open": "Open link"
+  # added for atom/markdown-preview
+  ".markdown-preview":
+    "markdown-preview:select-all": "Select All"
+    "core:save-as": "Save As HTML\u2026"
+  ".markdown-preview.has-selection":
+    "core:copy": "Copy"
+  ".markdown-preview:not(.has-selection)":
+    "core:copy": "Copy As HTML"
+  ".tree-view .file .name[data-name$=\\.markdown]":
+    "markdown-preview:preview-file": "Markdown Preview"
+  ".tree-view .file .name[data-name$=\\.md]":
+    "markdown-preview:preview-file": "Markdown Preview"
+  ".tree-view .file .name[data-name$=\\.mdown]":
+    "markdown-preview:preview-file": "Markdown Preview"
+  ".tree-view .file .name[data-name$=\\.mkd]":
+    "markdown-preview:preview-file": "Markdown Preview"
+  ".tree-view .file .name[data-name$=\\.mkdown]":
+    "markdown-preview:preview-file": "Markdown Preview"
+  ".tree-view .file .name[data-name$=\\.ron]":
+    "markdown-preview:preview-file": "Markdown Preview"
+  ".tree-view .file .name[data-name$=\\.txt]":
+    "markdown-preview:preview-file": "Markdown Preview"

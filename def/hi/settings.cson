@@ -1,0 +1,489 @@
+Settings:
+  "tab-title": "Settings"
+  menu: [
+    {
+      _label: "Core"
+      value: "कोर"
+    }
+    {
+      _label: "Editor"
+      value: "संपादक"
+    }
+    {
+      _label: "URI Handling"
+      value: "URI Handling"
+    }
+    {
+      _label: "System"
+      value: "प्रणाली"
+    }
+    {
+      _label: "Keybindings"
+      value: "कीबोर्ड बाइंडिंग"
+    }
+    {
+      _label: "Packages"
+      value: "पैकिज"
+    }
+    {
+      _label: "Themes"
+      value: "थीम"
+    }
+    {
+      _label: "Updates"
+      value: "अपडेट"
+    }
+    {
+      _label: "Install"
+      value: "इंस्टॉल"
+    }
+  ]
+  "btn-open-config-folder": "कॉन्फ़िगरेशन फ़ोल्डर खोलें"
+  sectionHeadings: [
+    {_label: "Core Settings", value: "कोर सेटिंग्स"}
+    {_label: "Editor Settings", value: "संपादक सेटिंग्स"}
+    {_label: "URI Handling", value: "URI Handling"}
+    {_label: "System Settings", value: "प्रणाली व्यवस्था"}
+    {_label: "Keybindings", value: "कीबोर्ड बाइंडिंग"}
+    {_label: "Installed Packages", value: "स्थापित पैकेज"}
+    {_label: "Choose a Theme", value: "एक थीम चुनें"}
+    {_label: "Installed Themes", value: "स्थापित थीम्स"}
+    {_label: "Install Packages", value: "पैकेज स्थापित करें"}
+    {_label: "Featured Packages", value: "विशेष रुप से पैकेज"}
+    {_label: "Install Themes", value: "थीम्स स्थापित करे"}
+    {_label: "Featured Themes", value: "फीचर्ड थीम्स"}
+    {_label: "Available Updates", value: "उपलब्ध अद्यतन"}
+  ]
+  subSectionHeadings: [
+    {_label: "Invisible", value: "अदृश्य"}
+    {_label: "Community Packages", value: "सामुदायिक संकुल"}
+    {_label: "Core Packages", value: "कोर संकुल"}
+    {_label: "Development Packages", value: "विकास पैकेज"}
+    {_label: "Git Packages", value: "गिट संकुल"}
+    {_label: "Community Themes", value: "सामुदायिक थीम्स"}
+    {_label: "Core Themes", value: "कोर थीम्स"}
+    {_label: "Development Themes", value: "विकास विषय-वस्तु"}
+    {_label: "Git Themes", value: "Git थीम्स"}
+  ]
+  settings: {
+    notes: [
+      {
+        _id: 'core-settings-note'
+        html: 'ये एटम कोर सेटिंग्स हैं जो व्यवहार को प्रभावित करती हैं
+               पाठ संपादन से असंबंधित। अलग-अलग पैकेज हो सकते हैं
+               उनकी अपनी अतिरिक्त सेटिंग्स उनके पैकेज के भीतर मिलीं
+               में कार्ड <a class="link packages-open">संकुल सूची</a>.'
+      }
+      {
+        _id: 'editor-settings-note'
+        html: 'ये सेटिंग्स टेक्स्ट एडिटिंग से संबंधित हैं। इनमें से कुछ
+               प्रति-भाषा के आधार पर ओवरराइड किया जा सकता है। भाषा की जाँच करें
+               में अपने पैकेज कार्ड पर क्लिक करके सेटिंग्स
+               <a class="link packages-open">संकुल सूची</a>.'
+      }
+    ]
+    controls: [
+      {
+        _id: 'core.allowPendingPaneItems'
+        title: "लंबित फलक आइटम की अनुमति दें"
+        desc: "आइटम को फलक में जोड़े बिना पूर्वावलोकन करने की अनुमति दें
+               स्थायी रूप से, जैसे कि जब ट्री व्यू में सिंगल क्लिकिंग फाइल्स।"
+      }
+      {
+        _id: 'core.audioBeep'
+        title: "ऑडियो बीप"
+        desc: "जब कुछ क्रियाएं नहीं हो सकती हैं, तो सिस्टम के बीप साउंड को ट्रिगर करें
+               निष्पादित या कोई परिणाम नहीं हैं।"
+      }
+      {
+        _id: 'core.autoHideMenuBar'
+        title: "ऑटो छुपाएँ मेनू बार"
+        desc: "मेनू बार को स्वचालित रूप से छिपाएं और Alt दबाकर इसे टॉगल करें। यह केवल विंडोज पर समर्थित है &amp; लिनक्स."
+      }
+      {
+        _id: 'core.automaticallyUpdate'
+        title: "स्वचालित रूप से अपडेट करें"
+        desc: "जब कोई नया रिलीज़ उपलब्ध हो, तो स्वचालित रूप से एटम को अपडेट करें।"
+      }
+      {
+        _id: 'core.closeDeletedFileTabs'
+        title: "हटाए गए फ़ाइल टैब बंद करें"
+        desc: "जब एटम के बाहर कोई फ़ाइल हटा दी जाती है तो संबंधित संपादकों को बंद करें।"
+      }
+      {
+        _id: 'core.closeEmptyWindows'
+        title: "खाली विंडोज को बंद करें"
+        desc: "जब बिना खुले टैब या पैन वाले विंडो को 'क्लोज टैब' कमांड दिया जाता है, तो उस विंडो को बंद कर दें।"
+      }
+      {
+        _id: 'core.colorProfile'
+        title: "Color Profile"
+        desc: "Specify whether Atom should use the operating system's color
+               profile (recommended) or an alternative color profile.<br>
+               Changing this setting will require a relaunch of Atom to take effect."
+        select:
+          default: "Use color profile configured in the operating system"
+          srgb: "Use sRGB color profile"
+      }
+      {
+        _id: 'core.destroyEmptyPanes'
+        title: "खाली पैन को नष्ट करें"
+        desc: "जब किसी फलक का अंतिम टैब बंद हो जाता है, तो उस फलक को भी हटा दें।"
+      }
+      {
+        _id: 'core.excludeVcsIgnoredPaths'
+        title: "वीसीएस को नजरअंदाज किए गए रास्तों को छोड़ दें"
+        desc: "वर्तमान प्रोजेक्ट के VCS सिस्टम द्वारा अनदेखा की गई फ़ाइलों और निर्देशिकाओं को कुछ पैकेजों द्वारा अनदेखा किया जाएगा, जैसे कि फ़ज़ी फ़ाइंडर और ढूंढना और बदलना। उदाहरण के लिए, Git का उपयोग करने वाली परियोजनाओं में इन पथों को .gitignore फ़ाइल में परिभाषित किया गया है। अलग-अलग पैकेजों में वीसीएस की अनदेखी फ़ाइलों और फ़ोल्डरों की अनदेखी के लिए अतिरिक्त कॉन्फ़िगरेशन सेटिंग्स हो सकती हैं।"
+      }
+      {
+        _id: 'core.fileEncoding'
+        title: "फ़ाइल एन्कोडिंग"
+        desc: "फ़ाइलों को पढ़ने और लिखने के दौरान उपयोग करने के लिए डिफ़ॉल्ट वर्ण सेट एन्कोडिंग।"
+      }
+      {
+        _id: 'core.fileSystemWatcher'
+        title: "फाइल सिस्टम चौकीदार"
+        desc: "फाइलसिस्टम परिवर्तनों के लिए देखने के लिए प्रयुक्त अंतर्निहित कार्यान्वयन चुनें। परिवर्तनों का अनुकरण एटम के अलावा अन्य किसी भी घटना के कारण होगा, लेकिन क्रैश या फ्रीज को रोकने में मदद कर सकता है।"
+        select:
+          native: "मूल ऑपरेटिंग सिस्टम एपीआई"
+          experimental: "undefined"
+          poll: "undefined"
+          atom: "एटम घटनाओं के साथ अनुकरण किया"
+      }
+      {
+        _id: 'core.followSymlinks'
+        title: "Symlinks का पालन करें"
+        desc: "फ़ाइलों की खोज करते समय और फ़ज़ी फ़ाइंडर के साथ फ़ाइलें खोलते समय प्रतीकात्मक लिंक का पालन करें।"
+      }
+      {
+        _id: 'core.ignoredNames'
+        title: "नामों की अनदेखी की"
+        desc: "<code> ग्लोब पैटर्न </code> की सूची। इन पैटर्नों से मेल करने वाली फ़ाइलों और निर्देशिकाओं को कुछ पैकेजों द्वारा अनदेखा किया जाएगा, जैसे कि फ़ज़ी फ़ाइंडर और ट्री व्यू। अलग-अलग पैकेज में नामों की अनदेखी के लिए अतिरिक्त कॉन्फ़िगरेशन सेटिंग्स हो सकती हैं।"
+      }
+      {
+        _id: 'core.openEmptyEditorOnStart'
+        title: "प्रारंभ पर खाली संपादक खोलें"
+        desc: "स्टार्टअप पर स्वचालित रूप से एक खाली संपादक खोलें।"
+      }
+      {
+        _id: 'core.projectHome'
+        title: "प्रोजेक्ट होम"
+        desc: "वह निर्देशिका जहाँ परियोजनाओं को स्थित माना जाता है। पैकेज जेनरेटर का उपयोग करके बनाए गए पैकेज यहां डिफ़ॉल्ट रूप से संग्रहीत किए जाएंगे।"
+      }
+      {
+        _id: 'core.reopenProjectMenuCount'
+        title: "फिर से खोलें परियोजना मेनू गणना"
+        desc: "कितने हाल के प्रोजेक्ट्स को रोपेन प्रोजेक्ट मेनू में दिखाना है।"
+      }
+      {
+        _id: 'core.restorePreviousWindowsOnStart'
+        title: "प्रारंभ पर पिछला विंडोज पुनर्स्थापित करें"
+        desc: "जब जाँच की जाती है, तो आइकन या <code> atom </ code> से शुरू होने वाली सभी एटम विंडो की अंतिम स्थिति को कमांड लाइन से हटा दिया जाता है; अन्यथा एक खाली वातावरण भरा हुआ है।"
+        select:
+          no: "नहीं"
+          yes: "हाँ"
+          always: "हमेशा"
+      }
+      {
+        _id: 'core.telemetryConsent'
+        title: "एटम टीम को टेलीमेट्री भेजें"
+        desc: "उत्पाद को बेहतर बनाने में मदद करने के लिए एटम टीम को भेजे जाने वाले उपयोग के आँकड़े और अपवाद रिपोर्ट की अनुमति दें।"
+        select:
+          limited: "सीमित अनाम उपयोग आँकड़े, अपवाद और क्रैश रिपोर्टिंग की अनुमति दें"
+          no: "कोई टेलीमेट्री डेटा न भेजें"
+          undecided: "अनिर्धारित (एटम अगली बार लॉन्च होने पर फिर से पूछेगा)"
+      }
+      {
+        _id: 'core.titleBar'
+        title: "शीर्षक पट्टी"
+        desc: "प्रायोगिक: ए <code> कस्टम </ code> शीर्षक बार थीम रंगों के लिए अनुकूल है। <code> custom-inset </ code> चुनना थोड़ा और पैडिंग जोड़ता है। शीर्षक बार भी पूरी तरह से हो सकता है <code> hidden </ code>। <br> नोट: किसी कस्टम या छिपे हुए शीर्षक बार पर स्विच करना कुछ कार्यक्षमता से समझौता करेगा। <br> इस सेटिंग को लेने के लिए Atom के एक रिले की आवश्यकता होगी।effect."
+        select:
+          native: "देशी"
+          hidden: "छिपा हुआ"
+      }
+      {
+        _id: 'core.useProxySettingsWhenCallingApm'
+        title: "APM कॉल करते समय प्रॉक्सी सेटिंग्स का उपयोग करें"
+        desc: "<Code> apm </ code> कमांड-लाइन टूल को कॉल करते समय पहचानी गई प्रॉक्सी सेटिंग्स का उपयोग करें।"
+      }
+      {
+        _id: 'core.useTreeSitterParsers'
+        title: "Use Tree Sitter Parsers"
+        desc: "Use Tree-sitter parsers for supported languages."
+      }
+      {
+        _id: 'core.versionPinnedPackages'
+        title: "संस्करण पिन किए गए पैकेज"
+        desc: "स्थापित पैकेजों के नामों की सूची जो स्वचालित रूप से अपडेट नहीं हैं।"
+      }
+      {
+        _id: 'core.warnOnLargeFileLimit'
+        title: "बड़ी फ़ाइल सीमा पर चेतावनी"
+        desc: "मेगाबाइट की संख्या से बड़ी फ़ाइलों को खोलने से पहले चेतावनी दें।"
+      }
+      {
+        _id: 'editor.atomicSoftTabs'
+        title: "परमाणु शीतल टैब्स"
+        desc: "कर्सर ले जाते समय प्रमुख व्हाट्सएप के टैब-लंबाई रन पर छोड़ें।"
+      }
+      {
+        _id: 'editor.autoIndent'
+        title: "ऑटो इंडेंट"
+        desc: "एक नई पंक्ति सम्मिलित करते समय कर्सर को स्वचालित रूप से इंडेंट करें।"
+      }
+      {
+        _id: 'editor.autoIndentOnPaste'
+        title: "ऑटो इंडेंट पेस्ट पर"
+        desc: "पिछली पंक्ति के इंडेंटेशन के आधार पर स्वचालित रूप से पेस्ट किए गए पाठ को इंडेंट करें।"
+      }
+      {
+        _id: 'editor.confirmCheckoutHeadRevision'
+        title: "चेकआउट की पुष्टि करें एचएडी संशोधन"
+        desc: "जब एचएएडी संशोधन की जाँच करें और अंतिम फ़ाइल के बाद से वर्तमान फ़ाइल में परिवर्तन को छोड़ दें, तो पुष्टि संवाद दिखाएं।"
+      }
+      {
+        _id: 'editor.defaultFontSize'
+        title: "Default Font Size"
+        desc: "Default height in pixels of the editor text. Useful when resetting font size"
+      }
+      {
+        _id: 'editor.fontFamily'
+        title: "फ़ॉन्ट परिवार"
+        desc: "संपादक पाठ के लिए प्रयुक्त फ़ॉन्ट परिवार का नाम।"
+      }
+      {
+        _id: 'editor.fontSize'
+        title: "फ़ॉन्ट आकार"
+        desc: "संपादक पाठ के पिक्सेल में ऊँचाई।"
+      }
+      {
+        _id: 'editor.invisibles.cr'
+        title: "अदृश्य Cr"
+        desc: "कैरेक्टर ने कैरेज रिटर्न चरित्रों को रेंडर करने के लिए उपयोग किया
+               (माइक्रोसॉफ्ट- शैली लाइन अंत के लिए) जब <code> शो
+               Invisibles </code> सेटिंग सक्षम है।"
+      }
+      {
+        _id: 'editor.invisibles.eol'
+        title: "इन्विसिबल्स ईओएल"
+        desc: "कैरेक्टर का उपयोग जब newline वर्णों को रेंडर करने के लिए (\\n) किया जाता है
+               <code> Invisibles दिखाएं </code> सेटिंग सक्षम है।"
+      }
+      {
+        _id: 'editor.invisibles.space'
+        title: "अदृश्य स्थान"
+        desc: "चरित्र का उपयोग प्रमुख और अनुगामी अंतरिक्ष पात्रों को प्रस्तुत करने के लिए किया जाता है
+               जब <code> इनविसिबल्स दिखाएं </code> सेटिंग सक्षम हो।"
+      }
+      {
+        _id: 'editor.invisibles.tab'
+        title: "इन्विसिबल्स टैब"
+        desc: "वर्ण का उपयोग हार्ड टैब वर्णों को प्रस्तुत करने के लिए किया जाता है (\\t) जब
+               <code> Invisibles दिखाएं </code> सेटिंग सक्षम है।"
+      }
+      {
+        _id: 'editor.lineHeight'
+        title: "ऊंची लाईन"
+        desc: "फ़ॉन्ट आकार के गुणक के रूप में, संपादक लाइनों की ऊँचाई।"
+      }
+      {
+        _id: 'editor.maxScreenLineLength'
+        title: "अधिकतम स्क्रीन लाइन की लंबाई"
+        desc: "नरम रैपिंग लागू होने से पहले संपादक विंडो की अधिकतम चौड़ाई को परिभाषित करता है, वर्णों की संख्या में।"
+      }
+      {
+        _id: 'editor.multiCursorOnClick'
+        title: "Multi Cursor On Click"
+        desc: "Add multiple cursors when pressing the Ctrl key (Command key on MacOS)
+               and clicking the editor."
+      }
+      {
+        _id: 'editor.nonWordCharacters'
+        title: "गैर शब्द वर्ण"
+        desc: "शब्द सीमाओं को परिभाषित करने के लिए गैर-शब्द वर्णों की एक स्ट्रिंग।"
+      }
+      {
+        _id: 'editor.preferredLineLength'
+        title: "पसंदीदा लाइन की लंबाई"
+        desc: "एक पंक्ति की लंबाई को पहचानता है जो पाठ लपेटते समय उपयोग किया जाता है
+               <code> सॉफ्ट व्रैप एट प्रेफर्ड लाइन लेंथ </code> सेटिंग के साथ
+               सक्षम, वर्णों की संख्या में।"
+      }
+      {
+        _id: 'editor.scrollPastEnd'
+        title: "पास्ट एंड को स्क्रॉल करें"
+        desc: "संपादक को अंतिम पंक्ति के अंत में स्क्रॉल करने की अनुमति दें।"
+      }
+      {
+        _id: 'editor.scrollSensitivity'
+        title: "स्क्रॉल संवेदनशीलता"
+        desc: "यह निर्धारित करता है कि माउस का उपयोग करते समय संपादक कितनी तेजी से स्क्रॉल करता है या
+               ट्रैकपैड।"
+      }
+      {
+        _id: 'editor.showCursorOnSelection'
+        title: "चयन पर कर्सर दिखाएं"
+        desc: "चयन होने पर कर्सर दिखाएं।"
+      }
+      {
+        _id: 'editor.showIndentGuide'
+        title: "इंडेंट गाइड दिखाएं"
+        desc: "संपादक में इंडेंटेशन संकेतक दिखाएं।"
+      }
+      {
+        _id: 'editor.showInvisibles'
+        title: "इन्विसिबल्स दिखाएं"
+        desc: "अदृश्य वर्णों के लिए प्लेसहोल्डर, जैसे टैब,
+               रिक्त स्थान और नई-पंक्तियों।"
+      }
+      {
+        _id: 'editor.showLineNumbers'
+        title: "लाइन नंबर दिखाएं"
+        desc: "संपादक के गटर में लाइन नंबर दिखाएं।"
+      }
+      {
+        _id: 'editor.softTabs'
+        title: "सॉफ्ट टैब्स"
+        desc: "यदि <code> टैब प्रकार </code> कॉन्फ़िगरेशन सेटिंग \"ऑटो\" पर सेट है
+               और बफर सामग्री से टैब प्रकार का ऑटोडेटेक्शन विफल हो जाता है, फिर
+               यह कॉन्फ़िगरेशन सेटिंग निर्धारित करती है कि सॉफ्ट टैब या हार्ड टैब
+               टैब कुंजी दबाने पर डाला जाएगा।"
+      }
+      {
+        _id: 'editor.softWrap'
+        title: "मुलायम लपेट"
+        desc: "विंडो की चौड़ाई से अधिक होने वाली रैप्स लाइनें। कब
+               <code> प्रेफ़र्ड लाइन की लंबाई पर सॉफ्ट रैप </code> सेट है, यह होगा
+               <code> पसंदीदा द्वारा परिभाषित वर्णों की संख्या के लिए लपेटें
+               लाइन की लंबाई </code> सेटिंग।"
+      }
+      {
+        _id: 'editor.softWrapAtPreferredLineLength'
+        title: "पसंदीदा लाइन की लंबाई पर नरम लपेटें"
+        desc: "खिड़की की चौड़ाई के लिए लाइनों को लपेटने के बजाय, लाइनों को लपेटें
+               <code> पसंदीदा लाइन द्वारा परिभाषित वर्णों की संख्या
+               लंबाई </code> सेटिंग। यह केवल तब प्रभावी होगा जब नरम
+               रैप कॉन्फिग सेटिंग विश्व स्तर पर या करंट के लिए सक्षम है
+               भाषा: हिन्दी। <strong> नोट: </ strong> यदि आप रैप को छुपाना चाहते हैं
+               गाइड (ऊर्ध्वाधर रेखा) जिसे आप अक्षम कर सकते हैं
+               <code> रैप-गाइड </code> पैकेज।"
+      }
+      {
+        _id: 'editor.softWrapHangingIndent'
+        title: "सॉफ्ट रैप हैंगिंग इंडेंट"
+        desc: "जब नरम लपेट सक्षम होता है, तो अतिरिक्त की लंबाई को परिभाषित करता है
+               लिपटे लाइनों पर, वर्णों की संख्या पर इंडेंटेशन लागू होता है।"
+      }
+      {
+        _id: 'editor.tabLength'
+        title: "टैब लंबाई"
+        desc: "टैब का प्रतिनिधित्व करने के लिए उपयोग किए जाने वाले रिक्त स्थान की संख्या।"
+      }
+      {
+        _id: 'editor.tabType'
+        title: "टैब प्रकार"
+        desc: "टैब कुंजी दबाए जाने पर निर्धारित चरित्र डालें। मुमकिन
+               मान: \"ऑटो\", \"सॉफ्ट\" और \"हार्ड\"। जब \"सॉफ्ट\" या के लिए सेट करें
+               \"हार्ड\", सॉफ्ट टैब (स्थान) या हार्ड टैब (टैब वर्ण) हैं
+               उपयोग किया गया। जब \"ऑटो\" पर सेट किया जाता है, तो संपादक टैब प्रकार का पता लगाता है
+               बफर की सामग्री के आधार पर (यह पहली अग्रणी का उपयोग करता है
+               एक गैर-टिप्पणी लाइन पर व्हाट्सएप), या सॉफ्ट के मूल्य का उपयोग करता है
+               ऑटो-डिटेक्शन फेल होने पर टैब सेटिंग को कॉन्फ़िगर करता है।"
+      }
+      {
+        _id: 'editor.undoGroupingInterval'
+        title: "पूर्ववत ग्रुपिंग को पूर्ववत करें"
+        desc: "किस पाठ के संपादन के भीतर मिलीसेकंड में समय अंतराल
+               संचालन पूर्ववत इतिहास में एक साथ समूहीकृत किए जाएंगे।"
+      }
+      {
+        _id: 'editor.zoomFontWhenCtrlScrolling'
+        title: "ज़ूम फ़ॉन्ट जब Ctrl स्क्रॉलिंग"
+        desc: "Ctrl कुंजी दबाते समय संपादक फ़ॉन्ट आकार बदलें और
+               माउस को ऊपर / नीचे स्क्रॉल करना।"
+      }
+      {
+        _id: 'core.uriHandlerRegistration'
+        title: "Default Registration"
+        desc: "When should Atom register itself as the default handler for atom:// URIs"
+        select:
+          prompt: "Prompt to register Atom as the default atom:// URI handler"
+          always: "Always become the default atom:// URI handler automatically"
+          never: "Never become the default atom:// URI handler"
+      }
+      {
+        _id: 'system.windows.file-handler'
+        title: "फ़ाइल हैंडलर के रूप में पंजीकृत करें"
+        desc: "में एटम दिखाओ \"के साथ खोलें\" फ़ाइल प्रकार के साथ आसान सहयोग के लिए आवेदन सूची।"
+      }
+      {
+        _id: 'system.windows.shell-menu-files'
+        title: "फ़ाइल संदर्भ मेनू में दिखाएं"
+        desc: "जोड़ना \"एटम के साथ खुला\" फ़ाइलों के लिए फ़ाइल एक्सप्लोरर संदर्भ मेनू में।"
+      }
+      {
+        _id: 'system.windows.shell-menu-folders'
+        title: "फ़ोल्डर संदर्भ मेनू में दिखाएं"
+        desc: "जोड़ना \"एटम के साथ खुला\" फ़ोल्डर के लिए फ़ाइल एक्सप्लोरर संदर्भ मेनू में।"
+      }
+    ]
+  }
+  invisible:
+    desc: "A hash of characters Atom will use to render whitespace characters.
+           Keys are whitespace character types, values are rendered characters
+           (use value false to turn off individual whitespace character types)."
+  url:
+    title: "URI Handler Registration"
+    notes: "These settings determine how Atom handles atom:// URIs."
+    already: "Atom is already the default handler for atom:// URIs."
+    register: "Register Atom as the default handler for atom:// URIs."
+    unsupported: "Registration as the default handler for atom:// URIs is only supported on Windows and macOS."
+    btn: "Register as default atom:// protocol handler"
+  system:
+    notes: "ये सेटिंग्स निर्धारित करती हैं कि एटम आपके ऑपरेटिंग सिस्टम के साथ कैसे एकीकृत होता है।"
+  keymaps:
+    notes:
+      text1: "आप इन कीबाइंडिंग को कॉपी करके ओवरराइड कर सकते हैं "
+      text2: "और उन्हें चिपकाने में "
+      text3: "आपकी कीमैप फ़ाइल"
+      text4: ""   # optional
+      _template: "${text1} <icon /> ${text2} <a>${text3}</a> ${text4}"
+    "search-bar-placeholder": "खोज कीबाइंडिंग"
+    "table-header-keystroke": "कीस्ट्रोक"
+    "table-header-command": "आदेश"
+    "table-header-source": "स्रोत"
+    "table-header-selector": "चयनकर्ता"
+  packages:
+    searchBarText: 'नाम से फ़िल्टर पैकेजe'
+  themes:
+    notes:
+      text1: "आप एटोम को एडिट करके भी स्टाइल कर सकते हैं "
+      text2: "आपकी स्टाइलशीट"
+      text3: ""   # optional
+      _template: "${text1} <a>${text2}</a> ${text3}"
+    title1: "यूआई थीम"
+    description1: "यह टैब्स, स्टेटस बार, ट्री व्यू और ड्रॉपडाउन को स्टाइल करता है"
+    title2: "सिंटेक्स थीम"
+    description2: "यह पाठ को संपादक के अंदर शैली देता है"
+    searchBarText: 'नाम से फ़िल्टर थीम'
+  updates:
+    "check-updates": "अद्यतन के लिए जाँच"
+    "update-all": "सब अद्यतित"
+    "checking-updates": "अपडेट्स के लिए जांच हो रही है..."
+    "all-updated-message": "आपके सभी स्थापित पैकेज अद्यतित हैं!"
+  install:
+    notes:
+      text1: "पैकेज प्रकाशित किए जाते हैं "
+      text2: " और करने के लिए स्थापित कर रहे हैं "
+      text3: ""   # optional
+      _template: "${text1}<a>atom.io</a>${text2} /path/to/pkg ${text3}"
+    "searchbar-placeholder": "पैकेज खोजें"
+    "btn-packages": "संकुल"
+    "btn-themes": "विषय-वस्तु"
+  "control-btns":
+    install: "इंस्टॉल"
+    update: "इस अपडेट करें"
+    setting: "समायोजन"
+    uninstall: "स्थापना रद्द करें"
+    disable: "अक्षम"
+    enable: "सक्षम करें"

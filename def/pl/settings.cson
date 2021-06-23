@@ -1,0 +1,497 @@
+Settings:
+  "tab-title": "Ustawienia"
+  menu: [
+    {
+      _label: "Core"
+      value: "Główne"
+    }
+    {
+      _label: "Editor"
+      value: "Edytor"
+    }
+    {
+      _label: "URI Handling"
+      value: "URI Handling"
+    }
+    {
+      _label: "System"
+      value: "System"
+    }
+    {
+      _label: "Keybindings"
+      value: "Przypisanie klawiszy"
+    }
+    {
+      _label: "Packages"
+      value: "Pakiety"
+    }
+    {
+      _label: "Themes"
+      value: "Style"
+    }
+    {
+      _label: "Updates"
+      value: "Aktualizacje"
+    }
+    {
+      _label: "Install"
+      value: "Zainstaluj"
+    }
+  ]
+  "btn-open-config-folder": "Otwórz folder z konfiguracją"
+  sectionHeadings: [
+    {_label: "Core Settings", value: "Ustawienia główne"}
+    {_label: "Editor Settings", value: "Ustawienia edytora"}
+    {_label: "URI Handling", value: "URI Handling"}
+    {_label: "System Settings", value: "Ustawienia systemowe"}
+    {_label: "Keybindings", value: "Przypisanie klawiszy"}
+    {_label: "Installed Packages", value: "Zainstalowane pakiety"}
+    {_label: "Choose a Theme", value: "Wybór wyglądu"}
+    {_label: "Installed Themes", value: "Zainstalowane style"}
+    {_label: "Install Packages", value: "Zainstaluj pakiety"}
+    {_label: "Featured Packages", value: "Polecane pakiety"}
+    {_label: "Install Themes", value: "Zainstaluj style"}
+    {_label: "Featured Themes", value: "Polecane style"}
+    {_label: "Available Updates", value: "Dostępne aktualizacje"}
+  ]
+  subSectionHeadings: [
+    {_label: "Invisible", value: "Niewidoczny"}
+    {_label: "Community Packages", value: "Pakiety społeczności"}
+    {_label: "Core Packages", value: "Pakiety główne"}
+    {_label: "Development Packages", value: "Pakiety programistyczne"}
+    {_label: "Git Packages", value: "Pakiety Git'a"}
+    {_label: "Community Themes", value: "Style społeczności"}
+    {_label: "Core Themes", value: "Style główne"}
+    {_label: "Development Themes", value: "Style programistyczne"}
+    {_label: "Git Themes", value: "Style z Git'a"}
+  ]
+  settings: {
+    notes: [
+      {
+        _id: 'core-settings-note'
+        html: 'Główne ustawienia programu Atom, które nie są w żaden sposób związane
+               z edytowaniem tekstu. Zainstalowane pakiety mogą posiadać własne
+               dodatkowe ustawienia, które znajdują się na karcie danego
+               pakietu w <a class="link packages-open">liście pakietów</a>.'
+      }
+      {
+        _id: 'editor-settings-note'
+        html: 'Ustawienia zwiazane z edytowaniem tekstu. Niektóre z nich mogą być
+               nadpisane przez poszczególne języki. Sprawdź ustawienia jezyka
+               poprzez kliknięcie na jego pakiet na <a class="link packages-open">liście pakietów</a>.'
+      }
+    ]
+    controls: [
+      {
+        _id: 'core.allowPendingPaneItems'
+        title: "Zezwól na oczekujące elementy panelu"
+        desc: "Zezwól na wyświetlenie elementu bez jego dodawania do panelu,
+               podobnie gdy klikamy na pliki wyświetlane w widoku drzewa."
+      }
+      {
+        _id: 'core.audioBeep'
+        title: "Syngał dźwiękowy"
+        desc: "Włącz sygnał dźwiękowy w sytuacji gdy dana akcja nie może zostać
+               wykonana lub nie ma żadnych wyników z nią związanych."
+      }
+      {
+        _id: 'core.autoHideMenuBar'
+        title: "Autoukrywanie paska menu"
+        desc: "Automatycznie ukryj pasek menu lub go przywróć klikając klawisz Alt. Opcja wspierana tylko w Windows i Linux."
+      }
+      {
+        _id: 'core.automaticallyUpdate'
+        title: "Automatyczne aktualizacje"
+        desc: "Aktualizuj automatycznie Atom'a, gdy dostępna jest nowa wersja."
+      }
+      {
+        _id: 'core.closeDeletedFileTabs'
+        title: "Zamknij zakładki skasowanych plików"
+        desc: "Zamknij zakładki edytowanych plików, jeżeli te zostały skasowane poza edytorem Atom."
+      }
+      {
+        _id: 'core.closeEmptyWindows'
+        title: "Zamknij puste okna"
+        desc: "Gdy uruchomione jest okno bez otwartych zakładek lub paneli,
+               komenda 'Zamknij zakładkę' zamyka też to okno."
+      }
+      {
+        _id: 'core.colorProfile'
+        title: "Color Profile"
+        desc: "Specify whether Atom should use the operating system's color
+               profile (recommended) or an alternative color profile.<br>
+               Changing this setting will require a relaunch of Atom to take effect."
+        select:
+          default: "Use color profile configured in the operating system"
+          srgb: "Use sRGB color profile"
+      }
+      {
+        _id: 'core.destroyEmptyPanes'
+        title: "Zamknij puste panele"
+        desc: "Gdy ostatni panel lub zakładka zostanie zamknięta, zamknij także panel."
+      }
+      {
+        _id: 'core.excludeVcsIgnoredPaths'
+        title: "Wyklucz ignorowane ścieżki VCS"
+        desc: "Ignorowane pliki i katalogi przez obecny system kontroli wersji (VCS) będą ignorowane przez niektóre pakiety,
+               takie jak wyszukiwarka lub opcja znajdź i zamień. Na przykład, projekty korzystające z Git'a mają te ścieżki
+               zdefiniowane w pliku .gitignore. Indywidualne pakiety mogą posiadać dodatkowe ustawienia konfiguracyjne,
+               które ignorują ścieżki ignorowanych plików i folderów przez dany system kontroli wersji."
+      }
+      {
+        _id: 'core.fileEncoding'
+        title: "Kodowanie pliku"
+        desc: "Domyślne ustawienie kodowania znaków używane podczas czytania i zapisywania plików."
+      }
+      {
+        _id: 'core.fileSystemWatcher'
+        title: "Systemowy monitor plików"
+        desc: "Wybierz podstawową implementację używaną do śledzenia zmian plików w systemie. Emulacja nie bierze
+               pod uwagę zmian powodowanych przez inne aplikacje niż Atom, ale może zapobiec w zawieszeniu
+               lub uszkodzeniu."
+        select:
+          native: "Natywne API systemu operacyjnego"
+          experimental: "undefined"
+          poll: "undefined"
+          atom: "Emulowane zdarzeniami Atom'a"
+      }
+      {
+        _id: 'core.followSymlinks'
+        title: "Podążaj za dowiązaniami symbolicznymi"
+        desc: "Podążaj za linkami symbolicznymi gdy pliki są wyszukiwane i otwierane przez wyszukiwarkę."
+      }
+      {
+        _id: 'core.ignoredNames'
+        title: "Nazwy ignorowane"
+        desc: "Lista <code>wzorców globalnych</code>. Pliki i katalogi odpowiadające temu wzorcowi będą ingorowane przez
+               niektóre pakiety, takie jak wyszukiwarka i widok drzewa plików. Indywidualne pakiety mogą posiadać dodatkowo
+               konfigurację ustawień dla ignorowania nazw."
+      }
+      {
+        _id: 'core.openEmptyEditorOnStart'
+        title: "Otwórz pusty edytor przy starcie"
+        desc: "Automatycznie otwiera pusty edytor przy stacie."
+      }
+      {
+        _id: 'core.projectHome'
+        title: "Projekt domowy"
+        desc: "Katalog gdzie są ulokowane projekty. Pakiety tworzone używając generatora pakietów będą przechowywane
+               domyślnie w tym miejscu."
+      }
+      {
+        _id: 'core.reopenProjectMenuCount'
+        title: "Otwórz ponownie menu z liczbą projektów"
+        desc: "Ile ostatnich projektów pokazać w menu ostatnich projektów."
+      }
+      {
+        _id: 'core.restorePreviousWindowsOnStart'
+        title: "Przywróc przy starcie poprzednie okna"
+        desc: "Gdy zaznaczone, przywraca ostatni stan wszystkich okien Atom'a gdy program został uruchomiony poprzez
+               kliknięcie w ikonę lub komendą <code>atom</code> w terminal; w innym przypadku ładowane jest puste środowisko."
+        select:
+          no: "nie"
+          yes: "tak"
+          always: "zawsze"
+      }
+      {
+        _id: 'core.telemetryConsent'
+        title: "Przesyłaj dane telemetryczne do twórców Atom'a"
+        desc: "Zezwól na zbieranie statystyk oraz wyjątkowych raportów oraz przesyłanie ich twórcom Atom'a w celu jego ulepszenia."
+        select:
+          limited: "Zezwól na ograniczone anonimowe statystyki użytkowania, raportowanie wyjątków i awarii programu"
+          no: "Nie wysyłaj żadnych danych telemetrycznych"
+          undecided: "Niezdecydowany (Atom zapyta Cię przy ponownym uruchomieniu)"
+      }
+      {
+        _id: 'core.titleBar'
+        title: "Pasek tytułowy"
+        desc: "Eksperymentalne: <code>Własny</code> pasek tytułowy adoptujący kolor. Wybierając <code>własne dodanie</code> powoduje
+               dodanie lekkiego wewnętrznego odstępu (padding). Pasek tytułowy może być całkowicie <code>ukryty</code>.<br>Uwaga: Ustawienie
+               własego lub ukrytego paska tytułu może zagrażać niektórym funkcjom.<br>Opcja ta wymaga ponownego uruchomienia
+               edytora Atom."
+        select:
+          native: "natywny"
+          hidden: "ukryty"
+      }
+      {
+        _id: 'core.useProxySettingsWhenCallingApm'
+        title: "Korzystaj z ustawień proxy przy wywoływaniu APM"
+        desc: "Użyj wykrytych ustawień proxy gdy jest wywoływane narzędzie konsolowe <code>apm</code>."
+      }
+      {
+        _id: 'core.useTreeSitterParsers'
+        title: "Use Tree Sitter Parsers"
+        desc: "Use Tree-sitter parsers for supported languages."
+      }
+      {
+        _id: 'core.versionPinnedPackages'
+        title: "Wersje przypiętych pakietów"
+        desc: "Lista nazw zainstalowanych pakietów, które nie są automatycznie aktualizowane."
+      }
+      {
+        _id: 'core.warnOnLargeFileLimit'
+        title: "Ostrzeżenie przy otwarciu dużych plików"
+        desc: "Ostrzegaj przed otwarciem dużych plików, większych niż podana liczba megabajtów."
+      }
+      {
+        _id: 'editor.atomicSoftTabs'
+        title: "Atomic Soft Tabs"
+        desc: "Skip over tab-length runs of leading whitespace when moving the cursor."
+      }
+      {
+        _id: 'editor.autoIndent'
+        title: "Automatyczny akapit"
+        desc: "Automatycznie dodaj aktapit zaczynając nową linię."
+      }
+      {
+        _id: 'editor.autoIndentOnPaste'
+        title: "Automatyczny akapit przy wklejaniu"
+        desc: "Automatyczny akapit przy wklejaniu tekstu na podstawie akapitu użytego w poprzedniej linii."
+      }
+      {
+        _id: 'editor.confirmCheckoutHeadRevision'
+        title: "Potwierdź pobranie głównej (HEAD) rewizji"
+        desc: "Pokaż komunikat potwierdzający gdy pobierasz gówną rewizję i pomijasz zmiany w obecnych plikach od ostatniego commit'a."
+      }
+      {
+        _id: 'editor.defaultFontSize'
+        title: "Default Font Size"
+        desc: "Default height in pixels of the editor text. Useful when resetting font size"
+      }
+      {
+        _id: 'editor.fontFamily'
+        title: "Czcionka"
+        desc: "Nazwa czcionki używana w edytorze tekstowym."
+      }
+      {
+        _id: 'editor.fontSize'
+        title: "Rozmiar czcionki"
+        desc: "Wysokość tekstu w edytorze wyrażona pikselach."
+      }
+      {
+        _id: 'editor.invisibles.cr'
+        title: "Invisibles Cr"
+        desc: "Character used to render carriage return characters
+               (for Microsoft-style line endings) when the <code>Show
+               Invisibles</code> setting is enabled."
+      }
+      {
+        _id: 'editor.invisibles.eol'
+        title: "Niewidoczny koniec linii"
+        desc: "Znak użyty do renderowania znaku nowej linii (\\n) gdy
+               ustawienie <code>Pokaż niewidoczne</code> jest włączone."
+      }
+      {
+        _id: 'editor.invisibles.space'
+        title: "Niewidoczne spacje"
+        desc: "Znak użyty do renderowania początku i końca znaku spacji
+               gdy ustawienie <code>Pokaż niewidoczne</code> jest włączone."
+      }
+      {
+        _id: 'editor.invisibles.tab'
+        title: "Niewidoczna tabulacja"
+        desc: "Znak użyty do renderowania twardego znaku tabulacji (\\t) gdy
+               ustawienie <code>Pokaż niewidoczne</code> jest włączone."
+      }
+      {
+        _id: 'editor.lineHeight'
+        title: "Wysokość linii"
+        desc: "Wysokość linii w edytorze, jako mnożnik rozmiaru czcionki."
+      }
+      {
+        _id: 'editor.maxScreenLineLength'
+        title: "Maksymalna długość linii na ekranie"
+        desc: "Określa maksymalną szerokość liczby znaków okna edytora przed dodaniem miękkiego zawijania."
+      }
+      {
+        _id: 'editor.multiCursorOnClick'
+        title: "Multi Cursor On Click"
+        desc: "Add multiple cursors when pressing the Ctrl key (Command key on MacOS)
+               and clicking the editor."
+      }
+      {
+        _id: 'editor.nonWordCharacters'
+        title: "Non Word Characters"
+        desc: "A string of non-word characters to define word boundaries."
+      }
+      {
+        _id: 'editor.preferredLineLength'
+        title: "Preferowana długość linii"
+        desc: "Włączając ustawienie <code>Miękkie zawijanie w preferowanej długości linii</code>.
+               Identyfikuje długość linii (określanych w ilości znaków), która jest użyta gdy tekst jest zawijany."
+      }
+      {
+        _id: 'editor.scrollPastEnd'
+        title: "Przewijanie do końca"
+        desc: "Pozwala na przewijanie edytora do samego końca ostatniej linii."
+      }
+      {
+        _id: 'editor.scrollSensitivity'
+        title: "Czułość przewijania"
+        desc: "Określa jak szybko działa przewijanie w edytorze gdy korzystasz z myszu lub trackpada."
+      }
+      {
+        _id: 'editor.showCursorOnSelection'
+        title: "Pokaż kursor na zaznaczeniu"
+        desc: "Pokaż kursor gdy tekst jest zaznaczony."
+      }
+      {
+        _id: 'editor.showIndentGuide'
+        title: "Pokaż przewodnik akapitów"
+        desc: "Pokaż w edytorze wskaźniki akapitów."
+      }
+      {
+        _id: 'editor.showInvisibles'
+        title: "Pokaż niewidoczne"
+        desc: "Renderuje symbol zastępczy dla niewidocznych znaków, takich jak tabulatory, spacje oraz nowe linie."
+      }
+      {
+        _id: 'editor.showLineNumbers'
+        title: "Pokaż numery linii"
+        desc: "Pokaż numery linii w edytorze."
+      }
+      {
+        _id: 'editor.softTabs'
+        title: "Soft Tabs"
+        desc: "If the <code>Tab Type</code> config setting is set to \"auto\"
+               and autodetection of tab type from buffer content fails, then
+               this config setting determines whether a soft tab or a hard tab
+               will be inserted when the Tab key is pressed."
+      }
+      {
+        _id: 'editor.softWrap'
+        title: "Soft Wrap"
+        desc: "Wraps lines that exceed the width of the window. When
+               <code>Soft Wrap At Preferred Line Length</code> is set, it will
+               wrap to the number of characters defined by the <code>Preferred
+               Line Length</code> setting."
+      }
+      {
+        _id: 'editor.softWrapAtPreferredLineLength'
+        title: "Soft Wrap At Preferred Line Length"
+        desc: "Instead of wrapping lines to the window's width, wrap lines to
+               the number of characters defined by the <code>Preferred Line
+               Length</code> setting. This will only take effect when the soft
+               wrap config setting is enabled globally or for the current
+               language. <strong>Note:</strong> If you want to hide the wrap
+               guide (the vertical line) you can disable the
+               <code>wrap-guide</code> package."
+      }
+      {
+        _id: 'editor.softWrapHangingIndent'
+        title: "Soft Wrap Hanging Indent"
+        desc: "When soft wrap is enabled, defines length of additional
+               indentation applied to wrapped lines, in number of characters."
+      }
+      {
+        _id: 'editor.tabLength'
+        title: "Długość zakładki"
+        desc: "Liczba spacji użyta jako długość zakładki."
+      }
+      {
+        _id: 'editor.tabType'
+        title: "Tab Type"
+        desc: "Determine character inserted when Tab key is pressed. Possible
+               values: \"auto\", \"soft\" and \"hard\". When set to \"soft\" or
+               \"hard\", soft tabs (spaces) or hard tabs (tab characters) are
+               used. When set to \"auto\", the editor auto-detects the tab type
+               based on the contents of the buffer (it uses the first leading
+               whitespace on a non-comment line), or uses the value of the Soft
+               Tabs config setting if auto-detection fails."
+      }
+      {
+        _id: 'editor.undoGroupingInterval'
+        title: "Undo Grouping Interval"
+        desc: "Time interval in milliseconds within which text editing
+               operations will be grouped together in the undo history."
+      }
+      {
+        _id: 'editor.zoomFontWhenCtrlScrolling'
+        title: "Zwiększenie czcionki przy użyciu scrolla i klawisza Ctrl"
+        desc: "Zmień rozmiar czcionki w edytorze, gdy klawisz Ctrl jest przytrzymany wraz z przewijaniem scrolla myszy w górę/dół."
+      }
+      {
+        _id: 'core.uriHandlerRegistration'
+        title: "Default Registration"
+        desc: "When should Atom register itself as the default handler for atom:// URIs"
+        select:
+          prompt: "Prompt to register Atom as the default atom:// URI handler"
+          always: "Always become the default atom:// URI handler automatically"
+          never: "Never become the default atom:// URI handler"
+      }
+      {
+        _id: 'system.windows.file-handler'
+        title: "Zarejestruj jako obsługę plików"
+        desc: "Pokaż Atom'a w \"Otwórz za pomocą\" na liście aplikacji w celu łatwego przypisania typu plików."
+      }
+      {
+        _id: 'system.windows.shell-menu-files'
+        title: "Pokaż w menu kontektstowym plików"
+        desc: "Dodaj \"Otwórz używając Atom'a\" w menu kontekstowym eksploratora plików."
+      }
+      {
+        _id: 'system.windows.shell-menu-folders'
+        title: "Pokaż w menu kontekstowym folderów"
+        desc: "Dodaj \"Otwórz używając Atom'a\" w menu kontekstowym eksploratora dla folderów."
+      }
+    ]
+  }
+  invisible:
+    desc: "A hash of characters Atom will use to render whitespace characters.
+           Keys are whitespace character types, values are rendered characters
+           (use value false to turn off individual whitespace character types)."
+  url:
+    title: "URI Handler Registration"
+    notes: "These settings determine how Atom handles atom:// URIs."
+    already: "Atom is already the default handler for atom:// URIs."
+    register: "Register Atom as the default handler for atom:// URIs."
+    unsupported: "Registration as the default handler for atom:// URIs is only supported on Windows and macOS."
+    btn: "Register as default atom:// protocol handler"
+  system:
+    notes: "Te ustawienia określają jak Atom integruje się z Twoim systemem operacyjnym."
+  keymaps:
+    notes:
+      text1: "Możesz nadpisać przypisanie klawiszy poprzez kopiowanie "
+      text2: "i wklejenie ich do "
+      text3: "Twojego pliku z przypisaniem klawiszy"
+      text4: ""   # optional
+      _template: "${text1} <icon /> ${text2} <a>${text3}</a> ${text4}"
+    "search-bar-placeholder": "Szukaj przypisania klawiszy"
+    "table-header-keystroke": "Naciśnięcie klawisza"
+    "table-header-command": "Komenda"
+    "table-header-source": "Źródło"
+    "table-header-selector": "Selector"
+  packages:
+    searchBarText: 'Filtrowanie pakietów po nazwie'
+  themes:
+    notes:
+      text1: "Możesz zmienić styl Atom'a poprzez edycję "
+      text2: "Twojego szablonu"
+      text3: ""   # optional
+      _template: "${text1} <a>${text2}</a> ${text3}"
+    title1: "Style UI"
+    description1: "Style zakładek, paska statusu, drzewa katalogów oraz list rozwijalnych"
+    title2: "Style składni"
+    description2: "Style tekstu wewnątrz edytora"
+    searchBarText: 'Filtrowanie styli po nazwie'
+  updates:
+    "check-updates": "Sprawdź aktualizacje"
+    "update-all": "Aktualizuj wyszstko"
+    "checking-updates": "Sprawdzam aktualizacje..."
+    "all-updated-message": "Wszystkie zainstalowane pakiety są aktualne!"
+  install:
+    notes:
+      text1: "Pakiety publikowane są na "
+      text2: " oraz zainstalowane w "
+      text3: ""   # optional
+      _template: "${text1}<a>atom.io</a>${text2} /path/to/pkg ${text3}"
+    "searchbar-placeholder": "Szukaj pakietów"
+    "btn-packages": "Pakiety"
+    "btn-themes": "Style"
+  "control-btns":
+    install: "Zainstaluj"
+    update: "Zaktualizuj do"
+    setting: "Ustawienia"
+    uninstall: "Odinstaluj"
+    disable: "Wyłącz"
+    enable: "Włącz"

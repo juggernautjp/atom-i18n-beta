@@ -1,0 +1,489 @@
+Menu:
+  "&File":
+    value: "文件(&F)"
+    submenu:
+      "New &Window":
+        value: "打开新的窗口(&W)"
+      "&New File":
+        value: "新建文件(&N)"
+      "&Open File…":
+        value: "打开(&O)..."
+      "Open Folder…":
+        value: "打开文件夹..."
+      "Add Project Folder…":
+        value: "添加项目文件夹..."
+      "Reopen Project":
+        value: "重新打开项目"
+        submenu:
+          "Clear Project History":
+            value: "清空项目历史记录"
+      "Reopen Last &Item":
+        value: "重新打开关闭的标签页(&I)"
+      "Se&ttings":
+        value: "设置(&T)..."
+      "Config…":
+        value: "打开配置文件..."
+      "Init Script…":
+        value: "初始脚本..."
+      "Keymap…":
+        value: "管理快捷键..."
+      "Snippets…":
+        value: "自定义代码段..."
+      "Stylesheet…":
+        value: "Atom 样式表..."
+      "&Save":
+        value: "保存(&S)"
+      "Save &As…":
+        value: "另存为(&A)..."
+      "Save A&ll":
+        value: "全部保存(&L)"
+      "&Close Tab":
+        value: "关闭标签页(&C)"
+      "Close &Pane":
+        value: "关闭窗格(&P)"
+      "Clos&e Window":
+        value: "关闭窗口(&E)"
+      "E&xit":
+        value: "退出(&X)"
+      "Close All Tabs":
+        value: "关闭所有标签页"
+  "&Edit":
+    value: "编辑(&E)"
+    submenu:
+      "&Undo":
+        value: "撤销(&U)"
+      "&Redo":
+        value: "恢复(&R)"
+      "Cu&t":
+        value: "剪切(&T)"
+      "&Copy":
+        value: "复制(&C)"
+      "Copy Pat&h":
+        value: "复制文件路径(&H)"
+      "&Paste":
+        value: "粘贴(&P)"
+      "Paste Without Reformatting":
+        value: "Paste Without Reformatting"
+      "Select &All":
+        value: "全选(&A)"
+      "&Toggle Comments":
+        value: "切换注释(&T)"
+      Lines:
+        value: "行操作"
+        submenu:
+          "&Indent":
+            value: "缩进(&I)"
+          "&Outdent":
+            value: "退格(&O)"
+          "&Auto Indent":
+            value: "自动缩进(&A)"
+          "Move Line &Up":
+            value: "上移当前行(&U)"
+          "Move Line &Down":
+            value: "下移当前行(&D)"
+          "Du&plicate Lines":
+            value: "复制当前行(&P)"
+          "D&elete Line":
+            value: "删除当前行(&E)"
+          "&Join Lines":
+            value: "合并行(&J)"
+      Columns:
+        value: "列操作"
+        submenu:
+          "Move Selection &Left":
+            value: "左移选中内容(&L)"
+          "Move Selection &Right":
+            value: "右移选中内容(&R)"
+      Text:
+        value: "文本"
+        submenu:
+          "&Upper Case":
+            value: "转换为大写(&U)"
+          "&Lower Case":
+            value: "转换为小写(&L)"
+          "Delete to End of &Word":
+            value: "删除至词尾(&W)"
+          "Delete to Previous Word Boundary":
+            value: "删除至上一单词边界"
+          "Delete to Next Word Boundary":
+            value: "删除至下一单词边界"
+          "&Delete Line":
+            value: "删除当前行(&D)"
+          "&Transpose":
+            value: "颠倒选中内容(&T)"
+      Folding:
+        value: "折叠"
+        submenu:
+          "&Fold":
+            value: "折叠(&F)"
+          "&Unfold":
+            value: "展开(&U)"
+          "Fol&d All":
+            value: "全部折叠(&D)"
+          "Unfold &All":
+            value: "全部展开(&A)"
+          "Fold Level 1":
+            value: "折叠至第 1 层缩进"
+          "Fold Level 2":
+            value: "折叠至第 2 层缩进"
+          "Fold Level 3":
+            value: "折叠至第 3 层缩进"
+          "Fold Level 4":
+            value: "折叠至第 4 层缩进"
+          "Fold Level 5":
+            value: "折叠至第 5 层缩进"
+          "Fold Level 6":
+            value: "折叠至第 6 层缩进"
+          "Fold Level 7":
+            value: "折叠至第 7 层缩进"
+          "Fold Level 8":
+            value: "折叠至第 8 层缩进"
+          "Fold Level 9":
+            value: "折叠至第 9 层缩进"
+      "Reflow Selection":
+        value: "重排文本"
+      Bookmark:
+        value: "书签"
+        submenu:
+          "View All":
+            value: "查看全部书签"
+          "Toggle Bookmark":
+            value: "切换书签"
+          "Jump to Next Bookmark":
+            value: "下一书签"
+          "Jump to Previous Bookmark":
+            value: "上一书签"
+          "Select to Next Bookmark":
+            value: "Select to Next Bookmark"
+          "Select to Previous Bookmark":
+            value: "Select to Previous Bookmark"
+      "Select Encoding":
+        value: "选择编码格式"
+      "Go to Line":
+        value: "跳转至指定行"
+      "Select Grammar":
+        value: "选择语法"
+  "&View":
+    value: "视图(&V)"
+    submenu:
+      "Toggle &Full Screen":
+        value: "切换全屏模式(&F)"
+      "Toggle Menu Bar":
+        value: "切换菜单栏"
+      Panes:
+        value: "窗格"
+        submenu:
+          "Split Up":
+            value: "向上分割窗格 ↑"
+          "Split Down":
+            value: "向下分割窗格 ↓"
+          "Split Left":
+            value: "向左分割窗格 ←"
+          "Split Right":
+            value: "向右分割窗格 →"
+          "Focus Next Pane":
+            value: "聚焦下一窗格"
+          "Focus Previous Pane":
+            value: "聚焦上一窗格"
+          "Focus Pane Above":
+            value: "聚焦上方窗格 ↑"
+          "Focus Pane Below":
+            value: "聚焦下方窗格 ↓"
+          "Focus Pane On Left":
+            value: "聚焦左侧窗格 ←"
+          "Focus Pane On Right":
+            value: "聚焦右侧窗格 →"
+          "Close Pane":
+            value: "关闭窗格"
+      Developer:
+        value: "开发者"
+        submenu:
+          "Open In &Dev Mode…":
+            value: "用开发者模式打开(&D)..."
+          "&Reload Window":
+            value: "重新加载窗口(&R)"
+          "Run Package &Specs":
+            value: "插件包规格测试(&S)"
+          "Run &Benchmarks":
+            value: "性能测试(&B)"
+          "Toggle Developer &Tools":
+            value: "切换开发者工具(&T)"
+      "&Increase Font Size":
+        value: "加大字号(&I)"
+      "&Decrease Font Size":
+        value: "减小字号(&D)"
+      "Re&set Font Size":
+        value: "恢复默认字号(&S)"
+      "Toggle Soft &Wrap":
+        value: "切换自动换行(&W)"
+      "Toggle Command Palette":
+        value: "切换命令板"
+      # added the following menus, for "Packages"->"GitHub"
+      "Toggle Git Tab":
+        value: "Toggle Git Tab"
+      "Toggle GitHub Tab":
+        value: "Toggle GitHub Tab"
+      "Open Reviews Tab":
+        value: "Open Reviews Tab"
+      #
+      "Toggle Tree View":
+        value: "切换树状图"
+  "&Selection":
+    value: "选择(&S)"
+    submenu:
+      "Add Selection &Above":
+        value: "向上添加光标(&A)"
+      "Add Selection &Below":
+        value: "向下添加光标(&B)"
+      "S&plit into Lines":
+        value: "将光标分散到每行(&P)"
+      "Single Selection":
+        value: "单个光标"
+      "Select to &Top":
+        value: "选择至文件顶部(&T)"
+      "Select to Botto&m":
+        value: "选择至文件底部(&M)"
+      "Select &Line":
+        value: "选择整行(&L)"
+      "Select &Word":
+        value: "选择单词(&W)"
+      "Select to Beginning of W&ord":
+        value: "选择至词首(&O)"
+      "Select to Beginning of L&ine":
+        value: "选择至行首(&I)"
+      "Select to First &Character of Line":
+        value: "选择至行内第一个字符(&C)"
+      "Select to End of Wor&d":
+        value: "选择至词尾(&D)"
+      "Select to End of Lin&e":
+        value: "选择至行尾(&E)"
+      "Select Inside Brackets":
+        value: "选择括号内容"
+  "F&ind":
+    value: "查找(&I)"
+    submenu:
+      "Find in Buffer":
+        value: "查找"
+      "Replace in Buffer":
+        value: "替换"
+      "Select Next":
+        value: "选中下一个"
+      "Select All":
+        value: "选中所有"
+      "Toggle Find in Buffer":
+        value: "切换“查找”界面"
+      "Find in Project":
+        value: "在项目中查找"
+      "Toggle Find in Project":
+        value: "切换“在项目中查找”界面"
+      "Find All":
+        value: "查找全部"
+      "Find Next":
+        value: "查找下一个"
+      "Find Previous":
+        value: "查找上一个"
+      "Replace Next":
+        value: "替换下一个"
+      "Replace All":
+        value: "全部替换"
+      "Clear History":
+        value: "清除查找历史"
+      "Find Buffer":
+        value: "查找编辑中文件"
+      "Find File":
+        value: "查找文件"
+      "Find Modified File":
+        value: "查找修改过的文件"
+  "&Packages":
+    value: "插件包(&P)"
+    submenu:
+      "Bracket Matcher":
+        value: "Bracket Matcher"
+        submenu:
+          "Go To Matching Bracket":
+            value: "Go To Matching Bracket"
+          "Select Inside Brackets":
+            value: "Select Inside Brackets"
+          "Remove Brackets From Selection":
+            value: "Remove Brackets From Selection"
+          "Close Current Tag":
+            value: "Close Current Tag"
+          "Remove Matching Brackets":
+            value: "Remove Matching Brackets"
+          "Select Matching Brackets":
+            value: "Select Matching Brackets"
+      "Command Palette":
+        value: "Command Palette"
+        submenu:
+          "Toggle":
+            value: "Toggle"
+      "Dev Live Reload":
+        value: "Dev Live Reload"
+        submenu:
+          "Reload All Styles":
+            value: "Reload All Styles"
+      "Git Diff":
+        value: "Git Diff"
+        submenu:
+          "Move to Next Diff":
+            value: "Move to Next Diff"
+          "Move to Previous Diff":
+            value: "Move to Previous Diff"
+          "Toggle Diff List":
+            value: "Toggle Diff List"
+      "GitHub":
+        value: "GitHub"
+        submenu:
+          "Toggle Git Tab":
+            value: "Toggle Git Tab"
+          "Toggle GitHub Tab":
+            value: "Toggle GitHub Tab"
+          "Open Reviews Tab":
+            value: "Open Reviews Tab"
+      "Keybinding Resolver":
+        value: "Keybinding Resolver"
+        submenu:
+          "Toggle":
+            value: "Toggle"
+          "Go To Matching Bracket":
+            value: "Go To Matching Bracket"
+      "Markdown Preview":
+        value: "Markdown Preview"
+        submenu:
+          "Toggle Preview":
+            value: "Toggle Preview"
+          "Toggle Break on Single Newline":
+            value: "Toggle Break on Single Newline"
+          "Toggle GitHub Style":
+            value: "Toggle GitHub Style"
+      "Open On GitHub":
+        value: "Open On GitHub"
+        submenu:
+          "Blame":
+            value: "Blame"
+          "Branch Compare":
+            value: "Branch Compare"
+          "Copy URL":
+            value: "Copy URL"
+          "File":
+            value: "File"
+          "File on Master":
+            value: "File on Master"
+          "History":
+            value: "History"
+          "Issues":
+            value: "Issues"
+          "Pull Requests":
+            value: "Pull Requests"
+          "Repository":
+            value: "Repository"
+      "Package Generator":
+        value: "Package Generator"
+        submenu:
+          "Generate Atom Package":
+            value: "Generate Atom Package"
+          "Generate Atom Syntax Theme":
+            value: "Generate Atom Syntax Theme"
+      "Settings View":
+        value: "Settings View"
+        submenu:
+          "Open":
+            value: "Open"
+          "Show Keybindings":
+            value: "Show Keybindings"
+          "Install Packages/Themes":
+            value: "Install Packages/Themes"
+          "Update Packages/Themes":
+            value: "Update Packages/Themes"
+          "Manage Packages":
+            value: "Manage Packages"
+          "Manage Themes":
+            value: "Manage Themes"
+      "Snippets":
+        value: "Snippets"
+        submenu:
+          "Expand":
+            value: "Expand"
+          "Next Stop":
+            value: "Next Stop"
+          "Previous Stop":
+            value: "Previous Stop"
+          "Available":
+            value: "Available"
+      "Spell Check":
+        value: "Spell Check"
+        submenu:
+          "Toggle":
+            value: "Toggle"
+      "Styleguide":
+        value: "Styleguide"
+        submenu:
+          "Show":
+            value: "Show"
+      "Symbols":
+        value: "Symbols"
+        submenu:
+          "File Symbols":
+            value: "File Symbols"
+          "Project Symbols":
+            value: "File Symbols"
+      "Timecop":
+        value: "Timecop"
+        submenu:
+          "Show":
+            value: "Show"
+      "Tree View":
+        value: "Tree View"
+        submenu:
+          "Focus":
+            value: "Focus"
+          "Toggle":
+            value: "Toggle"
+          "Reveal Active File":
+            value: "Reveal Active File"
+          "Toggle Tree Side":
+            value: "Toggle Tree Side"
+      "Whitespace":
+        value: "Whitespace"
+        submenu:
+          "Remove Trailing Whitespace":
+            value: "Remove Trailing Whitespace"
+          "Save With Trailing Whitespace":
+            value: "Save With Trailing Whitespace"
+          "Save Without Trailing Whitespace":
+            value: "Save Without Trailing Whitespace"
+          "Convert Tabs To Spaces":
+            value: "Convert Tabs To Spaces"
+          "Convert Spaces To Tabs":
+            value: "Convert Spaces To Tabs"
+          "Convert All Tabs To Spaces":
+            value: "Convert All Tabs To Spaces"
+  "&Help":
+    value: "帮助(&H)"
+    submenu:
+      "View &Terms of Use":
+        value: "查看使用条款(&T)"
+      "View &License":
+        value: "查看许可协议(&L)"
+      "Restart and Install Update":
+        value: "Restart and Install Update"
+      "Check for Update":
+        value: "Check for Update"
+      "Checking for Update":
+        value: "Checking for Update"
+      "Downloading Update":
+        value: "Downloading Update"
+      "&Documentation":
+        value: "官方文档(&D)"
+      "Frequently Asked Questions":
+        value: "FAQ/常问问题"
+      "Community Discussions":
+        value: "Atom社区讨论"
+      "Report Issue":
+        value: "报告问题"
+      "Search Issues":
+        value: "在 GitHub 上搜索问题"
+      "About Atom":
+        value: "关于 Atom"
+      "Welcome Guide":
+        value: "起始页"

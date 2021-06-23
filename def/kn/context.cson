@@ -1,0 +1,198 @@
+Context:
+  "atom-workspace":
+    "application:inspect": "ಅಂಶ ಪರೀಕ್ಷಿಸಲು"
+  "atom-text-editor":
+    "color-picker:open": "ಬಣ್ಣ ಆರಿಸುವ"
+    "minimap:toggle": "ಟಾಗಲ್ ಮಾಡಿ ಮಿನಿಮ್ಯಾಪ್"
+    # added for atom/bookmarks
+    "bookmarks:toggle-bookmark": "Toggle Bookmark"
+  "atom-text-editor, .overlayer":
+    "core:undo": "ರದ್ದುಗೊಳಿಸಿ"
+    "core:redo": "ಮತ್ತೆಮಾಡು"
+    "core:cut": "ಕತ್ತರಿಸಿ"
+    "core:copy": "ನಕಲಿಸಿ"
+    "core:paste": "ಅಂಟಿಸಿ"
+    "core:delete": "ಅಳಿಸಿ"
+    "core:select-all": "ಎಲ್ಲವನ್ನು ಆರಿಸು"
+    "pane:split-up-and-copy-active-item": "ಮೇಲಕ್ಕೆ ವಿಭಜಿಸಿೆ"
+    "pane:split-down-and-copy-active-item": "ಕೆಳಗೆ ವಿಭಜಿಸಿ"
+    "pane:split-left-and-copy-active-item": "ಎಡಕ್ಕೆ ವಿಭಜಿಸಿ"
+    "pane:split-right-and-copy-active-item": "ಬಲಕ್ಕೆ ವಿಭಜಿಸಿ"
+    "pane:close": "ಫಲಕ ಮುಚ್ಚಿ"
+  "atom-pane":
+    "pane:split-up-and-copy-active-item": "ಮೇಲಕ್ಕೆ ವಿಭಜಿಿಸಿ"
+    "pane:split-down-and-copy-active-item": "ಕೆಳಗೆ ವಿಭಜಿಸಿ"
+    "pane:split-left-and-copy-active-item": "ಎಡಕ್ಕೆ ವಿಭಜಿಸಿ"
+    "pane:split-right-and-copy-active-item": "ಬಲಕ್ಕೆ ವಿಭಜಿಸಿ"
+    "pane:close": "ಫಲಕ ಮುಚ್ಚಿ"
+  "atom-text-editor:not([mini])":
+    "encoding-selector:show": "ಎನ್ಕೋಡಿಂಗ್ ಬದಲಾಯಿಸಿ"
+    "spell-check:correct-misspelling": "ಸರಿಯಾದ ಕಾಗುಣಿತ"
+    "symbols-view:go-to-declaration": "ಘೋಷಣೆಗೆ ಹೋಗಿ"
+  ".overlayer":
+    "grammar-selector:show": "ವ್ಯಾಕರಣವನ್ನು ಬದಲಾಯಿಸಿ"
+  ".image-view":
+    "image-view:reload": "ಚಿತ್ರವನ್ನು ಮರುಲೋಡ್ ಮಾಡಿ"
+  ".tab":
+    "tabs:close-tab": "ಟ್ಯಾಬ್ ಮುಚ್ಚಿ"
+    "tabs:close-other-tabs": "ಇತರ ಟ್ಯಾಬ್‌ಗಳನ್ನು ಮುಚ್ಚಿ"
+    "tabs:close-tabs-to-right": "ಬಲ ಟ್ಯಾಬ್‌ಗಳನ್ನು ಮುಚ್ಚಿ"
+    "tabs:close-tabs-to-left": "ಎಡ ಟ್ಯಾಬ್‌ಗಳನ್ನು ಮುಚ್ಚಿ"
+    "tabs:close-saved-tabs": "ಉಳಿಸಿದ ಟ್ಯಾಬ್‌ಗಳನ್ನು ಮುಚ್ಚಿ"
+    "tabs:close-all-tabs": "ಎಲ್ಲಾ ಟ್ಯಾಬ್‌ಗಳನ್ನು ಮುಚ್ಚಿ"
+    "tabs:split-up": "ಮೇಲಕ್ಕೆ ವಿಭಜಿಿಸಿ"
+    "tabs:split-down": "ಕೆಳಗೆ ವಿಭಜಿಸಿ"
+    "tabs:split-left": "ಎಡಕ್ಕೆ ವಿಭಜಿಸಿ"
+    "tabs:split-right": "ಬಲಕ್ಕೆ ವಿಭಜಿಸಿ"
+  ".tab.texteditor":
+    "tabs:open-in-new-window": "ಹೊಸ ವಿಂಡೋದಲ್ಲಿ ತೆರೆಯಿರಿ"
+  ".tab.pending-tab":
+    "tabs:keep-pending-tab": "ಬಾಕಿ ಇರುವ ಟ್ಯಾಬ್ ಅನ್ನು ಇರಿಸಿ"
+  ".tab-bar":
+    "pane:reopen-closed-item": "ಮುಚ್ಚಿದ ಟ್ಯಾಬ್ ಅನ್ನು ಮತ್ತೆ ತೆರೆಯಿರಿ"
+  ".tree-view .full-menu":
+    "tree-view:add-file": "ಹೊಸ ಫೈಲ್"
+    "tree-view:add-folder": "ಹೊಸ ಫೋಲ್ಡರ್"
+    "tree-view:move": "ಮರುಹೆಸರಿಸು"
+    "tree-view:duplicate": "ನಕಲು"
+    "tree-view:remove": "ಅಳಿಸಿ"
+    "tree-view:copy": "ನಕಲಿಸಿ"
+    "tree-view:cut": "ಕತ್ತರಿಸಿ"
+    "tree-view:paste": "ಅಂಟಿಸಿ"
+#    "tree-view:open-selected-entry-up": "ಮೇಲಕ್ಕೆ ವಿಭಜಿಿಸಿ"
+#    "tree-view:open-selected-entry-down": "ಕೆಳಗೆ ವಿಭಜಿಸಿ"
+#    "tree-view:open-selected-entry-left": "ಎಡಕ್ಕೆ ವಿಭಜಿಸಿ"
+#    "tree-view:open-selected-entry-right": "ಬಲಕ್ಕೆ ವಿಭಜಿಸಿ"
+    "application:add-project-folder": "ಪ್ರಾಜೆಕ್ಟ್ ಫೋಲ್ಡರ್ ಸೇರಿಸಿ"
+    "tree-view:copy-full-path": "ಪೂರ್ಣ ಮಾರ್ಗವನ್ನು ನಕಲಿಸಿ"
+    "tree-view:copy-project-path": "ಪ್ರಾಜೆಕ್ಟ್ ಮಾರ್ಗವನ್ನು ನಕಲಿಸಿ"
+    "tree-view:open-in-new-window": "ಹೊಸ ವಿಂಡೋದಲ್ಲಿ ತೆರೆಯಿರಿ"
+  '.tree-view .full-menu [is="tree-view-file"]':
+    "tree-view:open-selected-entry-up": "ಮೇಲಕ್ಕೆ ವಿಭಜಿಿಸಿ"
+    "tree-view:open-selected-entry-down": "ಕೆಳಗೆ ವಿಭಜಿಸಿ"
+    "tree-view:open-selected-entry-left": "ಎಡಕ್ಕೆ ವಿಭಜಿಸಿ"
+    "tree-view:open-selected-entry-right": "ಬಲಕ್ಕೆ ವಿಭಜಿಸಿ"
+  ".tree-view .full-menu .project-root > .header":
+    "tree-view:add-file": "ಹೊಸ ಫೈಲ್"
+    "tree-view:add-folder": "ಹೊಸ ಫೋಲ್ಡರ್"
+    "tree-view:move": "ಮರುಹೆಸರಿಸು"
+    "tree-view:duplicate": "ನಕಲು"
+    "tree-view:remove": "ಅಳಿಸಿ"
+    "tree-view:copy": "ನಕಲಿಸಿ"
+    "tree-view:cut": "ಕತ್ತರಿಸಿ"
+    "tree-view:paste": "ಅಂಟಿಸಿ"
+#    "tree-view:open-selected-entry-up": "ಮೇಲಕ್ಕೆ ವಿಭಜಿಿಸಿ"
+#    "tree-view:open-selected-entry-down": "ಕೆಳಗೆ ವಿಭಜಿಸಿ"
+#    "tree-view:open-selected-entry-left": "ಎಡಕ್ಕೆ ವಿಭಜಿಸಿ"
+#    "tree-view:open-selected-entry-right": "ಬಲಕ್ಕೆ ವಿಭಜಿಸಿ"
+    "application:add-project-folder": "ಪ್ರಾಜೆಕ್ಟ್ ಫೋಲ್ಡರ್ ಸೇರಿಸಿ"
+    "tree-view:remove-project-folder": "ಪ್ರಾಜೆಕ್ಟ್ ಫೋಲ್ಡರ್ ತೆಗೆದುಹಾಕಿ"
+    # added for atom/tree-view
+    "tree-view:collapse-all": "Collapse All Project Folders"
+    "tree-view:copy-full-path": "ಪೂರ್ಣ ಮಾರ್ಗವನ್ನು ನಕಲಿಸಿ"
+    "tree-view:copy-project-path": "ಪ್ರಾಜೆಕ್ಟ್ ಮಾರ್ಗವನ್ನು ನಕಲಿಸಿ"
+    "tree-view:open-in-new-window": "ಹೊಸ ವಿಂಡೋದಲ್ಲಿ ತೆರೆಯಿರಿ"
+  ".platform-darwin .tree-view .full-menu":
+    "tree-view:show-in-file-manager": "ಫೈಂಡರ್ನಲ್ಲಿ ತೋರಿಸಿ"
+  ".platform-win32 .tree-view .full-menu":
+    "tree-view:show-in-file-manager": "ಎಕ್ಸ್‌ಪ್ಲೋರರ್‌ನಲ್ಲಿ ತೋರಿಸಿ"
+  ".platform-linux .tree-view .full-menu":
+    "tree-view:show-in-file-manager": "ಫೈಲ್ ಮ್ಯಾನೇಜರ್‌ನಲ್ಲಿ ತೋರಿಸಿ"
+#  ".tree-view li.directory":
+#    "project-find:show-in-current-directory": "ಡೈರೆಕ್ಟರಿಯಲ್ಲಿ ಹುಡುಕಿ"
+  ".tree-view .multi-select":
+    "tree-view:remove": "ಅಳಿಸಿ"
+    "tree-view:copy": "ನಕಲಿಸಿ"
+    "tree-view:cut": "ಕತ್ತರಿಸಿ"
+    "tree-view:paste": "ಅಂಟಿಸಿ"
+  "atom-pane[data-active-item-path] .item-views":
+    "tree-view:reveal-active-file": "ಮರದ ದೃಷ್ಟಿಯಲ್ಲಿ ಬಹಿರಂಗಪಡಿಸಿ"
+  "atom-pane[data-active-item-path] .tab.active":
+    "tree-view:rename": "ಮರುಹೆಸರಿಸು"
+    "tree-view:reveal-active-file": "ಮರದ ದೃಷ್ಟಿಯಲ್ಲಿ ಬಹಿರಂಗಪಡಿಸಿ"
+  ".platform-darwin atom-pane[data-active-item-path] .tab.active":
+    "tree-view:show-current-file-in-file-manager": "ಫೈಂಡರ್ನಲ್ಲಿ ತೋರಿಸಿ"
+  ".platform-win32 atom-pane[data-active-item-path] .tab.active":
+    "tree-view:show-current-file-in-file-manager": "ಎಕ್ಸ್‌ಪ್ಲೋರರ್‌ನಲ್ಲಿ ತೋರಿಸಿ"
+  ".platform-linux atom-pane[data-active-item-path] .tab.active":
+    "tree-view:show-current-file-in-file-manager": "ಫೈಲ್ ಮ್ಯಾನೇಜರ್‌ನಲ್ಲಿ ತೋರಿಸಿ"
+  ".platform-darwin atom-text-editor:not([mini])":
+    "tree-view:show-current-file-in-file-manager": "ಫೈಂಡರ್ನಲ್ಲಿ ತೋರಿಸಿ"
+  ".platform-win32 atom-text-editor:not([mini])":
+    "tree-view:show-current-file-in-file-manager": "ಎಕ್ಸ್‌ಪ್ಲೋರರ್‌ನಲ್ಲಿ ತೋರಿಸಿ"
+  ".platform-linux atom-text-editor:not([mini])":
+    "tree-view:show-current-file-in-file-manager": "ಫೈಲ್ ಮ್ಯಾನೇಜರ್‌ನಲ್ಲಿ ತೋರಿಸಿ"
+  # added for atom/find-and-replace
+  ".tree-view li.directory":
+    "project-find:show-in-current-directory": "ಡೈರೆಕ್ಟರಿಯಲ್ಲಿ ಹುಡುಕಿ"
+  ".list-item.match-row":
+    "find-and-replace:open-in-new-tab": "Open in New Tab"
+    "core:copy": "'Copy"
+    "find-and-replace:copy-path": "Copy Path"
+  ".list-item.path-row":
+    "find-and-replace:open-in-new-tab": "Open in New Tab"
+    "find-and-replace:copy-path": "Copy Path"
+  # added for atom/github/menu/git.cson
+  ".github-FilePatchListView-item":
+    "github:jump-to-file": "Jump to File"
+  ".github-FilePatchView--staged":
+    "github:jump-to-file": "Jump to File"
+    "core:confirm": "Unstage Selection"
+  ".github-FilePatchView--unstaged":
+    "github:jump-to-file": "Jump to File"
+    "core:confirm": "Stage Selection"
+    "github:discard-selected-lines": "Discard Selection"
+  "github-DotComMarkdownHtml .issue-link":
+    "github:open-link-in-new-tab": "Open in New Tab"
+    "github:open-link-in-this-tab": "Open in This Tab"
+    "github:open-link-in-browser": "Open in Browser"
+  ".github-CommitView":
+    "github:toggle-expanded-commit-message-editor": "Toggle Expanded Commit Message Editor"
+  ".item-views > atom-text-editor":
+    "github:view-unstaged-changes-for-current-file": "View Unstaged Changes"
+    "github:view-staged-changes-for-current-file": "View Staged Changes"
+  ".github-PushPull":
+    "github:fetch": "Fetch"
+    "github:pull": "Pull"
+    "github:push": "Push"
+    "github:force-push": "Force Push"
+  ".most-recent":
+    "github:amend-last-commit": "Amend"
+  ".github-RecentCommit":
+    "github:copy-commit-sha": "Copy Commit SHA"
+    "github:copy-commit-subject": "Copy Commit Subject"
+  # added for atom/github/lib/github-package.js
+  ".github-UnstagedChanges .github-FilePatchListView":
+    "core:confirm": "Stage"
+    "github:discard-changes-in-selected-files": "Discard Changes"
+  ".github-StagedChanges .github-FilePatchListView":
+    "core:confirm": "Unstage"
+  ".github-MergeConflictPaths .github-FilePatchListView":
+    "core:confirm": "Stage"
+    "github:resolve-file-as-ours": "Resolve File As Ours"
+    "github:resolve-file-as-theirs": "Resolve File As Theirs"
+  # added for packages/link
+  "atom-text-editor .syntax--markup.syntax--underline.syntax--link":
+    "link:open": "Open link"
+  # added for atom/markdown-preview
+  ".markdown-preview":
+    "markdown-preview:select-all": "Select All"
+    "core:save-as": "Save As HTML\u2026"
+  ".markdown-preview.has-selection":
+    "core:copy": "Copy"
+  ".markdown-preview:not(.has-selection)":
+    "core:copy": "Copy As HTML"
+  ".tree-view .file .name[data-name$=\\.markdown]":
+    "markdown-preview:preview-file": "Markdown Preview"
+  ".tree-view .file .name[data-name$=\\.md]":
+    "markdown-preview:preview-file": "Markdown Preview"
+  ".tree-view .file .name[data-name$=\\.mdown]":
+    "markdown-preview:preview-file": "Markdown Preview"
+  ".tree-view .file .name[data-name$=\\.mkd]":
+    "markdown-preview:preview-file": "Markdown Preview"
+  ".tree-view .file .name[data-name$=\\.mkdown]":
+    "markdown-preview:preview-file": "Markdown Preview"
+  ".tree-view .file .name[data-name$=\\.ron]":
+    "markdown-preview:preview-file": "Markdown Preview"
+  ".tree-view .file .name[data-name$=\\.txt]":
+    "markdown-preview:preview-file": "Markdown Preview"

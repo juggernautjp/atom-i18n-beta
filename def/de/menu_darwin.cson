@@ -1,0 +1,495 @@
+Menu:
+  Atom:
+    value: "Atom"
+    submenu:
+      "About Atom":
+        value: "Über Atom"
+      "View License":
+        value: "Lizenzbedingungen anzeigen"
+      "Check for Update":
+        value: "Nach Aktualisierungen suchen"
+      "Preferences…":
+        value: "Einstellungen..."
+      "Config…":
+        value: "Konfiguration..."
+      "Init Script…":
+        value: "Startscript..."
+      "Keymap…":
+        value: "Keymap..."
+      "Snippets…":
+        value: "Vorlagen..."
+      "Stylesheet…":
+        value: "Stylesheet..."
+      "Install Shell Commands":
+        value: "Shell-Kommandos installieren"
+      "Hide Atom":
+        value: "Atom verbergen"
+      "Hide Others":
+        value: "Andere verbergen"
+      "Show All":
+        value: "Alle anzeigen"
+      Quit:
+        value: "Beenden"
+  File:
+    value: "Datei"
+    submenu:
+      "New Window":
+        value: "Neues Fenster"
+      "New File":
+        value: "Neue Datei"
+      "Open…":
+        value: "Öffnen..."
+      "Add Project Folder…":
+        value: "Projekt-Ordner hinzufügen..."
+      "Reopen Project":
+        value: "Projekt erneut öffnen"
+        submenu:
+          "Clear Project History":
+            value: "Projekt-Historie löschen"
+      "Reopen Last Item":
+        value: "letzte Datei nochmals öffnen"
+      Save:
+        value: "Speichern"
+      "Save As…":
+        value: "Speichern unter..."
+      "Save All":
+        value: "Alles speichern"
+      "Close Tab":
+        value: "Tab schließen"
+      "Close Pane":
+        value: "Alle Tabs schließen"
+      "Close Window":
+        value: "Fenster schließen"
+      "Close All Tabs":
+        value: "Alle Tabs schließen"
+  Edit:
+    value: "Edit"
+    submenu:
+      Undo:
+        value: "Rückgängig"
+      Redo:
+        value: "Wiederherstellen"
+      Cut:
+        value: "Ausschneiden"
+      Copy:
+        value: "Kopieren"
+      "Copy Path":
+        value: "Pfad kopieren"
+      Paste:
+        value: "Einfügen"
+      "Select All":
+        value: "Alles auswählen"
+      "Toggle Comments":
+        value: "Kommentare umschalten"
+      Lines:
+        value: "Zeilen"
+        submenu:
+          Indent:
+            value: "Zeile einrücken"
+          Outdent:
+            value: "Zeile ausrücken"
+          "Auto Indent":
+            value: "Auto Zeileneinzug"
+          "Move Line Up":
+            value: "Zeile nach oben verschieben"
+          "Move Line Down":
+            value: "Zeile nach unten verschieben"
+          "Duplicate Lines":
+            value: "Zeile duplizieren"
+          "Delete Line":
+            value: "Zeile löschen"
+          "Join Lines":
+            value: "Zeilen zusammenfügen"
+      Columns:
+        value: "Spalten"
+        submenu:
+          "Move Selection Left":
+            value: "Auswahl nach links verschieben"
+          "Move Selection Right":
+            value: "Auswahl nach rechts verschieben"
+      Text:
+        value: "Text"
+        submenu:
+          "Upper Case":
+            value: "Großschreiben"
+          "Lower Case":
+            value: "Kleinschreiben"
+          "Delete to End of Word":
+            value: "Gesamtes Wort entfernen"
+          "Delete to Previous Word Boundary":
+            value: "Löschen bis zum letzten Wortende"
+          "Delete to Next Word Boundary":
+            value: "Löschen bis zum nächsten Wortanfang"
+          "Delete Line":
+            value: "Zeile löschen"
+          Transpose:
+            value: "Umkehren"
+      Folding:
+        value: "Folding"
+        submenu:
+          Fold:
+            value: "Zuklappen"
+          Unfold:
+            value: "Aufklappen"
+          "Fold All":
+            value: "Alles zuklappen"
+          "Unfold All":
+            value: "Alles aufklappen"
+          "Fold Level 1":
+            value: "Zuklappen Level 1"
+          "Fold Level 2":
+            value: "Zuklappen Level 2"
+          "Fold Level 3":
+            value: "Zuklappen Level 3"
+          "Fold Level 4":
+            value: "Zuklappen Level 4"
+          "Fold Level 5":
+            value: "Zuklappen Level 5"
+          "Fold Level 6":
+            value: "Zuklappen Level 6"
+          "Fold Level 7":
+            value: "Zuklappen Level 7"
+          "Fold Level 8":
+            value: "Zuklappen Level 8"
+          "Fold Level 9":
+            value: "Zuklappen Level 9"
+      "Reflow Selection":
+        value: "Umformatieren der Auswahl"
+      Bookmark:
+        value: "Lesezeichen"
+        submenu:
+          "View All":
+            value: "Alle anzeigen"
+          "Toggle Bookmark":
+            value: "Lesezeichen umschalten"
+          "Jump to Next Bookmark":
+            value: "Zum nächsten Lesezeichen springen"
+          "Jump to Previous Bookmark":
+            value: "Zum vorhergehenden Lesezeichen springen"
+      "Select Encoding":
+        value: "Encodierung auswählen"
+      "Go to Line":
+        value: "Gehe zu Zeile"
+      "Select Grammar":
+        value: "Grammatik auswählen"
+  View:
+    value: "Anzeige"
+    submenu:
+      "Toggle Full Screen":
+        value: "Vollbild ein-/ausschalten"
+      Panes:
+        value: "Fensterinhalt"
+        submenu:
+          "Split Up":
+            value: "Nach oben aufteilen"
+          "Split Down":
+            value: "Nach unten aufteilen"
+          "Split Left":
+            value: "Nach links aufteilen"
+          "Split Right":
+            value: "Nach rechts aufteilen"
+          "Focus Next Pane":
+            value: "Nächsten Fensterinhalt fokussieren"
+          "Focus Previous Pane":
+            value: "Vorherigen Fensterinhalt fokussieren"
+          "Focus Pane Above":
+            value: "Fensterinhalt oberhalb fokussieren"
+          "Focus Pane Below":
+            value: "Fensterinhalt unterhalb fokussieren"
+          "Focus Pane On Left":
+            value: "Fensterinhalt links fokussieren"
+          "Focus Pane On Right":
+            value: "Fensterinhalt rechts fokussieren"
+          "Close Pane":
+            value: "Gesammten Fensterinhalt schließen"
+      Developer:
+        value: "Entwickler"
+        submenu:
+          "Open In Dev Mode…":
+            value: "Öffnen im Entwicklermodus..."
+          "Reload Window":
+            value: "Fenster neu laden"
+          "Run Package Specs":
+            value: "Paket Spezifikationen ausführen"
+          "Run Benchmarks":
+            value: "Benchmarks ausführen"
+          "Toggle Developer Tools":
+            value: "Entwickler Tools ein-/ausschalten"
+      "Increase Font Size":
+        value: "Schriftgröße vergrößern"
+      "Decrease Font Size":
+        value: "Schriftgröße verkleinern"
+      "Reset Font Size":
+        value: "Schriftgröße zurücksetzen"
+      "Toggle Soft Wrap":
+        value: "Automatischer Zeilenumbruch ein-/ausschalten"
+      "Toggle Command Palette":
+        value: "Befehls-Palette umschalten"
+      # added the following menus, for "Packages"->"GitHub"
+      "Toggle Git Tab":
+        value: "Toggle Git Tab"
+      "Toggle GitHub Tab":
+        value: "Toggle GitHub Tab"
+      "Open Reviews Tab":
+        value: "Open Reviews Tab"
+      #
+      "Toggle Tree View":
+        value: "Baumansicht ein-/ausschalten"
+  Selection:
+    value: "Auswahl"
+    submenu:
+      "Add Selection Above":
+        value: "Auswahl darüber hinzufügen"
+      "Add Selection Below":
+        value: "Auswahl darunter hinzufügen"
+      "Single Selection":
+        value: "Einzelauswahl"
+      "Split into Lines":
+        value: "In Zeilen aufteilen"
+      "Select to Top":
+        value: "Nach oben hin alles auswählen"
+      "Select to Bottom":
+        value: "Nach unten hin alles auswählen"
+      "Select Line":
+        value: "Zeile auswählen"
+      "Select Word":
+        value: "Wort auswählen"
+      "Select to Beginning of Word":
+        value: "Bis zum Wortanfang auswählen"
+      "Select to Beginning of Line":
+        value: "Bis zum Zeilenanfang auswählen"
+      "Select to First Character of Line":
+        value: "Bis zum ersten Buchstaben in Zeile auswählen"
+      "Select to End of Word":
+        value: "Bis zum Wortende auswählen"
+      "Select to End of Line":
+        value: "Bis zum Zeilenende auswählen"
+      "Select Inside Brackets":
+        value: "Klammerninhalt auswählen"
+  Find:
+    value: "Suchen"
+    submenu:
+      "Find in Buffer":
+        value: "Suchen in aktueller Ansicht"
+      "Replace in Buffer":
+        value: "Ersetzen in aktueller Ansicht"
+      "Select Next":
+        value: "Nächstes auswählen"
+      "Select All":
+        value: "Alles auswählen"
+      "Toggle Find in Buffer":
+        value: "Suche ein-/ausschalten"
+      "Find in Project":
+        value: "Suchen im Projekt"
+      "Toggle Find in Project":
+        value: "Projektsuche ein-/ausschalten"
+      "Find All":
+        value: "Alle suchen"
+      "Find Next":
+        value: "Nächstes suchen"
+      "Find Previous":
+        value: "Vorheriges suchen"
+      "Replace Next":
+        value: "Nächstes ersetzen"
+      "Replace All":
+        value: "Alle ersetzen"
+      "Clear History":
+        value: "Historie löschen"
+      "Find Buffer":
+        value: "In Ansicht suchen"
+      "Find File":
+        value: "Datei suchen"
+      "Find Modified File":
+        value: "Veränderte Datei suchen"
+  Packages:
+    value: "Pakete"
+    submenu:
+      "Bracket Matcher":
+        value: "Bracket Matcher"
+        submenu:
+          "Go To Matching Bracket":
+            value: "Go To Matching Bracket"
+          "Select Inside Brackets":
+            value: "Select Inside Brackets"
+          "Remove Brackets From Selection":
+            value: "Remove Brackets From Selection"
+          "Close Current Tag":
+            value: "Close Current Tag"
+          "Remove Matching Brackets":
+            value: "Remove Matching Brackets"
+          "Select Matching Brackets":
+            value: "Select Matching Brackets"
+      "Command Palette":
+        value: "Command Palette"
+        submenu:
+          "Toggle":
+            value: "Toggle"
+      "Dev Live Reload":
+        value: "Dev Live Reload"
+        submenu:
+          "Reload All Styles":
+            value: "Reload All Styles"
+      "Git Diff":
+        value: "Git Diff"
+        submenu:
+          "Move to Next Diff":
+            value: "Move to Next Diff"
+          "Move to Previous Diff":
+            value: "Move to Previous Diff"
+          "Toggle Diff List":
+            value: "Toggle Diff List"
+      "GitHub":
+        value: "GitHub"
+        submenu:
+          "Toggle Git Tab":
+            value: "Toggle Git Tab"
+          "Toggle GitHub Tab":
+            value: "Toggle GitHub Tab"
+          "Open Reviews Tab":
+            value: "Open Reviews Tab"
+      "Keybinding Resolver":
+        value: "Keybinding Resolver"
+        submenu:
+          "Toggle":
+            value: "Toggle"
+          "Go To Matching Bracket":
+            value: "Go To Matching Bracket"
+      "Markdown Preview":
+        value: "Markdown Preview"
+        submenu:
+          "Toggle Preview":
+            value: "Toggle Preview"
+          "Toggle Break on Single Newline":
+            value: "Toggle Break on Single Newline"
+          "Toggle GitHub Style":
+            value: "Toggle GitHub Style"
+      "Open On GitHub":
+        value: "Open On GitHub"
+        submenu:
+          "Blame":
+            value: "Blame"
+          "Branch Compare":
+            value: "Branch Compare"
+          "Copy URL":
+            value: "Copy URL"
+          "File":
+            value: "File"
+          "File on Master":
+            value: "File on Master"
+          "History":
+            value: "History"
+          "Issues":
+            value: "Issues"
+          "Pull Requests":
+            value: "Pull Requests"
+          "Repository":
+            value: "Repository"
+      "Package Generator":
+        value: "Package Generator"
+        submenu:
+          "Generate Atom Package":
+            value: "Generate Atom Package"
+          "Generate Atom Syntax Theme":
+            value: "Generate Atom Syntax Theme"
+      "Settings View":
+        value: "Settings View"
+        submenu:
+          "Open":
+            value: "Open"
+          "Show Keybindings":
+            value: "Show Keybindings"
+          "Install Packages/Themes":
+            value: "Install Packages/Themes"
+          "Update Packages/Themes":
+            value: "Update Packages/Themes"
+          "Manage Packages":
+            value: "Manage Packages"
+          "Manage Themes":
+            value: "Manage Themes"
+      "Snippets":
+        value: "Snippets"
+        submenu:
+          "Expand":
+            value: "Expand"
+          "Next Stop":
+            value: "Next Stop"
+          "Previous Stop":
+            value: "Previous Stop"
+          "Available":
+            value: "Available"
+      "Spell Check":
+        value: "Spell Check"
+        submenu:
+          "Toggle":
+            value: "Toggle"
+      "Styleguide":
+        value: "Styleguide"
+        submenu:
+          "Show":
+            value: "Show"
+      "Symbols":
+        value: "Symbols"
+        submenu:
+          "File Symbols":
+            value: "File Symbols"
+          "Project Symbols":
+            value: "File Symbols"
+      "Timecop":
+        value: "Timecop"
+        submenu:
+          "Show":
+            value: "Show"
+      "Tree View":
+        value: "Tree View"
+        submenu:
+          "Focus":
+            value: "Focus"
+          "Toggle":
+            value: "Toggle"
+          "Reveal Active File":
+            value: "Reveal Active File"
+          "Toggle Tree Side":
+            value: "Toggle Tree Side"
+      "Whitespace":
+        value: "Whitespace"
+        submenu:
+          "Remove Trailing Whitespace":
+            value: "Remove Trailing Whitespace"
+          "Save With Trailing Whitespace":
+            value: "Save With Trailing Whitespace"
+          "Save Without Trailing Whitespace":
+            value: "Save Without Trailing Whitespace"
+          "Convert Tabs To Spaces":
+            value: "Convert Tabs To Spaces"
+          "Convert Spaces To Tabs":
+            value: "Convert Spaces To Tabs"
+          "Convert All Tabs To Spaces":
+            value: "Convert All Tabs To Spaces"
+  Window:
+    value: "Fenster"
+    submenu:
+      Minimize:
+        value: "Minimieren"
+      Zoom:
+        value: "Zoom"
+      "Bring All to Front":
+        value: "Alles in den Vordergrund"
+  Help:
+    value: "Hilfe"
+    submenu:
+      "Terms of Use":
+        value: "Nutzungsbedingungen anzeigen"
+      Documentation:
+        value: "Dokumentation"
+      Roadmap:
+        value: "Roadmap"
+      "Frequently Asked Questions":
+        value: "Wiederkehrende Fragen (FAQ)"
+      "Community Discussions":
+        value: "Community Diskussionen"
+      "Report Issue":
+        value: "Problem melden"
+      "Search Issues":
+        value: "Problem suchen"
+      "Welcome Guide":
+        value: "Wilkommens-Guide"

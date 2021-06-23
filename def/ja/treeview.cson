@@ -1,0 +1,6 @@
+TreeView:
+  title: "プロジェクト"
+  desc: "フォルダをまだ開いていません"
+  button:
+    addFolder: "プロジェクトフォルダを追加"
+    reopenProject: "最近使用したプロジェクト"
