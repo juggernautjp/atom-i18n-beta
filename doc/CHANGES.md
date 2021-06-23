@@ -6,7 +6,7 @@
 
 [atom-i18n-beta](https://github.com/juggernautjp/atom-i18n-beta) is a fork of [`atom-i18n`](https://github.com/liuderchi/atom-i18n) package for Atom Editor localization (internationalization).
 
-[`atom-i18n-beta`](https://github.com/juggernautjp/atom-i18n-beta) is developed based on [`atom-i18n`](https://github.com/liuderchi/atom-i18n) version 0.25.0.
+[`atom-i18n-beta`](https://github.com/juggernautjp/atom-i18n-beta) is being developed based on [`atom-i18n`](https://github.com/liuderchi/atom-i18n) version 0.25.0.
 
 
 ## 2. 'atom-i18n-beta' objectives
@@ -30,7 +30,7 @@
 |   9 | Tree View            | 'Atom' show the file and directory list at the left panel |
 |  10 | Notification         | 'Atom' show the dialog as 'Notification' at upper-right corner in the Atom window. |
 
-- For further information, see. [CONPONENTS](./COMPONENTS.md)
+- For further information, see. [CONPONENTS](https://github.com/juggernautjp/atom-i18n-beta/blob/main/doc/COMPONENTS.md)
 
 
 ## 4. What is the difference among 'japanese-menu', 'atom-i18n' and 'atom-i18n-beta'

@@ -5,25 +5,36 @@ You can use Atom in your language with `atom-i18n-beta` package.
 
 
 ## Usage
-You can open the Settings View by navigating to _Edit > Preferences_ (Linux), _Atom > Preferences_ (macOS), or _File > Settings_ (Windows).
+You can open the Settings View by navigating to the following;
 
-In order to install `atom-i18n-beta` package, click on the _Install_ section on the left-hand side.
+| OS              | Menu                    |                    
+|-----------------|:------------------------|
+| Linux           | _Edit > Preferences_    |
+| macOS           | _Atom > Preferences_    |
+| Windows         | _File > Settings_       |
 
-Once installed, community packages/themes and their settings are housed within their respective section.
-All packages/themes that have updates will be listed under the _Updates_ section.
+
+
+In order to install `atom-i18n-beta` package, click on the _Install_ section on the left-hand side, then input "atom-i18n-beta" in the field.
+
+Then, click on the _Packages_ section on the left-hand side, click the _Settings_ button of `atom-i18n-beta` package, then select your *<locale_code>* in the _Settings > Language_ pull down menu.
+You can find your *<locale_code>* in the table in the ["Supported Language"](#supported-language).
+
+Once installed, community packages/themes and their settings are housed within their respective section. All packages/themes that have updates will be listed under the _Updates_ section.
 
 
 ## Changes
 
 `atom-i18n-beta` is a fork of [`atom-i18n`](https://github.com/liuderchi/atom-i18n) package.
 
-The development policy of `atom-i18n-beta` is to localize Atom as much as possible, including Atom-bundled packages, which is called [Atom Core Packages](https://github.com/atom/atom/tree/6b9b4f96f8fd81e573de895f5fb8b444c78760ad/packages).
+The development policy of `atom-i18n-beta` is to localize Atom as much as possible, including Atom-bundled packages, which is called [Atom Core Packages](https://github.com/juggernautjp/atom-i18n-beta/blob/main/doc/CHANGES.md).
 
-For further information on the difference between [`atom-i18n`](https://github.com/liuderchi/atom-i18n) and [`atom-i18n-beta`], see ["CHANGES"](./doc/CHANGES.md).
+For further information on the difference between [`atom-i18n`](https://github.com/liuderchi/atom-i18n) and `atom-i18n-beta`, see ["CHANGES"](https://github.com/juggernautjp/atom-i18n-beta/blob/main/doc/CHANGES.md).
 
 
 ## Supported Language
-All of the following language are translated, with the [Atom Components](./doc/COMPONENTS.md).
+
+All of the following language are translated, with the [Atom Components](https://github.com/juggernautjp/atom-i18n-beta/blob/main/doc/COMPONENTS.md).
 
 | Language             | original rep.   |  code   | Menu | Contest | Settings | About | Welcome | Find | Keybind | Git | Tree | Notify |
 |----------------------|:----------------|:-------:|:-----|:--------|:---------|:------|:--------|:-----|:--------|:----|:-----|:-------|
@@ -57,14 +68,14 @@ All of the following language are translated, with the [Atom Components](./doc/C
 | Chinese(Traditional) | 繁體中文        | `zh-tw` | 〇   | 〇      | △       | △     | △      | ×    | ×       | N/A | ×    | N/A    |
 | English              | (default)       | `en`    | 〇   | 〇      | △       | △     | △      | ×    | ×       | N/A | ×    | N/A    |
 
-About the Atom components, see [COMPONENTS](./doc/../COMPONENTS.md).
+About the Atom components, see [COMPONENTS](https://github.com/juggernautjp/atom-i18n-beta/blob/main/doc/COMPONENTS.md).
 
 
 ## Customize
 
 You can customize not-localized menu in the configuration file of `~/.atom/packages/atom-i18n-beta/def/custom_menu.cson`.
 
-For further information, see ["CUSTOMIZE"](./doc/CUSTOMIZE.md).
+For further information, see ["CUSTOMIZE"](https://github.com/juggernautjp/atom-i18n-beta/blob/main/doc/CUSTOMIZE.md).
 
 **Caution!**:
 - Indent is very important for the file. The incorrect indent cause Atom parser's syntax error.
@@ -73,7 +84,7 @@ For further information, see ["CUSTOMIZE"](./doc/CUSTOMIZE.md).
 
 ## How to Localize (For translators)
 
-If your language (i.e. locale) dose not exist, you can translate. For further information, see [LOCALIZE](./doc/LOCALIZE.md).
+If your language (i.e. locale) dose not exist, you can translate. For further information, see [LOCALIZE](https://github.com/juggernautjp/atom-i18n-beta/blob/main/doc/LOCALIZE.md).
 
 
 ## Contributing

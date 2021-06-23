@@ -23,7 +23,7 @@ If you want to finish the localization, or your language is not localized, you c
 Not yet translation is done, you can localize for your language.
 Already localization is done, you can modify the files for your language.
 
-- For further information, see [TRANSLATE](./doc/TRANSLATE.md).
+- For further information, see [TRANSLATE](https://github.com/juggernautjp/atom-i18n-beta/blob/main/doc/TRANSLATE.md).
 
 
 

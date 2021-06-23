@@ -8,7 +8,7 @@ You search your `locale` (language code) in the list of [ISO 639-1 standard lang
 - ja: [ISO 639言語コード](https://www.asahi-net.or.jp/~ax2s-kmtn/ref/iso639.html) and [付録A 言語設定 - ISO 639 コード一覧](https://omegat.sourceforge.io/manual-standard/ja/appendix.languages.html).
 
 Locale is a string, which format is "??" or "??_??", in which "?" is [a-zA-Z].
-You can know your LOCALE of your OS by the following command;
+You can know your *<LOCALE>* of your OS by the following command;
 
 ### a. Windows (in PowerShell)
 ```shell
