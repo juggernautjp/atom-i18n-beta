@@ -16,7 +16,7 @@
   "repository": "https://github.com/juggernautjp/atom-i18n-beta",
   "license": "MIT",
   "engines": {
-    "atom": ">=1.57.0 <2.0.0"
+    "atom": ">=1.57.0"
   },
   "dependencies": {
     "cson": "^7.20.0"
