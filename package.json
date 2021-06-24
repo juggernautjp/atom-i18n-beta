@@ -2,11 +2,6 @@
   "name": "atom-i18n-beta",
   "main": "./lib/main",
   "version": "0.0.0",
-  "scripts": {
-    "prettier:write": "prettier --write .",
-    "lint": "eslint lib spec",
-    "validation": "mocha --require @babel/register spec/validation.js"
-  },
   "description": "Localize Atom for your locale. One i18n package for any language. Community-driven translation.",
   "keywords": [
     "atom",
@@ -41,9 +36,6 @@
     "prettier": "^2.3.0",
     "regenerator-runtime": "^0.13.8",
     "yargs": "^17.0.1"
-  },
-  "lint-staged": {
-    "**/*": "prettier --write --ignore-unknown"
   },
   "configSchema": {
     "locale": {
