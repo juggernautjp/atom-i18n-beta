@@ -52,7 +52,7 @@ packages/atom-i18n/def/<locale>/
 
 The files for your localization:
 
-| file name         | Atom part                | difference from atom-i18n 0.25.0 |
+| file name         | Atom components          | difference from atom-i18n 0.25.0 |
 |:------------------|:-------------------------|:---------------------------------|
 | about.cson        | "About" view             | some items are added/changed     |
 | context.cson      | Context menu             | some items are added/changed     |
@@ -68,6 +68,7 @@ The files for your localization:
 | keybind.cson      | "Keybind Resolver" dock  | **newly added**                  |
 | treeview.cson     | "Tree View" tab          | **newly added**                  |
 
+About the Atom components, see [COMPONENTS](https://github.com/juggernautjp/atom-i18n-beta/blob/main/doc/COMPONENTS.md).
 
 
 ## 3. Translate
