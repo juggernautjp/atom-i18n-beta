@@ -18,7 +18,7 @@
     "translate",
     "translation"
   ],
-  "repository": "https://github.com/juggernautjp/atom-i18n-beta.git",
+  "repository": "https://github.com/juggernautjp/atom-i18n-beta",
   "license": "MIT",
   "engines": {
     "atom": ">=1.16.0 <2.0.0"
