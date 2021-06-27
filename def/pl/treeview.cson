@@ -1,0 +1,6 @@
+TreeView:
+  title: "Project"
+  desc: "Your project is currently empty"
+  button:
+    addFolder: "Add folders"
+    reopenProject: "Reopen a project"

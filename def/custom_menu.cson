@@ -5,7 +5,6 @@
 
 
 Menu:  # Must keep this line
-
 # Case One: target is a *new* individual menu
 #
 #   "TITLE #1":
@@ -18,8 +17,6 @@ Menu:  # Must keep this line
 #         submenu:
 #           "SUBITEM #4":
 #             value: "I18N SUBITEM #4"
-
-
 # Case Two: target is in the *existed* translated menu
 #   for example let's translate "Minimap" into Japanese
 #
@@ -31,3 +28,10 @@ Menu:  # Must keep this line
 #         submenu:
 #           "Toggle":
 #             value: "I18N: Toggle"
+
+Context:  # Must keep this line
+# Context-menu example: cson package
+#
+#   "atom-text-editor":
+#     'Convert:JSON to CSON': "JSON を CSON に変換"
+#     'Convert:CSON to JSON': "CSON を JSON に変換"

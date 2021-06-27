@@ -1,0 +1,21 @@
+Notification:
+  urlHandler:
+    message: "Register as default atom:// URI handler?"
+    description: "Atom is not currently set as the default handler for atom:// URIs.
+                  Would you like Atom to handle atom:// URI?"
+    button:
+      yes: "Yes"
+      yesAlways: "Yes, Always"
+      no: "No"
+      noNever: "No, Never"
+      closeAll: "Close All"
+  exceptionReport:
+    description: "Are you willing to submit this information to a private server for debugging purposes?"
+    button:
+      no: "No"
+      yes: "Yes, Submit for Debugging"
+  registerCommand:
+    showCursorScope: "Scopes at Cursor\n"
+    showSyntaxTree: "Syntax tree at Cursor\n"
+    # #{list.join('\n')}
+

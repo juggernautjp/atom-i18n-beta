@@ -1,0 +1,20 @@
+Notification:
+  urlHandler:
+    message: "デフォルトの atom:// URI ハンドラーとして登録しますか？"
+    description: "Atom は atom:// URI に対するデフォルトのハンドラーとなっていせん。
+                  Atom をデフォルトの atom:// URI ハンドラーとして登録しますか？"
+    button:
+      yes: "はい"
+      yesAlways: "はい、常にそうします"
+      no: "いいえ"
+      noNever: "いいえ、決してしません"
+      closeAll: "すべて閉じる"
+  exceptionReport:
+    description: "デバッグのために、この情報をプライベートサーバーに送信してもいいですか？"
+    button:
+      no: "いいえ"
+      yes: "はい、デバッグのために送信します"
+  registerCommand:
+    showCursorScope: "カーソル位置のスコープ\n"
+    showSyntaxTree: "カーソル位置のシンタックスツリー\n"
+    # #{list.join('\n')}

@@ -11,7 +11,8 @@ export const CSON_FILES = [
   'find.cson',
   'project.cson',
   'keybind.cson',
-  'treeview.cson'
+  'treeview.cson',
+  'notification.cson'
 ];
 
 export const ATOM_VERSION = 'v1.22.0-beta0';
