@@ -1,7 +1,7 @@
 {
   "name": "atom-i18n-beta",
   "main": "./lib/main",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Localize Atom for your locale. One i18n package for any language. Community-driven translation.",
   "keywords": [
     "atom",
