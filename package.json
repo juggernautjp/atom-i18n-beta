@@ -23,7 +23,21 @@
   "engines": {
     "atom": ">=1.57.0"
   },
+  "atomTranspilers": [
+    {
+      "glob": "{lib,spec}/**/*.js",
+      "transpiler": "@atom/babel7-transpiler",
+      "options": {
+        "cacheKeyFiles": [
+          "package.json",
+          ".babelrc.js"
+        ],
+        "setBabelEnv": "ATOM_GITHUB_BABEL_ENV"
+      }
+    }
+  ],
   "dependencies": {
+    "@atom/babel7-transpiler": "^1.0.0-1",
     "cson": "^7.20.0"
   },
   "devDependencies": {
