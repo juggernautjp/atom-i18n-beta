@@ -21,15 +21,12 @@ extends:
   - 'prettier'
 parser: babel-eslint
 parserOptions:
-  ecmaFeatures:
-    jsx: true
   ecmaVersion: 12
   sourceType: module
-plugins:
-  - react
 rules:
   no-console: off
   no-unused-vars:
     - warn
     - vars: all
       args: after-used
+
