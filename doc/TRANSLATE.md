@@ -47,7 +47,7 @@ In the above case, Japanese locale (language code) is "ja", not "ja_JP". "_JP" s
 
 The path that includes the localization files:
 ```
-packages/atom-i18n/def/<locale>/
+packages/atom-i18n-beta/def/<locale>/
 ```
 
 The files for your localization:
@@ -69,6 +69,7 @@ The files for your localization:
 | treeview.cson     | "Tree View" tab          | **newly added**                  |
 
 About the Atom components, see [COMPONENTS](https://github.com/juggernautjp/atom-i18n-beta/blob/main/doc/COMPONENTS.md).
+
 
 
 ## 3. Translate
@@ -94,9 +95,12 @@ You can read the on-line [Atom Flight Manual](https://flight-manual.atom.io/) ab
 - Change only `"`-enclosed and `` ` `` -enclosed  text at the right side of  `:`
 
 
+
+
 ## 4. Check CSON syntax
 
 ### 4.1. CoffeeLint
+
 **lint**, or a **linter**, is a static code analysis tool used to flag programming errors, bugs, stylistic errors, and suspicious constructs (cf. [Lint](https://en.wikipedia.org/wiki/Lint_(software)))
 `CoffeeScript` is a tool to check the CoffeeScript and CSON format.
 
@@ -105,7 +109,9 @@ So, after your translation, you had better check the syntax of CSON files, with 
 
 
 
+
 ## 5. Verify with debugging mode of Atom
+
 The shell commands in this section are written in Linux format. `~` represent the home directory. 
 In the case of Windows, you can use `~` and Linux shell command in "Windows PowerShell".
 
@@ -116,23 +122,25 @@ $ cd ~
 $ mv .atom .atom.back
 ```
 
-### 5.2. Backup `~/github/atom-i18n`, if it exists
+### 5.2. Backup `~/github/atom-i18n-beta`, if it exists
 ```shell
 $ cd ~/github
-$ mv atom-i18n atom-i18n.back
+$ mv atom-i18n-beta atom-i18n-beta.back
 ```
 
-### 5.3.  Clone the current atom-i18n package from GitHub to ~/github/atom-i18n
+### 5.3.  Clone the current atom-i18n-beta package from GitHub to ~/github/atom-i18n-beta
 
 ```shell
 $ apm develop atom-i18n-beta
 $ apm links
 ~/.atom/dev/packages (1)
-└── atom-i18n -> ~/github/atom-i18n-beta
+└── atom-i18n-beta -> ~/github/atom-i18n-beta
 ~/.atom/packages (0)
 └── (no links)
 ```
+
 After execute the above commands, `~/github/atom-i18n-beta` directory was created, and copied from remote package in GitHub.
+
 
 ### 5.4. Edit the file in `~/github/atom-i18n-beta`
 
@@ -157,7 +165,16 @@ $ cd ~/github
 $ atom -d .
 ```
 
-### 5.7. After publish, recover your atom environment
+
+### 5.7. Upload your edited file
+
+After finished your translation, you need to upload to GitHub `atom-i18n-beta` repository.
+You need to copy your edited file in `~/github/atom-ia18n-beta/def/` directory, to your local repository.
+The steps is mentioned [# How to Localize (For translators)](./LOCALIZE.md), section 3.
+
+
+
+### 5.8. After upload, recover your atom environment (if necessary)
 
 ```shell
 $ cd ~

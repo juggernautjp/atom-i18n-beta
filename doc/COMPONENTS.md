@@ -9,13 +9,13 @@
 |   1 | Menu                 | You can select the item to execute the functions from Menu-bar, which is displayed at the top of the window. |
 |   2 | Context Menu         | You can select the item to execute the functions from pop-up menu, by mouse right click. |
 |   3 | Settings             | You can change and set the 'Atom' configuration.   |
-|   4 | About                | You can update 'Atom' version in 'About Atom' view.   |
-|   5 | Welcome              | Initially launch Atom show 'Welcome',  'Welcome Guide' and 'Telemetry Consent' view. |
-|   6 | Find panel           | You can search with 'Find and Replace' and 'Find in Project' panel. |
-|   7 | Keybind dock         | You can see the keybinding in 'Keybinding Resolver'. |
-|   8 | Git/GitHub tab       | You can connect Git and GitHub in 'Git/GitHub' tab.  |
-|   9 | Tree View            | 'Atom' show the file and directory list at the left panel |
-|  10 | Notification         | 'Atom' show the dialog as 'Notification' at upper-right corner in the Atom window. |
+|   4 | About                | You can update "Atom" version in "About Atom" view.   |
+|   5 | Welcome              | Initially launch Atom show "Welcome",  "Welcome Guide" and "Telemetry Consent" view. |
+|   6 | Find panel           | You can search with "Find and Replace" and "Find in Project" panel. |
+|   7 | Keybind dock         | You can see the keybinding in "Keybinding Resolver". |
+|   8 | Git/GitHub tab       | You can connect Git and GitHub in "Git/GitHub" tab.  |
+|   9 | Tree View            | "Atom" show the file and directory list at the left panel |
+|  10 | Notification         | "Atom" show the dialog as "Notification" at upper-right corner in the Atom window. |
 
 
 ## 1. Menu

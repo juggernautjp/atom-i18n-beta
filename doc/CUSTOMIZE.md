@@ -1,5 +1,5 @@
 
-# How to customize atom with atom-i18n
+# How to customize atom with atom-i18n-i18n
 
 
 You can customize your Atom configuration with your `def/config.cson` file.
@@ -10,16 +10,16 @@ For further information, see [Basic Customization - Atom.io](https://flight-manu
 
 ```coffeescript
 "*":
-  "atom-i18n":
-    customMenuI18nPath: "<user home>\\.atom\\packages\\atom-i18n\\def\\custom_menu.cson"
+  "atom-i18n-i18n":
+    customMenuI18nPath: "<user home>\\.atom\\packages\\atom-i18n-i18n\\def\\custom_menu.cson"
     locale: "ja"
 ```
 
 
-## 2. ~/.atom/packages/atom-i18n/def/custom_menu.cson
+## 2. ~/.atom/packages/atom-i18n-i18n/def/custom_menu.cson
 
 You can localize menu items, which dose not belong to [Atom Core Packages](https://github.com/atom/atom/tree/6b9b4f96f8fd81e573de895f5fb8b444c78760ad/packages), 
-with your `~/.atom/packages/atom-i18n/def/custom_menu.cson` file.
+with your `~/.atom/packages/atom-i18n-i18n/def/custom_menu.cson` file.
 
 
 ```javascript
@@ -77,14 +77,13 @@ Context:  # Must keep this line
 
 ## 3. ~/.atom/keymap.cson
 
-You can ustomize your keymap with `~/.atom/keymap.cson` file.
+You can customize your keymap with `~/.atom/keymap.cson` file.
 
 
 ## 4. ~/.atom/snippets.cson
 
 You can customize your snippets with `~/.atom/snippets.cson`.
 
-Atom snippets allow you to enter a simple prefix in the editor and hit tab to
-expand the prefix into a larger code block with templated values.
+Atom snippets allow you to enter a simple prefix in the editor and hit tab to expand the prefix into a larger code block with templated values.
 
 

@@ -14,7 +14,6 @@ You can open the Settings View by navigating to the following;
 | Windows         | _File > Settings_       |
 
 
-
 In order to install `atom-i18n-beta` package, click on the _Install_ section on the left-hand side, then input "atom-i18n-beta" in the field.
 
 Then, click on the _Packages_ section on the left-hand side, click the _Settings_ button of `atom-i18n-beta` package, then select your *<locale_code>* in the _Settings > Language_ pull down menu.
@@ -23,13 +22,20 @@ You can find your *<locale_code>* in the table in the ["Supported Language"](#su
 Once installed, community packages/themes and their settings are housed within their respective section. All packages/themes that have updates will be listed under the _Updates_ section.
 
 
+**Caution!**:
+- If you use [`japanese-menu`](https://atom.io/packages/japanese-menu) or [`atom-i18n`](https://atom.io/packages/atom-i18n) package, uninstall or disable them, before install `atom-i18n-beta`.
+- If you use and customize [`atom-i18n`](https://atom.io/packages/atom-i18n), you had better `~/.atom/packages/atom-i18n/def/custom_menu.cson` file, before you uninstall [`atom-i18n`](https://atom.io/packages/atom-i18n).
+
+
+
 ## Changes
 
 `atom-i18n-beta` is a fork of [`atom-i18n`](https://github.com/liuderchi/atom-i18n) package.
 
 The development policy of `atom-i18n-beta` is to localize Atom as much as possible, including Atom-bundled packages, which is called [Atom Core Packages](https://github.com/juggernautjp/atom-i18n-beta/blob/main/doc/CHANGES.md).
 
-For further information on the difference between [`atom-i18n`](https://github.com/liuderchi/atom-i18n) and `atom-i18n-beta`, see ["CHANGES"](https://github.com/juggernautjp/atom-i18n-beta/blob/main/doc/CHANGES.md).
+For further information on the difference between [`atom-i18n`](https://github.com/liuderchi/atom-i18n) and `atom-i18n-beta`, see [CHANGES](https://github.com/juggernautjp/atom-i18n-beta/blob/main/doc/CHANGES.md).
+
 
 
 ## Supported Language
@@ -42,7 +48,7 @@ All of the following language are translated, with the [Atom Components](https:/
 | Belarusian           | Беларуская мова |  `be`   | 〇   | 〇      | △       | △     | △      | ×    | ×       | N/A | ×    | N/A    |
 | Czech                | Čeština         |  `cz`   | 〇   | 〇      | △       | △     | △      | ×    | ×       | N/A | ×    | N/A    |
 | German               | Deutsch         |  `de`   | 〇   | 〇      | △       | △     | △      | ×    | ×       | N/A | ×    | N/A    |
-| Esperanto            | Esperanto       |  `eo`   | ×    | ×      | △       | △     | △      | ×    | ×       | N/A | ×    | N/A    |
+| Esperanto            | Esperanto       |  `eo`   | ×    | ×      | ×       | △     | △      | ×    | ×       | N/A | ×    | N/A    |
 | Spanish              | Español         |  `es`   | 〇   | 〇      | △       | △     | △      | ×    | ×       | N/A | ×    | N/A    |
 | Persian              | زبان فارسی     |  `fa`   | 〇   | 〇      | △       | △     | △      | ×    | ×       | N/A | ×    | N/A    |
 | Finnish              | suomi           |  `fi`   | 〇   | 〇      | △       | △     | △      | ×    | ×       | N/A | ×    | N/A    |
@@ -51,7 +57,7 @@ All of the following language are translated, with the [Atom Components](https:/
 | Hindi                | हिन्दी            |  `hi`   |  〇   | 〇      | △       | △     | △      | ×    | ×       | N/A | ×    | N/A    |
 | Hungarian            | Magyar          |  `hu`   | 〇   | 〇      | △       | △     | △      | ×    | ×       | N/A | ×    | N/A    |
 | Italian              | Italiano        |  `it`   | 〇   | 〇      | △       | △     | △      | ×    | ×       | N/A | ×    | N/A    |
-| Japanese             | 日本語          |  `ja`   | 〇   | 〇      | △       | △     | △      | ×    | ×       | N/A | ×    | N/A    |
+| Japanese             | 日本語          |  `ja`   | 〇   | 〇      | 〇       | 〇     | 〇      | 〇    | 〇       | N/A | 〇    | N/A    |
 | Kannada              | ಕನ್ನಡ           |  `kn`   | ×   | 〇      | △       | △     | △      | ×    | ×       | N/A | ×    | N/A    |
 | Korean               | 한국어           |  `ko`   | 〇   | 〇      | △       | △     | △      | ×    | ×       | N/A | ×    | N/A    |
 | Malay                | Bahasa Melayu   |   `ms`  | 〇   | 〇      | △       | △     | △      | ×    | ×       | N/A | ×    | N/A    |
@@ -75,7 +81,7 @@ About the Atom components, see [COMPONENTS](https://github.com/juggernautjp/atom
 
 You can customize not-localized menu in the configuration file of `~/.atom/packages/atom-i18n-beta/def/custom_menu.cson`.
 
-For further information, see ["CUSTOMIZE"](https://github.com/juggernautjp/atom-i18n-beta/blob/main/doc/CUSTOMIZE.md).
+For further information, see [CUSTOMIZE](https://github.com/juggernautjp/atom-i18n-beta/blob/main/doc/CUSTOMIZE.md).
 
 **Caution!**:
 - Indent is very important for the file. The incorrect indent cause Atom parser's syntax error.
@@ -84,7 +90,8 @@ For further information, see ["CUSTOMIZE"](https://github.com/juggernautjp/atom-
 
 ## How to Localize (For translators)
 
-If your language (i.e. locale) dose not exist, you can translate. For further information, see [LOCALIZE](https://github.com/juggernautjp/atom-i18n-beta/blob/main/doc/LOCALIZE.md).
+If your language (i.e. locale) dose not exist in the abobe table, you can translate.
+For further information, see [LOCALIZE](https://github.com/juggernautjp/atom-i18n-beta/blob/main/doc/LOCALIZE.md).
 
 
 ## Contributing
@@ -93,8 +100,8 @@ Always feel free to help out!  Whether it's working on some of the [open issues]
 Atom's [contributing guide](https://github.com/atom/atom/blob/master/CONTRIBUTING.md) will help get you started, 
 while the [guide for contributing to packages](https://github.com/atom/atom/blob/master/docs/contributing-to-packages.md) has some extra information.
 
-`atom-i18n` package resides [liuderchi / atom-i18n](https://github.com/liuderchi/atom-i18n) on GitHub.
-`atom-i18n-beta` package resides [juggernautjp / atom-i18n](https://github.com/juggernautjp/atom-i18n-beta) on GitHub.
+- `atom-i18n` package resides [liuderchi / atom-i18n](https://github.com/liuderchi/atom-i18n) on GitHub.
+- `atom-i18n-beta` package resides [juggernautjp / atom-i18n](https://github.com/juggernautjp/atom-i18n-beta) on GitHub.
 
 
 ## License

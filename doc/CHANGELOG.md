@@ -1,4 +1,12 @@
 
+## 0.2.4 - atom-i18n-beta version 0.2.4
+
+fix some minor bugs:
+- syntax error at about.js (atom-i18n-beta needs Atom version 1.57.0)
+- not change Atom appearance, after changing locale (language) of the package
+- not save locale
+- default locale is not "en (English)"
+
 
 ## 0.2.0 - atom-i18n-beta version 0.2.0
 
@@ -9,7 +17,7 @@ add the following features from atom-i18n v0.26.0:
     ```yaml
     parser: babel-eslint
     parserOptions:
-      ecmaVersion: 9
+      ecmaVersion: 12
     ```
 
 ## 0.1.0 - atom-i18n-beta version 0.1.0

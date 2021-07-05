@@ -1,7 +1,7 @@
 {
   "name": "atom-i18n-beta",
   "main": "./lib/main",
-  "version": "0.1.0",
+  "version": "0.2.3",
   "scripts": {
     "prettier:write": "prettier --write .",
     "lint": "eslint lib spec",
@@ -21,7 +21,7 @@
   "repository": "https://github.com/juggernautjp/atom-i18n-beta",
   "license": "MIT",
   "engines": {
-    "atom": ">=1.57.0"
+    "atom": ">=1.57.0 <2.0.0"
   },
   "dependencies": {
     "cson": "^7.20.0"
@@ -175,7 +175,7 @@
       "type": "string",
       "default": "",
       "title": "Custom Translation for Menu",
-      "description": "Translate community package (like <code>Minimap</code>) in menu bar by editing this file.</br> You can open it by command <code>atom-i18n:open-custom-menu-i18n-file</code>"
+      "description": "Translate community package (like <code>Minimap</code>) in menu bar by editing this file.</br> You can open it by command <code>atom-i18n-beta:open-custom-menu-i18n-file</code>"
     }
   }
 }
