@@ -9,10 +9,10 @@
 [`atom-i18n-beta`](https://github.com/juggernautjp/atom-i18n-beta) is being developed based on [`atom-i18n`](https://github.com/liuderchi/atom-i18n) version 0.25.0.
 
 
-## 2. 'atom-i18n-beta' objectives
+## 2. `atom-i18n-beta` objectives
 
-1. `atom-i18n` is stable. So, before published as `atom-i18n`, new features are released for early adopters, as `atom-i18n-beta`.
-2. `atom-i18n-beta` translation environment is planned to enhance for translations.
+1. [`atom-i18n`](https://github.com/liuderchi/atom-i18n) is stable. So, before published as `atom-i18n`, new features are released for early adopters, as `atom-i18n-beta`.
+2. `atom-i18n-beta` translation environment is planned to enhance for translators.
 
 
 ## 3. Atom compoenrt to be localized
@@ -55,7 +55,7 @@
 |:-----------------------|:--------------|:--------------|:--------------|:---------------|:---------------|
 | `japanese-menu`        | △            | ×             | ×             | ×              | ×              |
 | `atom-i18n` (*v0.26*)  | ×             | ×             | ×             | ×              | ×              |
-| `atom-i18n-beta`       | △ [^6]       | 〇 [^7]        | × [^8]       | △ [^9]        | × [^10]         |
+| `atom-i18n-beta`       | 〇 [^6]       | 〇 [^7]        | × [^8]       | △ [^9]        | × [^10]         |
 
 
 
@@ -74,14 +74,14 @@
 
 [^1]: `atom-i18n-beta` can localize all "Packages" and "View" menus for [Atom Core Package](https://github.com/atom/atom/tree/6b9b4f96f8fd81e573de895f5fb8b444c78760ad/packages).
 [^2]: `atom-i18n-beta` can localize all context-menus for [Atom Core Package](https://github.com/atom/atom/tree/6b9b4f96f8fd81e573de895f5fb8b444c78760ad/packages).
-[^3]: 'atom-i18n-beta` can localize all Settings view.
-[^4]: <font color="Orange">TODO:</font> 'atom-i18n-beta` can not localize "Check now" button. Because it needs to modify `atom/about` package. 
-[^5]: `atom-i18n-beta` can localize "Welcome Guide" and "Telemetry Consent" view.
-[^6]: `atom-i18n-beta` can localize "Find and Replace" and "Find in Project" panel. 
+[^3]: `atom-i18n-beta` can localize all Settings view.
+[^4]: <font color="Orange">TODO:</font> `atom-i18n-beta` can not localize "Check now" button. Because it needs to modify `atom/about` package. 
+[^5]: `atom-i18n-beta` can localize both "Welcome Guide" and "Telemetry Consent" view.
+[^6]: `atom-i18n-beta` can localize both "Find and Replace" and "Find in Project" panel. 
 [^7]: `atom-i18n-beta` can localize "Keybinding Resolver" dock.
-[^8]: <font color="Orange">TODO:</font> In near future, 'atom-i18n-beta' can localize "Git" and "GitHub" panel.
-[^9]: <font color="Orange">TODO:</font> In near future, 'atom-i18n-beta' can localize "Tree View" panel.
-[^10]: `atom-i18n-beta` can not localize dialog, called "Notification". Because it needs to modify `atom` source code. 
+[^8]: `atom-i18n-beta` can not currently localize "Git" and "GitHub" panel.
+[^9]: `atom-i18n-beta` can localize "Project" pane, but has a bug not to appear.
+[^10]: `atom-i18n-beta` can not currently localize dialog, called "Notification". 
 [^11]: `atom-i18n-beta` can localize Context menu, that dose not include [Atom Core Package](https://github.com/atom/atom/tree/6b9b4f96f8fd81e573de895f5fb8b444c78760ad/packages).
 
 
