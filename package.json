@@ -1,7 +1,7 @@
 {
   "name": "atom-i18n-beta",
   "main": "./lib/main",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "scripts": {
     "prettier:write": "prettier --write .",
     "lint": "eslint lib spec",
