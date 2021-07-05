@@ -14,4 +14,4 @@ files Required translation:
 - `def/ENTER_LOCALE_HERE/welcome.cson`
 
 * for more info please checkout
-  [CONTRIBUTING.md](https://github.com/liuderchi/atom-i18n/blob/main/CONTRIBUTING.md)
+  [CONTRIBUTING.md](https://github.com/juggernautjp/atom-i18n-beta/blob/main/CONTRIBUTING.md)

@@ -175,7 +175,7 @@
       "type": "string",
       "default": "",
       "title": "Custom Translation for Menu",
-      "description": "Translate community package (like <code>Minimap</code>) in menu bar by editing this file.</br> You can open it by command <code>atom-i18n:open-custom-menu-i18n-file</code>"
+      "description": "Translate community package (like <code>Minimap</code>) in menu bar by editing this file.</br> You can open it by command <code>atom-i18n-beta:open-custom-menu-i18n-file</code>"
     }
   }
 }
